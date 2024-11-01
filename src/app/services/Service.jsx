@@ -103,15 +103,6 @@ const Service = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="flex flex-col lg:flex-row lg:gap-5 items-center justify-center bg-slate-200 py-8 text-blue-500 font-bold text-2xl lg:text-3xl ">
-          <p className="text-center ">
-            FAST SHIPMENT DELIVERY FOR YOUR BUSINESS
-          </p>
-          <button className="bg-blue-400 text-white px-6 py-2 text-sm">
-            GET A QUOTE
-          </button>
-        </div> */}
       </div>
     </div>
   );

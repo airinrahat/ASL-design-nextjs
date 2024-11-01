@@ -50,10 +50,10 @@ export default function Navbar() {
               <a href="/services" className="hover:text-blue-300">
                 Our Services
               </a>
-              <a href="#" className="hover:text-blue-300">
+              <a href="/contact" className="hover:text-blue-300">
                 Contacts
               </a>
-              <a href="#" className="hover:text-blue-300">
+              <a href="/download" className="hover:text-blue-300">
                 Downloads
               </a>
             </div>
@@ -103,10 +103,16 @@ export default function Navbar() {
           >
             Our Services
           </a>
-          <a href="#" className="block text-white py-2 hover:text-blue-300">
+          <a
+            href="/contact"
+            className="block text-white py-2 hover:text-blue-300"
+          >
             Contacts
           </a>
-          <a href="#" className="block text-white py-2 hover:text-blue-300">
+          <a
+            href="/download"
+            className="block text-white py-2 hover:text-blue-300"
+          >
             Downloads
           </a>
         </div>
