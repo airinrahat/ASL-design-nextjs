@@ -6,6 +6,19 @@ import {
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  PhoneIcon,
+  MailIcon,
+  LocationMarkerIcon,
+} from "@heroicons/react/solid";
+import {
+  FaWhatsapp,
+  FaFacebookF,
+  FaGoogle,
+  FaTwitter,
+  FaLinkedinIn,
+  FaPinterestP,
+} from "react-icons/fa";
 
 export default function Navbar() {
   useEffect(() => {
@@ -18,7 +31,6 @@ export default function Navbar() {
         mobileMenu.classList.toggle("hidden");
       });
 
-      // Cleanup the event listener on component unmount
       return () => {
         toggleButton.removeEventListener("click", function () {
           mobileMenu.classList.toggle("hidden");
@@ -29,6 +41,54 @@ export default function Navbar() {
 
   return (
     <>
+      <div className="flex flex-col lg:flex-row items-center justify-between bg-white text-gray-700 px-6 lg:px-14 py-2 border-b border-gray-300 space-y-4 lg:space-y-0">
+        {/* Language Selector */}
+        <div className="flex items-center space-x-2">
+          <span className="font-semibold text-lg">Language</span>
+          <select className="text-gray-600 outline-none text-lg bg-white">
+            <option>English</option>
+            <option>Spanish</option>
+            <option>French</option>
+            <option>German</option>
+            <option>Arabic</option>
+            <option>Chinese</option>
+            <option>Japanese</option>
+            <option>Hindi</option>
+            <option>Bengali</option>
+            <option>Portuguese</option>
+          </select>
+        </div>
+
+        {/* Contact Info */}
+        <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <div className="flex items-center space-x-1">
+            <FaWhatsapp className="text-green-500 text-2xl sm:text-3xl" />
+            <span className="text-sm">0581035771</span>
+          </div>
+          <div className="flex items-center space-x-1">
+            <PhoneIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
+            <span className="text-sm">0581035772</span>
+          </div>
+          <div className="flex items-center space-x-1">
+            <MailIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
+            <span className="text-sm">info@arianshippingline.com</span>
+          </div>
+          <div className="flex items-center space-x-1">
+            <LocationMarkerIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
+            <span className="text-sm">Dubai, United Arab Emirates</span>
+          </div>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="flex items-center space-x-3 text-black text-xl">
+          <FaFacebookF className="cursor-pointer" />
+          <FaGoogle className="cursor-pointer" />
+          <FaTwitter className="cursor-pointer" />
+          <FaLinkedinIn className="cursor-pointer" />
+          <FaPinterestP className="cursor-pointer" />
+        </div>
+      </div>
+
       <div className="bg-gradient-to-r from-blue-800 to-blue-500 flex justify-center items-center pt-5 pb-5">
         <div className="flex items-center space-x-2">
           <div className="text-4xl font-bold text-blue-300">
