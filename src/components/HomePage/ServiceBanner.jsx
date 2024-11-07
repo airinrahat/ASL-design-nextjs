@@ -1,23 +1,33 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
 
 const ServiceBanner = () => {
   return (
     <div>
       <div
-        className="relative w-full h-[500px] bg-cover bg-center"
+        className="relative w-full h-[450px] bg-cover bg-center"
         style={{
-          backgroundImage: "url(https://i.ibb.co.com/Gp2zYRm/ship2.jpg)",
+          backgroundImage: "url(https://i.ibb.co.com/ZTLF5mR/Group-1.png)",
         }}
       >
         <div className="absolute inset-0 flex flex-col justify-center lg:items-start lg:pl-52 items-center bg-black bg-opacity-40">
-          <h1 className="text-white text-3xl md:text-5xl font-bold">
-            Full-service <br />
-            International Freight
+          <h1 className="text-white text-2xl mb-4 font-extrabold leading-[75px]  md:text-5xl ">
+            <p className="lg:mb-4">Full-service</p>
+            <span> International Freight</span>
           </h1>
-          <hr className="w-2/5 border-white mt-4 hidden lg:block" />
-          <p className="text-white text-sm md:text-lg mt-4">
-            What we're doing for our customers
-          </p>
+          <hr className="w-4/5 border-white my-8 hidden lg:block" />
+          <div className="flex items-center gap-4 mt-4">
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              size="1x"
+              className="text-white"
+            />
+            <p className="text-white text-sm md:text-xl  font-bold">
+              What we're doing for our customers
+            </p>
+          </div>
         </div>
       </div>
     </div>

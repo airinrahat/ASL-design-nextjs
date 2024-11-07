@@ -19,6 +19,7 @@ import {
   FaLinkedinIn,
   FaPinterestP,
 } from "react-icons/fa";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   useEffect(() => {
@@ -107,14 +108,35 @@ export default function Navbar() {
               <a href="/about" className="hover:text-blue-300">
                 About Us
               </a>
-              <a href="/services" className="hover:text-blue-300">
-                Our Services
+              <a
+                href="/services"
+                className="hover:text-blue-300 flex items-center gap-2 space-x-1"
+              >
+                <FontAwesomeIcon
+                  icon={faCaretDown}
+                  className="text-[#2CACDD] "
+                />
+                <span>Our Services</span>
               </a>
-              <a href="/contact" className="hover:text-blue-300">
-                Contacts
+              <a
+                href="/contact"
+                className="hover:text-blue-300 flex items-center gap-2 space-x-1"
+              >
+                <FontAwesomeIcon
+                  icon={faCaretDown}
+                  className="text-[#2CACDD] "
+                />
+                <span> Contacts</span>
               </a>
-              <a href="/download" className="hover:text-blue-300">
-                Downloads
+              <a
+                href="/download"
+                className="hover:text-blue-300 flex items-center gap-2 space-x-1"
+              >
+                <FontAwesomeIcon
+                  icon={faCaretDown}
+                  className="text-[#2CACDD] "
+                />
+                <span> Downloads</span>
               </a>
             </div>
 

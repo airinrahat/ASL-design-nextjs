@@ -1,10 +1,10 @@
 import CallUs from "@/components/HomePage/CallUs";
 import React from "react";
-import SubmitMessage from "./SubmitMessage";
 import FAQ from "@/components/HomePage/FAQ";
 import BannerServices from "./BannerServices";
 import Servicebg from "./Servicebg";
 import Service from "./Service";
+import SubmitMessage from "./SubmitMessage";
 
 const page = () => {
   return (

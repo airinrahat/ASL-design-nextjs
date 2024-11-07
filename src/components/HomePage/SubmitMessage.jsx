@@ -1,24 +1,25 @@
 import Image from "next/image";
 import React from "react";
+import image from "../../../public/sh.png";
 
 const SubmitMessage = () => {
   return (
     <div className="bg-white">
       <section className="flex flex-col bg-white lg:flex-row justify-center items-center my-8 gap-4 lg:px-36 mb-4">
         {/* Form Section */}
-        <div className="bg-[#131F37] text-white py-14 px-6 w-full lg:w-1/2">
+        <div className="bg-[#131F37] text-white py-[48px] px-12 w-full lg:w-1/2">
           <form>
-            <h3 className="uppercase text-white text-xl font-bold mb-3">
+            <h3 className="uppercase text-white text-xl  font-bold mb-5">
               Request a Quick Quote
             </h3>
 
             {/* First Column: Name, Email */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 ">
               <div>
                 <input
                   type="text"
                   id="name"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="Your name"
                 />
               </div>
@@ -26,19 +27,19 @@ const SubmitMessage = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="Your email"
                 />
               </div>
             </div>
 
             {/* Second Column: City, Dimension */}
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-2 gap-4 mt-7">
               <div>
                 <input
                   type="text"
                   id="dimension"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="Dimension"
                 />
               </div>
@@ -46,58 +47,73 @@ const SubmitMessage = () => {
                 <input
                   type="text"
                   id="cityDeparture"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="City of departure"
                 />
               </div>
             </div>
 
             {/* Third Column: Delivery City, Freight */}
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-2 gap-4 mt-7">
               <div>
                 <input
                   type="text"
                   id="deliveryCity"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="Delivery city"
                 />
               </div>
               <div>
-                <input
-                  type="text"
+                <select
                   id="freightType"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
-                  placeholder="Freight type"
-                />
+                  className="w-full p-2 text-gray-900 bg-white"
+                  defaultValue=""
+                >
+                  <option value="" disabled>
+                    Freight type
+                  </option>
+                  <option value="air">Air</option>
+                  <option value="sea">Sea</option>
+                  <option value="land">Land</option>
+                </select>
               </div>
             </div>
 
             {/* Fourth Column: Incoterm, Weight */}
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-2 gap-4 mt-7">
               <div>
-                <input
-                  type="text"
-                  id="incoterm"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
-                  placeholder="Incoterm"
-                />
+                <select
+                  id="Incoterm"
+                  className="w-full p-2 text-gray-900 bg-white"
+                  defaultValue=""
+                >
+                  <option value="" disabled>
+                    Incoterm
+                  </option>
+                  <option value="EXW">EXW</option>
+                  <option value="FOB">FOB</option>
+                  <option value="CIF">CIF</option>
+                  <option value="DDP">DDP</option>
+                  <option value="CFR">CFR</option>
+                </select>
               </div>
+
               <div>
                 <input
                   type="text"
                   id="weight"
-                  className="w-full p-2 text-gray-900 bg-white rounded"
+                  className="w-full p-2 text-gray-900 bg-white "
                   placeholder="Total gross weight (KG)"
                 />
               </div>
             </div>
 
             {/* Message Section */}
-            <div className="mt-4">
+            <div className="mt-7">
               <textarea
                 id="message"
                 rows="2"
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                className="w-full p-2 bg-white text-gray-900 "
                 placeholder="Message"
               ></textarea>
             </div>
@@ -117,7 +133,7 @@ const SubmitMessage = () => {
         {/* Image Section */}
         <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
           <Image
-            src="/sh.jpg"
+            src={image}
             alt="Form Image"
             className="w-full h-full object-cover"
             layout="responsive"
@@ -129,7 +145,7 @@ const SubmitMessage = () => {
       <div
         className="relative w-full h-[500px] bg-cover bg-center"
         style={{
-          backgroundImage: "url(https://i.ibb.co.com/Gp2zYRm/ship2.jpg)",
+          backgroundImage: "url(https://i.ibb.co.com/y5J02w3/image.png)",
         }}
       ></div>
     </div>

@@ -9,6 +9,10 @@ import {
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import img1 from "../../../public/Property 1=1.png";
+import img2 from "../../../public/Property 1=2.png";
+import img3 from "../../../public/Property 1=3.png";
+import img4 from "../../../public/Property 1=4.png";
 
 const OurAddress = () => {
   //   function onChange(value) {
@@ -26,9 +30,14 @@ const OurAddress = () => {
               className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full "
             />{" "}
             <div className="">
-              <div>1234 Street Name</div>
+              <div className="text-xl text-gray-400 font-bold">
+                Our Location
+              </div>
 
-              <p className="mb-4"> City, Country</p>
+              <p className="mb-4 font-semibold text-sm">
+                {" "}
+                DUBAI, UNITED ARAB EMIRATES
+              </p>
             </div>
           </div>
           <div className="flex items-start space-x-3">
@@ -37,9 +46,9 @@ const OurAddress = () => {
               className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full mb-2"
             />{" "}
             <div className="">
-              <div>Phone Number</div>
+              <div className="text-xl text-gray-400 font-bold">Call To Us</div>
 
-              <p className="mb-4">+123 456 7890</p>
+              <p className="mb-4 font-semibold text-sm">0581035772</p>
             </div>
           </div>
           <div className="flex items-start space-x-3">
@@ -48,9 +57,11 @@ const OurAddress = () => {
               className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full mb-2"
             />{" "}
             <div className="">
-              <div>Email Address</div>
+              <div className="text-xl text-gray-400 font-bold">Email To Us</div>
 
-              <p className="mb-4">info@domain.com</p>
+              <p className="mb-4 font-semibold text-sm">
+                info@arianashippingline.com
+              </p>
             </div>
           </div>
         </div>
@@ -130,52 +141,74 @@ const OurAddress = () => {
       </div>
 
       <section className="text-center py-8">
-        <h2 className="text-2xl font-bold mb-6 text-black text-start lg:pl-80 ">
+        <h2 className="text-4xl font-bold my-10 text-black text-start lg:pl-80 ">
           Latest News
         </h2>
-        <div className="grid lg:grid-cols-2 grid-cols-1  gap-4 lg:px-80 text-black">
+        <div className="grid lg:grid-cols-2 grid-cols-1  gap-24 lg:px-80 text-black">
           {/* First Card */}
-          <div className="flex items-center  p-4 ">
-            <Image src="/ship.jpg" alt="News Image 1" width={80} height={80} />
-            <div className="ml-4 ">
-              <h3 className="text-lg font-medium text-start">News Title 1</h3>
-              <p className=" text-sm">
-                Lorem ipsum dolor sit amet, consectetur.
+          <div className="flex    ">
+            <Image src={img1} alt="News Image 1" width={120} height={200} />
+            <div className="ml-3">
+              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
+                MARCH 25, 2024
+              </h3>
+              <h2 className="text-sm font-bold text-start py-1">
+                Why Choose Our Warehousing ?
+              </h2>
+              <p className=" text-xs text-start text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore{" "}
               </p>
             </div>
           </div>
 
           {/* Second Card */}
-          <div className="flex  p-4 ">
-            <Image src="/ship.jpg" alt="News Image 2" width={80} height={80} />
-            <div className="ml-4">
-              <h3 className="text-lg font-medium text-start text-black">
-                News Title 2
+          <div className="flex    ">
+            <Image src={img2} alt="News Image 1" width={120} height={200} />
+            <div className="ml-3">
+              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
+                Feb 2, 2024
               </h3>
-              <p className="text-gray-600 text-sm">
-                Lorem ipsum dolor sit amet, consectetur.
+              <h2 className="text-xs font-bold text-start py-1">
+                Top Benefits Of Hiring Service{" "}
+              </h2>
+              <p className=" text-xs text-start text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore{" "}
               </p>
             </div>
           </div>
 
           {/* Third Card */}
-          <div className="flex items-center  p-4 ">
-            <Image src="/ship.jpg" alt="News Image 3" width={80} height={80} />
-            <div className="ml-4">
-              <h3 className="text-lg font-medium text-start">News Title 3</h3>
-              <p className="text-gray-600 text-sm">
-                Lorem ipsum dolor sit amet, consectetur.
+          <div className="flex    ">
+            <Image src={img3} alt="News Image 1" width={120} height={200} />
+            <div className="ml-3">
+              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
+                Jan 10 , 2024
+              </h3>
+              <h2 className="text-sm font-bold text-start py-1">
+                Personal Change Of Management{" "}
+              </h2>
+              <p className=" text-xs text-start text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore{" "}
               </p>
             </div>
           </div>
 
           {/* Fourth Card */}
-          <div className="flex items-center  p-4 ">
-            <Image src="/ship.jpg" alt="News Image 4" width={80} height={80} />
-            <div className="ml-4">
-              <h3 className="text-lg font-medium text-start">News Title 4</h3>
-              <p className="text-gray-600 text-sm">
-                Lorem ipsum dolor sit amet, consectetur.
+          <div className="flex    ">
+            <Image src={img4} alt="News Image 1" width={120} height={200} />
+            <div className="ml-3">
+              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
+                MARCH 25, 2024
+              </h3>
+              <h2 className="text-sm font-bold text-start py-1">
+                Personal Change Of Management{" "}
+              </h2>
+              <p className=" text-xs text-start text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore{" "}
               </p>
             </div>
           </div>

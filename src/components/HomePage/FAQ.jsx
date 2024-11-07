@@ -1,10 +1,12 @@
+import Image from "next/image";
 import React from "react";
+import faq from "../../../public/faq.png";
 
 const FAQ = () => {
   return (
     <div>
-      <section className="py-8 lg:pl-[17rem] px-8 text-black">
-        <h2 className="text-2xl font-bold">FAQ</h2>
+      <section className="py-16 lg:pl-[17rem] px-8 text-black ">
+        <Image src={faq} alt="FAQ icon" width={100} height={100} />
         <ul className="mt-4 list-disc">
           <li className="mb-2 underline">
             How does the car shipping process work?

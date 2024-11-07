@@ -3,38 +3,34 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div>
-      <div className="px-14 py-10 text-black bg-gray-400 mt-5">
-        <h3 className="font-bold text-2xl mb-2">ABOUT US</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          neque error, qui expedita laboriosam, nesciunt voluptatibus
-          perferendis quidem itaque earum optio soluta quibusdam voluptas
-          officia delectus odit provident magnam dignissimos impedit maxime
-          suscipit iure quam. Eligendi odio omnis eius laborum quia, suscipit at
-          delectus, doloremque, rerum nisi debitis recusandae explicabo?
+      <div className="lg:px-44 px-6 py-10 text-black bg-gray-300 ">
+        <h3 className="font-bold text-4xl mt-5 mb-6">ABOUT US</h3>
+        <p className="font-semibold text-lg text-gray-700">
+          Founded in 2018, Ariana Shipping has already built a high reputation
+          in car shipping industry, with its beliief in providing the highest
+          quality service to meet the customers expectation. We constantly
+          strive to maintain reasonable price. Our priority is to deliver ant
+          shipment to our prestigious customers o n time maintaining high degree
+          of quality.
         </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempora
-          ab eveniet accusamus architecto dicta. Illo, amet asperiores? Aperiam,
-          pariatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Ut, eveniet!
+
+        <p className="mt-4 font-semibold text-lg text-gray-700">
+          In Ariana shipping we assure our esteemed customers are connected with
+          our highly trained local team members who develop comprehensive
+          solutions shipping processes that allow customers a flexible option
+          and quality service.
         </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-          assumenda repellat non nobis quo illum, dicta ad corporis dignissimos
-          quos dolorem cupiditate saepe placeat fugiat, enim id tempora
-          provident! Sunt ratione nostrum dolorem consequuntur dolore, sit ipsa
-          officia asperiores distinctio est mollitia esse tenetur laudantium
-          voluptas aspernatur placeat maxime excepturi?
+        <p className="mt-4 font-semibold text-lg text-gray-700">
+          We provide end to end solutios to your request. Our service include,
+          pickup your car, loaing, containerization, shipment, tracking, custom
+          clearance, unloading and handling over to customer. Our team posses
+          the expertise and experience to deliver you car internationally at
+          very cost-efffetive price and within the promised time.
         </p>
-        <br />
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          dolorem fugit velit nemo quae alias accusamus explicabo iure quia hic.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          adipisci.
+        <p className="mt-4 font-semibold text-lg text-gray-700">
+          With 13 international offices, Ariana shipping is headquartered in
+          headquartered in Sharjah United Arab Emirates, the team are committed
+          to provide quality, reliable and sustainable services to our clients.
         </p>
       </div>
     </div>
