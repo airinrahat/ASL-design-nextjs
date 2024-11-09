@@ -1,12 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 // import ReCAPTCHA from "react-google-recaptcha";
 
 import {
+  faCheck,
+  faEnvelope,
   faLocationDot,
   faPhone,
-  faEnvelope,
-  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import img1 from "../../../public/Property 1=1.png";
@@ -102,7 +101,7 @@ const OurAddress = () => {
                   className="h-4 w-4 bg-white"
                 />
                 <label htmlFor="not-robot" className="text-gray-600">
-                  I'm not a robot
+                  I&apos;m not a robot
                 </label>
               </div>
               {/* reCAPTCHA */}

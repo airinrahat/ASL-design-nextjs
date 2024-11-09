@@ -1,25 +1,26 @@
 "use client";
-import { useEffect } from "react";
 import {
   faBars,
+  faCaretDown,
   faSearch,
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  PhoneIcon,
-  MailIcon,
   LocationMarkerIcon,
+  MailIcon,
+  PhoneIcon,
 } from "@heroicons/react/solid";
+import Link from "next/link";
+import { useEffect } from "react";
 import {
-  FaWhatsapp,
   FaFacebookF,
   FaGoogle,
-  FaTwitter,
   FaLinkedinIn,
   FaPinterestP,
+  FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   useEffect(() => {
@@ -102,9 +103,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <div className="hidden lg:flex space-x-6">
-              <a href="" className="hover:text-blue-300">
+              <Link href="/" className="hover:text-blue-300">
                 Home
-              </a>
+              </Link>
               <a href="/about" className="hover:text-blue-300">
                 About Us
               </a>

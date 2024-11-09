@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ServiceBanner = () => {
   return (
@@ -25,7 +23,7 @@ const ServiceBanner = () => {
               className="text-white"
             />
             <p className="text-white text-sm md:text-xl  font-bold">
-              What we're doing for our customers
+              What we&apos;re doing for our customers
             </p>
           </div>
         </div>
