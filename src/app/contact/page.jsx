@@ -2,6 +2,7 @@ import React from "react";
 import ContactBanner from "./ContactBanner";
 import OurAddress from "./OurAddress";
 import FAQ from "@/components/HomePage/FAQ";
+import CallUs from "@/components/HomePage/CallUs";
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
       <ContactBanner />
       <OurAddress />
       <FAQ />
+      <CallUs />
     </div>
   );
 };
