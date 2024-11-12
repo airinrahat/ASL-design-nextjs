@@ -1,38 +1,52 @@
+// pages/partner.js
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import "swiper/css/autoplay";
+import { Autoplay } from "swiper";
+import Image from "next/image";
+
+const logos = [
+  "/logo1.png",
+  "/logo2.png",
+  "/logo3.png",
+  "/logo4.png",
+  "/logo5.png",
+];
 
 const Partner = () => {
   return (
-    <div>
+    <div className="py-10">
+      <h2 className="text-2xl font-bold text-center mb-6">Our Partners</h2>
       <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{ clickable: true }}
+        modules={[Autoplay]}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        slidesPerView={3}
+        spaceBetween={30}
+        loop={true}
         breakpoints={{
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 3,
           },
           1024: {
             slidesPerView: 5,
-            spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
-        className="mySwiper"
+        className="w-full"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
+        {logos.map((logo, index) => (
+          <SwiperSlide key={index} className="flex justify-center">
+            <Image
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              width={150}
+              height={100}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
