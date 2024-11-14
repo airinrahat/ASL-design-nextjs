@@ -11,6 +11,7 @@ import {
   MailIcon,
   PhoneIcon,
 } from "@heroicons/react/solid";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 import {
@@ -21,6 +22,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import img from "../../../public/asl-video.gif";
 
 export default function Navbar() {
   useEffect(() => {
@@ -90,14 +92,27 @@ export default function Navbar() {
           <FaPinterestP className="cursor-pointer" />
         </div>
       </div>
+      {/* <div className="bg-gradient-to-r from-blue-800 to-blue-500 flex justify-center items-center pt-5 pb-5">
+        <div className="flex items-center space-x-2">
+          <div className="text-4xl font-bold text-blue-300">
+            <video className="w-full h-auto" controls autoPlay muted loop>
+              {" "}
+              <source src="../../../public/asl-video.gif" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div> */}
+      <div className="text-center flex justify-center items-center bg-transparent">
+        <Image src={img} alt="logo img" className="w-80 h-20 bg-transparent" />
+      </div>
 
-      <div className="bg-gradient-to-r from-blue-800 to-blue-500 flex justify-center items-center pt-5 pb-5">
+      {/* <div className="bg-gradient-to-r from-blue-800 to-blue-500 flex justify-center items-center pt-5 pb-5">
         <div className="flex items-center space-x-2">
           <div className="text-4xl font-bold text-blue-300">
             <span>ASL</span>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <nav className="bg-gradient-to-r from-gray-600 to-[#626963] text-white lg:pl-44">
         <div className="flex justify-between items-center">
