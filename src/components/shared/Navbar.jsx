@@ -103,7 +103,7 @@ export default function Navbar() {
       {/* <div className="text-center flex justify-center items-center bg-transparent">
        */}
       <div
-        className="flex justify-center items-center py-5"
+        className="flex justify-center items-center py-12"
         style={{
           background:
             "linear-gradient(90deg, #507491 3.5%, #274A66 22%, #1F345D 49%, #274A66 75%, #4D718E 98.5%)",
