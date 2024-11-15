@@ -6,7 +6,7 @@ const ContactUs = () => {
       <section
         className="contact-us bg-image bg-cover bg-center py-16"
         style={{
-          backgroundImage: "url(https://i.ibb.co.com/8cbRMc4/ship.jpg)",
+          backgroundImage: "url(https://i.ibb.co.com/TbbZ9Rr/contact.jpg)",
         }}
       >
         <div className="container mx-auto text-center">
@@ -16,7 +16,7 @@ const ContactUs = () => {
           <p className="text-lg mb-8 text-white ">
             Get the best quotation for your shipment
           </p>
-          <button className="bg-teal-500 hover:bg-teal-600 text-white mb-8 font-bold py-2 px-4 rounded">
+          <button className="bg-teal-500 hover:bg-teal-600 text-white mb-8 font-bold py-2 px-4 rounded-lg">
             Contact Us Now
           </button>
         </div>

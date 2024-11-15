@@ -8,7 +8,6 @@ import ServiceBanner from "./ServiceBanner";
 import Barnch from "./Barnch";
 import OurPartner from "./OurPartner";
 import Review from "./Review";
-// import Partner from "./Partner";
 
 const Homepage = () => {
   return (
@@ -20,8 +19,7 @@ const Homepage = () => {
       <OurPartner />
       <Barnch />
       <Review />
-      <OurPartner />
-      {/* <Partner /> */}
+
       <FAQ />
       <CallUs />
     </div>

@@ -10,19 +10,25 @@ import apps from "../../../public/Apps.png";
 const CallUs = () => {
   return (
     <div>
-      <section className="contact-info flex flex-col lg:flex-row lg:justify-evenly justify-center items-center bg-gradient-to-r from-[#243136] to-[#274A66] text-white py-8 px-6 ">
+      <section
+        className="contact-info flex flex-col  lg:flex-row lg:justify-evenly justify-center items-center text-white py-16 px-6"
+        style={{
+          background:
+            "linear-gradient(87.18deg, #131F37 0%, #14466F 35.44%, #15588E 76.87%, #1969AA 99.33%)",
+        }}
+      >
         {/* Call Center Section */}
-        <div className="flex items-center space-x-4 mb-8 lg:mb-0">
+        <div className="flex items-center space-x-4 mb-8  lg:mb-0">
           <div>
             <Image
               src={iconOne}
               alt="Phone icon"
-              width={24}
-              height={24}
+              width={35}
+              height={35}
               className="text-[#0F465B]"
             />
             <h3
-              className="text-sm font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
+              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
 "
             >
               Call Center
@@ -34,17 +40,17 @@ const CallUs = () => {
         </div>
 
         {/* Working Hours Section */}
-        <div className="flex items-center space-x-4 mb-8 lg:mb-0">
+        <div className="flex items-center space-x-4 mb-8 lg:mt-8 lg:mb-0">
           <div>
             <Image
               src={iconTwo}
               alt="Working hours icon"
-              width={24}
-              height={24}
+              width={35}
+              height={35}
               className="text-[#0F465B]"
             />
             <h3
-              className="text-sm font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
+              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
 "
             >
               Working Hours
@@ -63,12 +69,12 @@ const CallUs = () => {
             <Image
               src={iconThree}
               alt="Location icon"
-              width={24}
-              height={24}
+              width={35}
+              height={35}
               className="text-[#0F465B]"
             />
             <h3
-              className="text-sm font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
+              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
 "
             >
               {" "}

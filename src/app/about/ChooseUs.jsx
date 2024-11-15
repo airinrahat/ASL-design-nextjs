@@ -13,17 +13,22 @@ import ship from "../../../public/sss.jpg";
 const ChooseUs = () => {
   return (
     <div className="my-9 mx-5 text-black">
-      <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-4 grid-cols-1 gap-2">
         {/* Left Column with Cards */}
-        <div className="lg:col-span-3">
+        <div className="lg:col-span-3 ">
           <div>
-            <h2 className="lg:text-5xl text-3xl font-bold text-[#0F4C7C] text-center mb-2 mt-2">
+            <h2
+              className="lg:text-5xl text-3xl font-bold text-center mb-2 mt-2 
+  bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
+            >
               Why Choose Us
             </h2>
-            <p className="lg:text-xl text-xl text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium, veniam? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Eaque, iste?
+
+            <p className="lg:text-xl text-lg text-center text-[#00000080]">
+              Ariana Shipping LLC Company is committed to building a true and
+              long-lasting relationship with the customers, providing reliable
+              and sustainable shipping services which result an excellent client
+              satisfaction.
             </p>
           </div>
 
@@ -32,32 +37,32 @@ const ChooseUs = () => {
               {
                 title: "QUALITY EXCELLENCE",
                 icon: faDollarSign,
-                bgColor: "bg-blue-700",
+                bgColor: "bg-[#313D7D]",
               },
               {
                 title: "DIVERSITY AND INCLUSION",
                 icon: faMobileScreenButton,
-                bgColor: "bg-teal-500",
+                bgColor: "bg-[#559392]",
               },
               {
                 title: "AUTHENTICITY & ACCOUNTABILITY",
                 icon: faPlaneDeparture,
-                bgColor: "bg-purple-700",
+                bgColor: "bg-[#7B087B]",
               },
               {
                 title: "INTEGRITY",
                 icon: faCarSide,
-                bgColor: "bg-pink-600",
+                bgColor: "bg-[#E14D4F]",
               },
               {
                 title: "RELIABILITY",
                 icon: faHandshakeAngle,
-                bgColor: "bg-blue-950",
+                bgColor: "bg-[#344086]",
               },
               {
                 title: "TEAMWORK",
                 icon: faUsers,
-                bgColor: "bg-yellow-600",
+                bgColor: "bg-[#CE6B07]",
               },
             ].map((card, index) => (
               <div className="w-full" key={index}>
@@ -70,7 +75,10 @@ const ChooseUs = () => {
                       className="text-white text-3xl"
                     />
                   </div>
-                  <h2 className="text-base font-bold text-center">
+                  <h2
+                    className="text-base font-bold text-center text-[#00000080]
+"
+                  >
                     {card.title}
                   </h2>
                   <p className="text-base text-center">
@@ -89,7 +97,7 @@ const ChooseUs = () => {
             src={ship}
             alt="Description"
             width={500}
-            height={300}
+            height={500}
             className="w-full h-full object-cover"
           />
         </div>

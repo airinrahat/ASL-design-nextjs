@@ -9,7 +9,7 @@ import { FcGoogle } from "react-icons/fc";
 const Review = () => {
   return (
     <div>
-      <section className="bg-gray-100 py-10 mx-14 px-12 my-10">
+      <section className="bg-gray-100 py-10 lg:mx-14 lg:px-12 my-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
           {/* card one  */}
           <div className="bg-white border rounded-xl shadow-lg p-6 w-80">
@@ -138,7 +138,7 @@ const Review = () => {
         </div>
       </section>
 
-      <section className="bg-gray-100  mx-14 my-10">
+      <section className="bg-gray-100  lg:mx-14 my-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
           {/* card one  */}
           <div className="py-1 w-80 r text-center font-bold text-xl text-gray-500">

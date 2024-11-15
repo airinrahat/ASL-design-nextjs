@@ -8,13 +8,13 @@ const SubmitMessage = () => {
       <section className="flex flex-col bg-white lg:flex-row justify-center items-center my-8 gap-4 lg:px-36 mb-4">
         {/* Form Section */}
         <div className="bg-[#131F37] text-white py-[48px] px-12 w-full lg:w-1/2">
-          <form>
-            <h3 className="uppercase text-white text-xl  font-bold mb-5">
+          <form className="lg:px-8">
+            <h3 className="uppercase text-white text-xl   font-bold mt-6 mb-12">
               Request a Quick Quote
             </h3>
 
             {/* First Column: Name, Email */}
-            <div className="grid grid-cols-2 gap-4 ">
+            <div className="grid grid-cols-2 gap-4  ">
               <div>
                 <input
                   type="text"
@@ -69,12 +69,7 @@ const SubmitMessage = () => {
                   className="w-full p-2 text-gray-900 bg-white"
                   defaultValue=""
                 >
-                  <option value="" disabled>
-                    Freight type
-                  </option>
-                  <option value="air">Air</option>
-                  <option value="sea">Sea</option>
-                  <option value="land">Land</option>
+                  <option value="">Freight type</option>
                 </select>
               </div>
             </div>
@@ -87,14 +82,7 @@ const SubmitMessage = () => {
                   className="w-full p-2 text-gray-900 bg-white"
                   defaultValue=""
                 >
-                  <option value="" disabled>
-                    Incoterm
-                  </option>
-                  <option value="EXW">EXW</option>
-                  <option value="FOB">FOB</option>
-                  <option value="CIF">CIF</option>
-                  <option value="DDP">DDP</option>
-                  <option value="CFR">CFR</option>
+                  <option value="">Incoterm</option>
                 </select>
               </div>
 
@@ -119,7 +107,7 @@ const SubmitMessage = () => {
             </div>
 
             {/* Submit Button */}
-            <div className="mt-4">
+            <div className="mt-4 mb-8">
               <button
                 type="submit"
                 className="w-full bg-blue-400 text-white p-2 rounded hover:bg-gray-900"
@@ -129,18 +117,26 @@ const SubmitMessage = () => {
             </div>
           </form>
         </div>
-
-        {/* Image Section */}
-        <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
+        <div className=" lg:w-1/2 mt-4 lg:mt-0">
           <Image
             src={image}
             alt="Form Image"
-            className="w-full h-full object-cover"
+            className=" object-cover"
             layout="responsive"
-            width={500}
-            height={600}
+            width={800}
+            height={800}
           />
         </div>
+        {/* <div className="lg:w-1/2 mt-4 lg:mt-0">
+          <Image
+            src={image}
+            alt="Form Image"
+            className="object-cover max-w-none"
+            layout="intrinsic"
+            width={1200}
+            height={1200}
+          />
+        </div> */}
       </section>
       <div
         className="relative w-full h-[500px] bg-cover bg-center"

@@ -3,9 +3,11 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div>
-      <div className="lg:px-44 px-6 py-10 text-black bg-gray-300 ">
-        <h3 className="font-bold text-4xl mt-5 mb-6">ABOUT US</h3>
-        <p className="font-semibold text-lg text-gray-700">
+      <div className="lg:px-44 px-6 py-10 text-black bg-[#0A0A0A08] ">
+        <h3 className="font-bold text-4xl mt-5 mb-6 text-[#000000B2]">
+          ABOUT US
+        </h3>
+        <p className="font-semibold text-lg text-[#000000B2]">
           Founded in 2018, Ariana Shipping has already built a high reputation
           in car shipping industry, with its beliief in providing the highest
           quality service to meet the customers expectation. We constantly
