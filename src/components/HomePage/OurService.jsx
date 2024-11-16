@@ -1,8 +1,9 @@
 import Image from "next/image";
 import group3 from "../../../public/Group 2.png";
 import group1 from "../../../public/Group.png";
-import { default as group2, default as imag } from "../../../public/Vector.png";
+import group2 from "../../../public/Vector.png";
 import group4 from "../../../public/Vector1.png";
+import imag from "../../../public/service-h.png";
 
 const OurService = () => {
   return (
