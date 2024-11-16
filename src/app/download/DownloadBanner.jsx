@@ -32,7 +32,7 @@ const DownloadBanner = () => {
 
       <div className="ml-32 mt-10 text-[#053C78]">
         <h2 className="text-3xl font-bold mb-8 my-4 uppercase ">Downloads</h2>
-        <h4 className="underline text-2xl font-semibold">
+        <h4 className="underline text-2xl font-semibold mb-4">
           {" "}
           Download Your Quotations{" "}
         </h4>

@@ -142,7 +142,7 @@ const SubmitMessage = () => {
           />
         </div>
       </section>
-      <hr className="w-full border-black my-8 mt-14  bg-black" />
+      {/* <hr className="w-full border-black my-8 mt-14  bg-black" /> */}
     </div>
   );
 };

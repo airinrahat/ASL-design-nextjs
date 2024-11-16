@@ -19,21 +19,28 @@ const OurAddress = () => {
   //   }
   return (
     <div>
-      <div className="flex flex-col md:flex-row  mt-16 max-w-4xl mx-auto space-y-8 md:space-y-0 md:space-x-8 text-gray-600">
+      <div className="flex flex-col md:flex-row  mt-16 max-w-4xl mx-auto space-y-8 md:space-y-0 md:space-x-8 text-gray-600  ">
         {/* Our Address Section */}
         <div className="w-full md:w-1/2 space-y-4">
-          <h2 className="text-4xl font-bold text-teal-700">Our Address</h2>
+          <h2
+            className="text-5xl font-bold  
+  bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
+          >
+            Our Address
+          </h2>
           <div className="flex items-start space-x-3 mb-2">
             <FontAwesomeIcon
               icon={faLocationDot}
-              className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full "
-            />{" "}
+              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
+              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
+            />
+
             <div className="">
-              <div className="text-xl text-gray-400 font-bold">
+              <div className="text-[16px] text-gray-400 font-bold">
                 Our Location
               </div>
 
-              <p className="mb-4 font-semibold text-sm">
+              <p className="mb-4 font-semibold text-[12px] mt-1 ">
                 {" "}
                 DUBAI, UNITED ARAB EMIRATES
               </p>
@@ -42,23 +49,29 @@ const OurAddress = () => {
           <div className="flex items-start space-x-3">
             <FontAwesomeIcon
               icon={faPhone}
-              className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full mb-2"
-            />{" "}
+              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
+              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
+            />
             <div className="">
-              <div className="text-xl text-gray-400 font-bold">Call To Us</div>
+              <div className="text-[16px] text-gray-400 font-bold">
+                Call To Us
+              </div>
 
-              <p className="mb-4 font-semibold text-sm">0581035772</p>
+              <p className="mb-4 font-semibold text-[12px] mt-1">0581035772</p>
             </div>
           </div>
           <div className="flex items-start space-x-3">
             <FontAwesomeIcon
               icon={faEnvelope}
-              className="text-teal-600 bg-yellow-200 text-3xl p-2 rounded-full mb-2"
-            />{" "}
+              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
+              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
+            />
             <div className="">
-              <div className="text-xl text-gray-400 font-bold">Email To Us</div>
+              <div className="text-[16px] text-gray-400 font-bold">
+                Email To Us
+              </div>
 
-              <p className="mb-4 font-semibold text-sm">
+              <p className="mb-4 font-semibold text-[12px] mt-1">
                 info@arianashippingline.com
               </p>
             </div>
@@ -67,9 +80,21 @@ const OurAddress = () => {
 
         {/* Leave A Message Form Section */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl font-bold text-teal-700 mb-4">
+          {/* <h2 className="text-4xl font-bold text-teal-700 mb-4">
+            Leave A Message
+          </h2> */}
+          <h2
+            className="text-5xl font-bold mb-4"
+            style={{
+              background:
+                "linear-gradient(90deg, #0F4C7C 31.5%, #229276 98.52%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
             Leave A Message
           </h2>
+
           <form className="space-y-4">
             <input
               type="text"
@@ -143,16 +168,16 @@ const OurAddress = () => {
         <h2 className="text-4xl font-bold my-10 text-black text-start lg:pl-80 ">
           Latest News
         </h2>
-        <div className="grid lg:grid-cols-2 grid-cols-1  gap-24 lg:px-80 text-black">
+        <div className="grid lg:grid-cols-2 grid-cols-1  gap-14 lg:px-80 text-black">
           {/* First Card */}
           <div className="flex    ">
             <Image src={img1} alt="News Image 1" width={120} height={200} />
             <div className="ml-3">
-              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
+              <h3 className="text-base font-medium text-start text-gray-400 mt-2">
                 MARCH 25, 2024
               </h3>
-              <h2 className="text-sm font-bold text-start py-1">
-                Why Choose Our Warehousing ?
+              <h2 className="text-xs font-bold text-start py-1">
+                Why Choose Our Warehousing Service?
               </h2>
               <p className=" text-xs text-start text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -165,11 +190,11 @@ const OurAddress = () => {
           <div className="flex    ">
             <Image src={img2} alt="News Image 1" width={120} height={200} />
             <div className="ml-3">
-              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
-                Feb 2, 2024
+              <h3 className="text-base font-medium text-start text-gray-400 mt-2">
+                May 11, 2024
               </h3>
               <h2 className="text-xs font-bold text-start py-1">
-                Top Benefits Of Hiring Service{" "}
+                Cintinually Engage Distributed Infrastructures
               </h2>
               <p className=" text-xs text-start text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -182,11 +207,11 @@ const OurAddress = () => {
           <div className="flex    ">
             <Image src={img3} alt="News Image 1" width={120} height={200} />
             <div className="ml-3">
-              <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
-                Jan 10 , 2024
+              <h3 className="text-base font-medium text-start text-gray-400 mt-2">
+                Feb 2 , 2024
               </h3>
-              <h2 className="text-sm font-bold text-start py-1">
-                Personal Change Of Management{" "}
+              <h2 className="text-xs font-bold text-start py-1">
+                Top Benefits Of Hiring Our Tracking Service{" "}
               </h2>
               <p className=" text-xs text-start text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -202,7 +227,7 @@ const OurAddress = () => {
               <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
                 MARCH 25, 2024
               </h3>
-              <h2 className="text-sm font-bold text-start py-1">
+              <h2 className="text-xs font-bold text-start py-1">
                 Personal Change Of Management{" "}
               </h2>
               <p className=" text-xs text-start text-gray-400">

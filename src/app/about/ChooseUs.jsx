@@ -68,22 +68,23 @@ const ChooseUs = () => {
               <div className="w-full" key={index}>
                 <div className="p-10 flex flex-col items-center">
                   <div
-                    className={`${card.bgColor} text-gray-800 rounded-full flex justify-center items-center w-16 h-16 text-center mb-4`}
+                    className={`${card.bgColor} text-gray-800 rounded-full flex justify-center items-center w-20 h-20 text-center mb-4`}
                   >
                     <FontAwesomeIcon
                       icon={card.icon}
-                      className="text-white text-3xl"
+                      className="text-white text-4xl"
                     />
                   </div>
                   <h2
-                    className="text-base font-bold text-center text-[#00000080]
+                    className="text-base font-bold text-center mb-4 text-[#00000080]
 "
                   >
                     {card.title}
                   </h2>
-                  <p className="text-base text-center">
-                    An affordable price for a luxury car may be significantly
-                    higher than an affordable price for
+                  <p className="text-sm text-center">
+                    The quality reflects the strength and heritage of the
+                    company, and it represents our pride in what we do and how
+                    we make it possible.
                   </p>
                 </div>
               </div>
