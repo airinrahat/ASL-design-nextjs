@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className="my-12">
       <section
         className="contact-us bg-image bg-cover bg-center py-16"
         style={{

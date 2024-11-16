@@ -3,7 +3,7 @@ import image from "../../../public/sh.png";
 
 const SubmitMessage = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white my-12">
       <section className="flex flex-col bg-white lg:flex-row justify-center items-center my-2 gap-20 lg:px-36 mb-4">
         {/* Form Section */}
         <div className="bg-[#131F37] mx-6 text-white py-[24px] px-12 w-full lg:w-1/2 rounded">

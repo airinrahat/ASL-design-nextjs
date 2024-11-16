@@ -19,12 +19,12 @@ const OurAddress = () => {
   //   }
   return (
     <div>
-      <div className="flex flex-col md:flex-row  mt-16 max-w-4xl mx-auto space-y-8 md:space-y-0 md:space-x-8 text-gray-600  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-24 mb-16 lg:mx-32 text-gray-600">
         {/* Our Address Section */}
-        <div className="w-full md:w-1/2 space-y-4">
+        <div className="space-y-4 lg:pl-0 pl-4">
           <h2
-            className="text-5xl font-bold  
-  bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
+            className="lg:text-5xl text-2xl font-bold  
+      bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
           >
             Our Address
           </h2>
@@ -34,14 +34,11 @@ const OurAddress = () => {
               className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
               style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
             />
-
-            <div className="">
+            <div>
               <div className="text-[16px] text-gray-400 font-bold">
                 Our Location
               </div>
-
-              <p className="mb-4 font-semibold text-[12px] mt-1 ">
-                {" "}
+              <p className="mb-4 font-semibold text-[12px] mt-1">
                 DUBAI, UNITED ARAB EMIRATES
               </p>
             </div>
@@ -52,11 +49,10 @@ const OurAddress = () => {
               className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
               style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
             />
-            <div className="">
+            <div>
               <div className="text-[16px] text-gray-400 font-bold">
                 Call To Us
               </div>
-
               <p className="mb-4 font-semibold text-[12px] mt-1">0581035772</p>
             </div>
           </div>
@@ -66,11 +62,10 @@ const OurAddress = () => {
               className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
               style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
             />
-            <div className="">
+            <div>
               <div className="text-[16px] text-gray-400 font-bold">
                 Email To Us
               </div>
-
               <p className="mb-4 font-semibold text-[12px] mt-1">
                 info@arianashippingline.com
               </p>
@@ -79,12 +74,9 @@ const OurAddress = () => {
         </div>
 
         {/* Leave A Message Form Section */}
-        <div className="w-full md:w-1/2">
-          {/* <h2 className="text-4xl font-bold text-teal-700 mb-4">
-            Leave A Message
-          </h2> */}
+        <div className="mx-7">
           <h2
-            className="text-5xl font-bold mb-4"
+            className="lg:text-5xl text-2xl font-bold mb-4"
             style={{
               background:
                 "linear-gradient(90deg, #0F4C7C 31.5%, #229276 98.52%)",
@@ -94,30 +86,27 @@ const OurAddress = () => {
           >
             Leave A Message
           </h2>
-
           <form className="space-y-4">
             <input
               type="text"
-              placeholder="Your Name"
-              className="w-full p-2 border bg-white border-teal-900 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              placeholder="Enter First Name"
+              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="text"
-              placeholder="Your Phone"
-              className="w-full p-2 border bg-white border-teal-900 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              placeholder="Enter  Phone"
+              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="email"
-              placeholder="Your Email"
-              className="w-full p-2 border bg-white border-teal-900 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              placeholder="Enter Email"
+              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-2 border bg-white border-teal-900 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
               rows="2"
             ></textarea>
-
-            {/* Checkbox and reCAPTCHA Section */}
             <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-4">
               <div className="flex items-center space-x-2">
                 <input
@@ -129,7 +118,6 @@ const OurAddress = () => {
                   I&apos;m not a robot
                 </label>
               </div>
-              {/* reCAPTCHA */}
               <div className="flex items-center bg-white border border-gray-300 p-2 rounded-md shadow-sm">
                 <FontAwesomeIcon
                   icon={faCheck}
@@ -137,9 +125,8 @@ const OurAddress = () => {
                 />
                 <span className="ml-2 text-gray-500">reCAPTCHA</span>
               </div>
-              {/* <ReCAPTCHA sitekey="Your client site key" onChange={onChange} /> */}
-              <div className="lg:pl-9">
-                <button className="p-2 border border-teal-400  hover:bg-teal-500 hover:text-white transition-colors duration-200">
+              <div className="lg:pl-52">
+                <button className="p-2 border border-teal-400  rounded-md text-[#208A77] transition-colors duration-200">
                   Submit
                 </button>
               </div>
@@ -163,12 +150,12 @@ const OurAddress = () => {
           </div>
         </div>
       </div>
-
-      <section className="text-center py-8">
-        <h2 className="text-4xl font-bold my-10 text-black text-start lg:pl-80 ">
+      <hr className="h-8  bg-[#0A3A60]" />
+      <section className="text-center py-8 mb-8">
+        <h2 className="text-4xl font-bold my-10 text-black text-start lg:pl-[123px] ">
           Latest News
         </h2>
-        <div className="grid lg:grid-cols-2 grid-cols-1  gap-14 lg:px-80 text-black">
+        <div className="grid lg:grid-cols-2 grid-cols-1  gap-14 lg:px-[123px] text-black">
           {/* First Card */}
           <div className="flex    ">
             <Image src={img1} alt="News Image 1" width={120} height={200} />
@@ -176,7 +163,7 @@ const OurAddress = () => {
               <h3 className="text-base font-medium text-start text-gray-400 mt-2">
                 MARCH 25, 2024
               </h3>
-              <h2 className="text-xs font-bold text-start py-1">
+              <h2 className="text-sm font-bold text-start py-1">
                 Why Choose Our Warehousing Service?
               </h2>
               <p className=" text-xs text-start text-gray-400">
@@ -193,7 +180,7 @@ const OurAddress = () => {
               <h3 className="text-base font-medium text-start text-gray-400 mt-2">
                 May 11, 2024
               </h3>
-              <h2 className="text-xs font-bold text-start py-1">
+              <h2 className="text-sm font-bold text-start py-1">
                 Cintinually Engage Distributed Infrastructures
               </h2>
               <p className=" text-xs text-start text-gray-400">
@@ -210,7 +197,7 @@ const OurAddress = () => {
               <h3 className="text-base font-medium text-start text-gray-400 mt-2">
                 Feb 2 , 2024
               </h3>
-              <h2 className="text-xs font-bold text-start py-1">
+              <h2 className="text-sm font-bold text-start py-1">
                 Top Benefits Of Hiring Our Tracking Service{" "}
               </h2>
               <p className=" text-xs text-start text-gray-400">
@@ -227,7 +214,7 @@ const OurAddress = () => {
               <h3 className="text-lg font-medium text-start text-gray-400 mt-2">
                 MARCH 25, 2024
               </h3>
-              <h2 className="text-xs font-bold text-start py-1">
+              <h2 className="text-sm font-bold text-start py-1">
                 Personal Change Of Management{" "}
               </h2>
               <p className=" text-xs text-start text-gray-400">
@@ -238,6 +225,7 @@ const OurAddress = () => {
           </div>
         </div>
       </section>
+      <hr className="h-8  bg-[#0A3A60]" />
     </div>
   );
 };

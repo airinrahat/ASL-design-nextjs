@@ -12,7 +12,7 @@ import ship from "../../../public/sss.jpg";
 
 const ChooseUs = () => {
   return (
-    <div className="my-9 mx-5 text-black">
+    <div className="my-12 mx-5 text-black">
       <div className="grid lg:grid-cols-4 grid-cols-1 gap-2">
         {/* Left Column with Cards */}
         <div className="lg:col-span-3 ">
