@@ -1,14 +1,13 @@
 import Image from "next/image";
-import React from "react";
 import image from "../../../public/sh.png";
 
 const SubmitMessage = () => {
   return (
     <div className="bg-white">
-      <section className="flex flex-col bg-white lg:flex-row justify-center items-center my-8 gap-4 lg:px-36 mb-4">
+      <section className="flex flex-col bg-white lg:flex-row justify-center items-center my-2 gap-20 lg:px-36 mb-4">
         {/* Form Section */}
-        <div className="bg-[#131F37] text-white py-[48px] px-12 w-full lg:w-1/2">
-          <form className="lg:px-8">
+        <div className="bg-[#131F37] mx-6 text-white py-[24px] px-12 w-full lg:w-1/2 rounded">
+          <form className="lg:px-8 ">
             <h3 className="uppercase text-white text-xl   font-bold mt-6 mb-12">
               Request a Quick Quote
             </h3>
@@ -117,29 +116,19 @@ const SubmitMessage = () => {
             </div>
           </form>
         </div>
-        <div className=" lg:w-1/2 mt-4 lg:mt-0">
+        <div className="lg:w-1/2 lg:mt-0">
           <Image
             src={image}
             alt="Form Image"
-            className=" object-cover"
+            className="object-cover rounded"
             layout="responsive"
             width={800}
             height={800}
           />
         </div>
-        {/* <div className="lg:w-1/2 mt-4 lg:mt-0">
-          <Image
-            src={image}
-            alt="Form Image"
-            className="object-cover max-w-none"
-            layout="intrinsic"
-            width={1200}
-            height={1200}
-          />
-        </div> */}
       </section>
       <div
-        className="relative w-full h-[500px] bg-cover bg-center"
+        className="relative w-full h-[500px] bg-cover bg-center mt-20"
         style={{
           backgroundImage: "url(https://i.ibb.co.com/y5J02w3/image.png)",
         }}
