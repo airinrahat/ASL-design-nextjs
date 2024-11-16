@@ -4,7 +4,8 @@ import FAQ from "@/components/HomePage/FAQ";
 import BannerServices from "./BannerServices";
 import Servicebg from "./Servicebg";
 import Service from "./Service";
-import SubmitMessage from "./SubmitMessage";
+import SubmitMessage from "@/components/HomePage/SubmitMessage";
+// import SubmitMessage from "./SubmitMessage";
 
 const page = () => {
   return (
