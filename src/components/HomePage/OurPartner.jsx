@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import logo1 from "../../../public/logo1.png";
 import logo2 from "../../../public/logo2.png";
 import logo3 from "../../../public/logo3.png";
@@ -8,12 +7,12 @@ import logo5 from "../../../public/logo5.png";
 
 const OurPartner = () => {
   return (
-    <div className="mb-10">
-      <h3 className="text-gray-600 text-3xl font-bold lg:ml-[188px] mt-5 ">
+    <div className="my-16">
+      <h3 className="text-gray-600 text-3xl font-bold mt-5 lg:ml-[205px]">
         Our Trusted Partners
       </h3>
       <div className="flex justify-center py-5">
-        <div className="bg-[#F7F7F7] px-4 shadow-lg w-11/12 md:w-3/4 py-12">
+        <div className="bg-[#F7F7F7] shadow-lg w-11/12 md:w-3/4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 justify-items-center">
             <Image
               src={logo3}

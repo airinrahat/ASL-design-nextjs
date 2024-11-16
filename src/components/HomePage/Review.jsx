@@ -1,18 +1,20 @@
 import Image from "next/image";
-import React from "react";
+import { FcGoogle } from "react-icons/fc";
 import user1 from "../../../public/person=1.png";
 import user2 from "../../../public/person=2.png";
 import user3 from "../../../public/person=3.png";
 import user4 from "../../../public/person=4.png";
-import { FcGoogle } from "react-icons/fc";
 
 const Review = () => {
   return (
     <div>
-      <section className="bg-gray-100 py-10 lg:mx-14 lg:px-12 my-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
+      <h3 className="text-gray-600 text-3xl font-bold mt-5 lg:ml-[170px]">
+        Client Feedback / Reviews
+      </h3>
+      <section className="bg-gray-100 py-10 lg:mx-40 lg:px-12 my-10 rounded-md">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* card one  */}
-          <div className="bg-white border rounded-xl shadow-lg p-6 w-80">
+          <div className="bg-white border rounded-xl shadow-lg p-6 w-full">
             <div className="flex justify-center mb-4">
               <FcGoogle className="text-4xl" />
             </div>
@@ -43,7 +45,7 @@ const Review = () => {
             </div>
           </div>
           {/* card two  */}
-          <div className="bg-white border rounded-xl shadow-lg p-6 w-80">
+          <div className="bg-white border rounded-xl shadow-lg p-6 w-full">
             <div className="flex justify-center mb-4">
               <FcGoogle className="text-4xl" />
             </div>
@@ -74,7 +76,7 @@ const Review = () => {
             </div>
           </div>
           {/* card three  */}
-          <div className="bg-white border rounded-xl shadow-lg p-6 w-80">
+          <div className="bg-white border rounded-xl shadow-lg p-6 w-full">
             <div className="flex justify-center mb-4">
               <FcGoogle className="text-4xl" />
             </div>
@@ -105,7 +107,7 @@ const Review = () => {
             </div>
           </div>{" "}
           {/* card four  */}
-          <div className="bg-white border rounded-xl shadow-lg p-6 w-80">
+          <div className="bg-white border rounded-xl shadow-lg p-6 w-full">
             <div className="flex justify-center mb-4">
               <FcGoogle className="text-4xl" />
             </div>
@@ -138,10 +140,10 @@ const Review = () => {
         </div>
       </section>
 
-      <section className="bg-gray-100  lg:mx-14 my-10">
+      <section className="bg-gray-100  lg:mx-40 my-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
           {/* card one  */}
-          <div className="py-1 w-80 r text-center font-bold text-xl text-gray-500">
+          <div className="py-1 w-80 text-center font-bold text-xl text-gray-500">
             Name...
           </div>{" "}
           {/* card two  */}
@@ -155,10 +157,9 @@ const Review = () => {
             Feedback...
           </div>{" "}
           {/* card four  */}
-          <div className="  bg-[#131F37]  text-center font-bold text-xl text-gray-500">
-            {" "}
+          <div className="bg-[#131F37] text-center font-bold text-xl text-white text-opacity-90 py-1">
             Submit Feedback
-          </div>{" "}
+          </div>
         </div>
       </section>
     </div>
