@@ -6,23 +6,23 @@ import {
   faSearch,
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
+import { FcPhone } from "react-icons/fc";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  LocationMarkerIcon,
-  MailIcon,
-  PhoneIcon,
-} from "@heroicons/react/solid";
+import { LocationMarkerIcon, MailIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 import {
   FaFacebookF,
-  FaGoogle,
   FaLinkedinIn,
-  FaPinterestP,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { IoLogoTiktok } from "react-icons/io5";
+
 import img from "../../../public/asl-log.GIF";
 
 export default function Navbar() {
@@ -53,61 +53,78 @@ export default function Navbar() {
             <span className="font-semibold text-lg">Language</span>
             <select className="text-gray-600 outline-none text-lg bg-white">
               <option>English</option>
-              <option>Spanish</option>
-              <option>French</option>
-              <option>German</option>
+
               <option>Arabic</option>
-              <option>Chinese</option>
-              <option>Japanese</option>
-              <option>Hindi</option>
-              <option>Bengali</option>
-              <option>Portuguese</option>
+              <option>Russian</option>
             </select>
           </div>
 
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
             <div className="flex items-center space-x-1">
-              <FaWhatsapp className="text-green-500 text-2xl sm:text-3xl" />
-              <span className="text-sm">0581035771</span>
+              <FaWhatsapp className="text-green-500  w-6 h-6 sm:w-5 sm:h-5" />
+              <span className="text-xs">0581035771</span>
             </div>
             <div className="flex items-center space-x-1">
-              <PhoneIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
-              <span className="text-sm">0581035772</span>
+              <FcPhone className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
+              <span className="text-xs text-gray-700">0529751028</span>
             </div>
+
             <div className="flex items-center space-x-1">
-              <MailIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
-              <span className="text-sm">info@arianshippingline.com</span>
+              <TbDeviceLandlinePhone className="w-6 h-6 sm:w-5 sm:h-5 text-blue-600" />
+              <span className="text-xs text-gray-700">042241592</span>
             </div>
+
             <div className="flex items-center space-x-1">
-              <LocationMarkerIcon className="w-6 h-6 sm:w-7 sm:h-7 text-black" />
-              <span className="text-sm">Dubai, United Arab Emirates</span>
+              <MailIcon className="w-6 h-6 sm:w-5 sm:h-5 text-red-600" />
+              <span className="text-xs text-gray-700">
+                info@arianshippingline.com
+              </span>
+            </div>
+
+            <div className="flex items-center space-x-1">
+              <LocationMarkerIcon className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
+              <span className="text-xs text-gray-700">
+                Dubai, United Arab Emirates
+              </span>
             </div>
           </div>
 
           {/* Social Media Icons */}
           <div className="flex items-center space-x-4 text-black text-sm">
-            <FaFacebookF className="cursor-pointer" />
-            <FaGoogle className="cursor-pointer" />
-            <FaTwitter className="cursor-pointer" />
             <FaLinkedinIn className="cursor-pointer font-normal" />
-            <FaPinterestP className="cursor-pointer" />
+            <FaFacebookF className="cursor-pointer" />
+            <RiInstagramFill className="cursor-pointer" />
+            <FaTwitter className="cursor-pointer" />
+
+            <IoLogoTiktok className="cursor-pointer" />
           </div>
+
+          <div className="relative">
+            <a
+              href="#"
+              className="text-sm px-6 py-2 font-bold text-white bg-[#274A66] rounded-full shadow-lg hover:bg-[#1F345D] transition-all duration-300"
+            >
+              LOGIN
+            </a>
+          </div>
+
           <br />
         </div>
-        {/* <hr className="bg-white py-2 border border-red-500 w-1/2 justify-center" /> */}
-        {/* <div className="flex justify-center mx-4 bg-white">
-          <hr className="w-16 border-t-2 border-black mt-4" />
-        </div> */}
       </div>
 
-      {/* <div className="text-center flex justify-center items-center bg-transparent">
-       */}
-      <div
+      {/* <div
         className="flex justify-center items-center py-2"
         style={{
           background:
             "linear-gradient(90deg, #507491 3.5%, #274A66 22%, #1F345D 49%, #274A66 75%, #4D718E 98.5%)",
+        }}
+      > */}
+      <div
+        className="flex justify-center items-center py-2"
+        style={{
+          background:
+            "linear-gradient(90deg, #5E7E96 3.5%, #3D5C79 22%, #2E4768 49%, #3D5C79 75%, #58738E 98.5%)",
         }}
       >
         <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
@@ -117,41 +134,68 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <div className="hidden lg:flex space-x-10">
-              <Link href="/" className="hover:text-black hover:font-bold">
+              <Link
+                href="/"
+                className="hover:text-black hover:font-bold  uppercase"
+              >
                 Home
               </Link>
-              <Link href="/about" className="hover:text-black hover:font-bold">
+              <Link
+                href="/about"
+                className="hover:text-black hover:font-bold uppercase"
+              >
                 About Us
               </Link>
               <Link
                 href="/services"
-                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1"
+                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1 uppercase"
               >
+                <span>Our Services</span>
                 <FontAwesomeIcon
                   icon={faCaretDown}
                   className="text-[#2CACDD] "
                 />
-                <span>Our Services</span>
               </Link>
               <Link
                 href="/contact"
-                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1"
+                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1 uppercase"
               >
+                <span>Contact</span>
                 <FontAwesomeIcon
                   icon={faCaretDown}
                   className="text-[#2CACDD] "
                 />
-                <span> Contacts</span>
               </Link>
+
+              <div className="relative group">
+                <button className="hover:text-black hover:font-bold flex items-center gap-2 uppercase">
+                  <span>Downloads</span>
+                  <FontAwesomeIcon
+                    icon={faCaretDown}
+                    className="text-[#2CACDD]"
+                  />
+                </button>
+
+                <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md p-2 z-10">
+                  <Link
+                    href="/download/android"
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    Android
+                  </Link>
+                  <Link
+                    href="/download/ios"
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    IOS
+                  </Link>
+                </div>
+              </div>
               <Link
-                href="/download"
-                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1"
+                href="/"
+                className="hover:text-black hover:font-bold flex items-center gap-2 space-x-1 uppercase"
               >
-                <FontAwesomeIcon
-                  icon={faCaretDown}
-                  className="text-[#2CACDD] "
-                />
-                <span> Downloads</span>
+                <span> CAREERS</span>
               </Link>
             </div>
 
@@ -176,17 +220,14 @@ export default function Navbar() {
               Request a Quote
             </p>
             <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white hidden md:hidden lg:block"></div>
-            <button className="text-black text-xl px-6 hover:text-white">
+            <button className=" text-xl px-6 text-white">
               <FontAwesomeIcon icon={faSearch} />
             </button>
             <div className="h-1 w-full lg:h-16 lg:w-[0.5px] bg-gray-600 hidden md:hidden lg:block"></div>
 
-            <a
-              href="#"
-              className="text-white px-2 text-sm  hover:text-blue-300"
-            >
+            {/* <a href="#" className="text-white px-2 text-sm hover:text-blue-300">
               LOGIN
-            </a>
+            </a> */}
             <FontAwesomeIcon
               icon={faUserCircle}
               size="2x"
@@ -216,14 +257,30 @@ export default function Navbar() {
             href="/contact"
             className="block text-white py-2 hover:text-blue-300"
           >
-            Contacts
+            Contact
           </a>
-          <a
-            href="/download"
-            className="block text-white py-2 hover:text-blue-300"
-          >
-            Downloads
-          </a>
+          <div>
+            <a
+              href="/download"
+              className="block text-white py-2 hover:text-blue-300"
+            >
+              Downloads
+            </a>
+            <div className="ml-4">
+              <a
+                href="/download/android"
+                className="block text-white py-2 hover:text-blue-300"
+              >
+                Android
+              </a>
+              <a
+                href="/download/ios"
+                className="block text-white py-2 hover:text-blue-300"
+              >
+                IOS
+              </a>
+            </div>
+          </div>
         </div>
       </nav>
     </>

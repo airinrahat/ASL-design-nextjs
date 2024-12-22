@@ -8,31 +8,34 @@ const AboutUs = () => {
           ABOUT US
         </h3>
         <p className="font-semibold text-lg text-[#000000B2]">
-          Founded in 2018, Ariana Shipping has already built a high reputation
-          in car shipping industry, with its beliief in providing the highest
-          quality service to meet the customers expectation. We constantly
-          strive to maintain reasonable price. Our priority is to deliver ant
-          shipment to our prestigious customers o n time maintaining high degree
-          of quality.
+          Welcome to ARIANA SHIPPING LINE LLC, your premier ocean shipping
+          company specializing in the transportation of used cars from the USA
+          to Jebel Ali. With over a decade of experience, we have been a trusted
+          name in the industry since our establishment in 2008.
         </p>
 
         <p className="mt-4 font-semibold text-lg text-gray-700">
-          In Ariana shipping we assure our esteemed customers are connected with
-          our highly trained local team members who develop comprehensive
-          solutions shipping processes that allow customers a flexible option
-          and quality service.
+          At ARIANA SHIPPING LINE LLC, we are committed to providing reliable
+          and efficient shipping services for used cars. Our dedicated team
+          understands the unique requirements of shipping vehicles overseas and
+          ensures a seamless and secure transportation process from the USA to
+          Jebel Ali. In addition to our specialized car shipping services, we
+          also offer professional towing services from the USA. Whether you need
+          to transport a single vehicle or a full container, our experienced
+          drivers and wellequipped tow trucks are ready to handle your towing
+          needs with care and efficiency. We understand that navigating customs
+          procedures in the UAE can be complex. That’s why we offer
+          comprehensive clearance services to ensure your shipments are smoothly
+          processed through customs. Our knowledgeable team will guide you
+          through the documentation requirements and ensure a hassle-free
+          customs clearance process.
         </p>
         <p className="mt-4 font-semibold text-lg text-gray-700">
-          We provide end to end solutios to your request. Our service include,
-          pickup your car, loaing, containerization, shipment, tracking, custom
-          clearance, unloading and handling over to customer. Our team posses
-          the expertise and experience to deliver you car internationally at
-          very cost-efffetive price and within the promised time.
-        </p>
-        <p className="mt-4 font-semibold text-lg text-gray-700">
-          With 13 international offices, Ariana shipping is headquartered in
-          headquartered in Sharjah United Arab Emirates, the team are committed
-          to provide quality, reliable and sustainable services to our clients.
+          With a strong focus on customer satisfaction, ARIANA SHIPPING LINE LLC
+          is dedicated to providing exceptional service and reliable support
+          throughout your shipping experience. We pride ourselves on our
+          attention to detail, transparent communication, and commitment to
+          meeting your unique shipping requirements.
         </p>
       </div>
     </div>

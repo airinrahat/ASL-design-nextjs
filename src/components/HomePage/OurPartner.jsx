@@ -1,9 +1,10 @@
 import Image from "next/image";
-import logo1 from "../../../public/logo1.png";
-import logo2 from "../../../public/logo2.png";
-import logo3 from "../../../public/logo3.png";
-import logo4 from "../../../public/logo4.png";
-import logo5 from "../../../public/logo5.png";
+import logo1 from "../../../public/logo2.png";
+import logo2 from "../../../public/logo3.png";
+import logo3 from "../../../public/evergreen.jpg";
+import logo4 from "../../../public/yangmine.png";
+import logo5 from "../../../public/hmm.png";
+import logo6 from "../../../public/cma2.png";
 
 const OurPartner = () => {
   return (
@@ -13,19 +14,19 @@ const OurPartner = () => {
       </h3>
       <div className="flex justify-center py-5">
         <div className="bg-[#F7F7F7] shadow-lg w-11/12 md:w-3/4 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 ml-8 justify-items-center">
             <Image
-              src={logo3}
+              src={logo1}
               alt="Logo 1"
               className="w-40 h-16 md:w-60 md:h-20 object-contain"
             />
             <Image
-              src={logo1}
+              src={logo2}
               alt="Logo 2"
               className="w-40 h-16 md:w-60 md:h-20 object-contain"
             />
             <Image
-              src={logo2}
+              src={logo3}
               alt="Logo 3"
               className="w-40 h-16 md:w-60 md:h-20 object-contain"
             />
@@ -36,6 +37,11 @@ const OurPartner = () => {
             />
             <Image
               src={logo5}
+              alt="Logo 5"
+              className="w-40 h-16 md:w-60 md:h-20 object-contain"
+            />
+            <Image
+              src={logo6}
               alt="Logo 5"
               className="w-40 h-16 md:w-60 md:h-20 object-contain"
             />

@@ -61,10 +61,10 @@ const Barnch = () => {
               />
               <div>
                 <div className="font-bold text-start text-5xl leading-[75px]">
-                  +95K
+                  107k+
                 </div>
-                <p className="text-start mt-2 font-semibold text-[26px] leading-[39px]">
-                  No of VEHICLES DELIVERED
+                <p className="text-start mt-2 font-semibold text-[26px] leading-[39px] ">
+                  Cars Delivered
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const Barnch = () => {
                 className="object-cover"
               />
               <div className="text-start">
-                <div className="font-bold text-5xl leading-[75px]">452</div>
+                <div className="font-bold text-5xl leading-[75px]">900+</div>
                 <p className="mt-2 font-semibold text-[26px] leading-[39px]">
                   Satisfied Customers
                 </p>

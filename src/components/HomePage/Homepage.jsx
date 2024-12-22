@@ -2,12 +2,14 @@ import React from "react";
 
 import FAQ from "./FAQ";
 import CallUs from "./CallUs";
-import OurService from "./OurService";
 import SubmitMessage from "./SubmitMessage";
 import ServiceBanner from "./ServiceBanner";
 import Barnch from "./Barnch";
-import OurPartner from "./OurPartner";
+// import OurPartner from "./OurPartner";
 import Review from "./Review";
+import Partner from "@/components/HomePage/partner/Partner";
+import OurService from "./OurService";
+// import Certified from "./certififd/Certified";
 
 const Homepage = () => {
   return (
@@ -16,7 +18,9 @@ const Homepage = () => {
 
       <OurService />
       <SubmitMessage />
-      <OurPartner />
+      <Partner />
+      {/* <OurPartner /> */}
+      {/* <Certified /> */}
       <Barnch />
       <Review />
 
