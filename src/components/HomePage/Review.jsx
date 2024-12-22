@@ -28,8 +28,8 @@ const Review = () => {
             </div>
 
             <p className="text-center text-gray-700 text-sm mb-14">
-              Excellent service and delivery of bulk SMS in Bangalore. Must
-              recommended.service and delivery
+              The team at Ariana Shipping made the process so smooth. My car
+              arrived on time and in perfect condition!
             </p>
 
             <div className="flex flex-col items-center">
@@ -59,8 +59,8 @@ const Review = () => {
             </div>
 
             <p className="text-center text-gray-700 text-sm mb-14">
-              Thank you for support and great service. Highly recommended. Best
-              and cheapest bulk SMS...
+              I’ve shipped multiple cars with them, and they’ve never
+              disappointed
             </p>
 
             <div className="flex flex-col items-center">
@@ -90,8 +90,7 @@ const Review = () => {
             </div>
 
             <p className="text-center text-gray-700 text-sm mb-14">
-              Best support and service. Best bulk SMS company in Dubai. Thank
-              you team of GetItSMS
+              Great customer support and reliable service. Highly recommended!
             </p>
 
             <div className="flex flex-col items-center">

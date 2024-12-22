@@ -11,14 +11,13 @@ const Servicebg = () => {
         }}
       >
         <div className="absolute inset-0 flex flex-col justify-center lg:items-start lg:pl-52 items-center bg-black bg-opacity-40">
-          <p className="text-white lg:text-4xl text-xl font-bold md:text-lg mt-4">
-            Here at Ariana Shipping LLC
-            <br /> we can help you
-            <br /> with purchasing your brand new
-            <br /> or used vehicles, boats,
-            <br />
-            bikes, ATVs and <br /> custom made cars and
-            <br /> trucks.
+          <p className="text-white lg:text-3xl text-lg font-bold md:text-lg mt-4">
+            Ariana Shipping LLC specializes in providing <br /> seamless
+            logistics and transportation services,
+            <br /> focusing on shipping used cars from the USA to
+            <br /> the UAE. With our expert team and advanced tracking <br />
+            systems, we ensure your vehicle arrives on time and
+            <br /> in perfect condition
           </p>
         </div>
       </div>

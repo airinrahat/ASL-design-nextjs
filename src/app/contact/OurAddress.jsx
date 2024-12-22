@@ -12,6 +12,7 @@ import img1 from "../../../public/Property 1=1.png";
 import img2 from "../../../public/Property 1=2.png";
 import img3 from "../../../public/Property 1=3.png";
 import img4 from "../../../public/Property 1=4.png";
+import { FaBusinessTime } from "react-icons/fa";
 
 const OurAddress = () => {
   //   function onChange(value) {
@@ -26,7 +27,7 @@ const OurAddress = () => {
             className="lg:text-5xl text-2xl font-bold  
       bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
           >
-            Our Address
+            Headquarter
           </h2>
           <div className="flex items-start space-x-3 mb-2">
             <FontAwesomeIcon
@@ -39,7 +40,10 @@ const OurAddress = () => {
                 Our Location
               </div>
               <p className="mb-4 font-semibold text-[12px] mt-1">
-                DUBAI, UNITED ARAB EMIRATES
+                Office 1207, Block–A,
+                <br /> Centurion Star, Port Saeed,
+                <br /> Opp. Deira City Center,
+                <br /> Near Flora Creek Hotel, Deira, Dubai-U.A.E
               </p>
             </div>
           </div>
@@ -53,7 +57,10 @@ const OurAddress = () => {
               <div className="text-[16px] text-gray-400 font-bold">
                 Call To Us
               </div>
-              <p className="mb-4 font-semibold text-[12px] mt-1">0581035772</p>
+              <p className="mb-4 font-semibold text-[12px] mt-1">
+                WhatsApp, mobile (0529751028) <br />
+                landline (042241592)
+              </p>
             </div>
           </div>
           <div className="flex items-start space-x-3">
@@ -67,7 +74,27 @@ const OurAddress = () => {
                 Email To Us
               </div>
               <p className="mb-4 font-semibold text-[12px] mt-1">
-                info@arianashippingline.com
+                info@arianashippingline.com{" "}
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start space-x-3">
+            <div
+              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
+              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
+            >
+              <FaBusinessTime />
+            </div>
+            <div>
+              <div className="text-[16px] text-gray-400 font-bold">
+                Business Hours
+              </div>
+              <p className="mb-4 font-semibold text-[12px] mt-1">
+                Monday to Friday : 9 am to 6 pm
+                <br />
+                Saturday: 9 am to 2 pm
+                <br />
+                Sunday: Closed
               </p>
             </div>
           </div>
@@ -90,7 +117,7 @@ const OurAddress = () => {
             <input
               type="text"
               placeholder="Enter First Name"
-              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-4 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="text"
@@ -104,10 +131,10 @@ const OurAddress = () => {
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-              rows="2"
+              className="w-full p-2  border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              rows="5"
             ></textarea>
-            <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-4">
+            <div className="flex flex-col lg:flex-row items-center  space-y-4 lg:space-y-0 lg:space-x-4">
               <div className="flex items-center space-x-2">
                 <input
                   type="checkbox"
