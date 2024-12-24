@@ -6,7 +6,7 @@ const ContactUs = () => {
       <div className="my-12">
         <div className="lg:px-44 px-6 py-10 text-black bg-[#0A0A0A08] ">
           <h3 className="font-bold text-4xl mt-5 mb-6 text-[#000000B2]">
-            ABOUT US
+            CONTACT US
           </h3>
           <p className="font-semibold text-lg text-[#000000B2]">
             We’re glad you’re interested in reaching out to ARIANA SHIPPING LINE
@@ -20,11 +20,11 @@ const ContactUs = () => {
             of our locations:
           </p>
 
-          <b className="underline text-xl font-bold my-4">
+          <b className="underline text-xl font-bold my-4 text-gray-700">
             {" "}
             Branches in the USA
           </b>
-          <ul className="my-4">
+          <ul className="my-4 text-gray-700">
             <li className="">&#8226; Los Angeles, CA</li>
             <li>&#8226; Georgia, GA</li>
             <li>&#8226; A Texas, TX</li>

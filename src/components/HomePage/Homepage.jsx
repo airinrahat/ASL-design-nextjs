@@ -8,15 +8,16 @@ import Barnch from "./Barnch";
 // import OurPartner from "./OurPartner";
 import Review from "./Review";
 import Partner from "@/components/HomePage/partner/Partner";
-import OurService from "./OurService";
+import OurService from "./ourServices/OurService";
+// import OurService from "./OurService";
 // import Certified from "./certififd/Certified";
 
 const Homepage = () => {
   return (
     <div className="bg-white">
       <ServiceBanner />
-
       <OurService />
+      {/* <OurService /> */}
       <SubmitMessage />
       <Partner />
       {/* <OurPartner /> */}
