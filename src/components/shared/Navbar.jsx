@@ -120,11 +120,20 @@ export default function Navbar() {
             "linear-gradient(90deg, #507491 3.5%, #274A66 22%, #1F345D 49%, #274A66 75%, #4D718E 98.5%)",
         }}
       > */}
-      <div
+      {/* <div
         className="flex justify-center items-center py-2"
         style={{
           background:
             "linear-gradient(90deg, #5E7E96 3.5%, #3D5C79 22%, #2E4768 49%, #3D5C79 75%, #58738E 98.5%)",
+        }}
+      >
+        <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
+      </div> */}
+      <div
+        className="flex justify-center items-center py-2"
+        style={{
+          background:
+            "linear-gradient(90deg, #51788E 3.5%, #3E6078 22%, #2F4E66 49%, #3E6078 75%, #4E6C83 98.5%)",
         }}
       >
         <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />

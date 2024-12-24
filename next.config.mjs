@@ -5,7 +5,7 @@ const nextConfig = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["i.ibb.co"], // এখানে চিত্রের হোস্টনেম যোগ করুন
+    domains: ["i.ibb.co"],
   },
 };
 

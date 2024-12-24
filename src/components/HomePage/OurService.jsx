@@ -70,8 +70,9 @@ const OurService = () => {
               </div>{" "}
               <h3 className="text-xl font-bold my-2">LOADING</h3>
               <p className="text-sm text-center">
-                Efficient shipping and delivery services across international
-                borders.
+                Your vehicle is securely loaded into a shipping container,
+                utilizing advanced techniques to prevent any movement during
+                transit, thereby minimizing the risk of damage.
               </p>
             </div>
           </div>
