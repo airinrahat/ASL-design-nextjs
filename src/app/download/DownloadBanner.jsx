@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
-import download from "../../../public/app download section.png";
-import downIcon from "../../../public/attachment 1.png";
+import download from "../../../public/images/app download section.png";
+import downIcon from "../../../public/images/attachment 1.png";
 
 const DownloadBanner = () => {
   return (

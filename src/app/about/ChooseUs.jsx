@@ -8,7 +8,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import ship from "../../../public/sss.jpg";
+import ship from "../../../public/images/sss.jpg";
 
 const ChooseUs = () => {
   return (
@@ -32,7 +32,7 @@ const ChooseUs = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 lg:mx-20  gap-4">
+          <div className="grid md:grid-cols-3   gap-5">
             {[
               {
                 title: "Expertise and Experience",
@@ -78,7 +78,7 @@ const ChooseUs = () => {
               },
             ].map((card, index) => (
               <div
-                className="w-64 border border-gray-300 rounded-md shadow-lg"
+                className=" border border-gray-300 rounded-md shadow-lg"
                 key={index}
               >
                 <div className="p-2 flex flex-col items-center">

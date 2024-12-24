@@ -23,7 +23,7 @@ import {
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoTiktok } from "react-icons/io5";
 
-import img from "../../../public/asl-log.GIF";
+import img from "../../../public/images/asl-log.GIF";
 
 export default function Navbar() {
   useEffect(() => {

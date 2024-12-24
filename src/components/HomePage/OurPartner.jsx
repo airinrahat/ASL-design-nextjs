@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logo1 from "../../../public/logo2.png";
-import logo2 from "../../../public/logo3.png";
-import logo3 from "../../../public/evergreen.jpg";
-import logo4 from "../../../public/yangmine.png";
-import logo5 from "../../../public/hmm.png";
-import logo6 from "../../../public/cma2.png";
+import logo1 from "../../../public/images/logo2.png";
+import logo2 from "../../../public/images/logo3.png";
+import logo3 from "../../../public/images/evergreen.jpg";
+import logo4 from "../../../public/images/yangmine.png";
+import logo5 from "../../../public/images/hmm.png";
+import logo6 from "../../../public/images/cma2.png";
 
 const OurPartner = () => {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import icon1 from "../../../public/Frame 15.png";
-import icon2 from "../../../public/Frame 17.png";
-import icon3 from "../../../public/Frame 18.png";
-import icon4 from "../../../public/Frame 19.png";
+import icon1 from "../../../public/images/Frame 15.png";
+import icon2 from "../../../public/images/Frame 17.png";
+import icon3 from "../../../public/images/Frame 18.png";
+import icon4 from "../../../public/images/Frame 19.png";
 
 const Barnch = () => {
   return (
