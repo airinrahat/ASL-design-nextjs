@@ -24,15 +24,15 @@ const ChooseUs = () => {
               Why Choose Us
             </h2>
 
-            <p className="lg:text-xl text-lg text-center text-[#00000080]">
+            <p className="lg:text-xl text-lg text-center mb-8 text-[#00000080]">
               Ariana Shipping LLC Company is committed to building a true and
-              long-lasting relationship with the customers, providing reliable
-              and sustainable shipping services which result an excellent client
-              satisfaction.
+              long-lasting relationship <br /> with the customers, providing
+              reliable and sustainable shipping services <br /> which result an
+              excellent client satisfaction.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-3 lg:mx-20  gap-4">
             {[
               {
                 title: "Expertise and Experience",
@@ -77,7 +77,10 @@ const ChooseUs = () => {
                   "We understand the importance of securely transporting your valuable assets. That's why we haveimplemented strict security measures and best practices to ensure the safe handling and transportation of used cars. You can trust us to protect your vehicles throughout the entire shipping process.",
               },
             ].map((card, index) => (
-              <div className="w-full" key={index}>
+              <div
+                className="w-64 border border-gray-300 rounded-md shadow-lg"
+                key={index}
+              >
                 <div className="p-2 flex flex-col items-center">
                   <div
                     className={`${card.bgColor} text-gray-800 rounded-full flex justify-center items-center w-20 h-20 text-center mb-4`}
@@ -87,14 +90,10 @@ const ChooseUs = () => {
                       className="text-white text-4xl"
                     />
                   </div>
-                  <h2
-                    className="text-base font-bold text-center mb-2 text-[#00000080]
-"
-                  >
+                  <h2 className="text-base font-bold text-center mb-2 text-[#00000080]">
                     {card.title}
                   </h2>
-                  {/* <p className="text-sm text-center">{card.description}</p> */}
-                  <p className="text-sm text-center text-gray-700 shadow-md shadow-gray-100 rounded-md p-2">
+                  <p className="text-sm text-center text-gray-700  p-2">
                     {card.description}
                   </p>
                 </div>

@@ -42,7 +42,7 @@ const Partner = () => {
             }}
           >
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/qDjR9w6/msc.jpg"
                   alt="MSC Logo"
@@ -53,7 +53,7 @@ const Partner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/q01MF5C/logo2.png"
                   alt="Logo 2"
@@ -64,7 +64,7 @@ const Partner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/3YFJ0hT/evergreen.jpg"
                   alt="Evergreen"
@@ -75,7 +75,7 @@ const Partner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/D746y7P/yangmine.png"
                   alt="Yangmine"
@@ -86,7 +86,7 @@ const Partner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/VTZMV1K/hmm.png"
                   alt="HMM Logo"
@@ -97,7 +97,7 @@ const Partner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center w-32 h-32">
                 <Image
                   src="https://i.ibb.co/SKFysJm/cma2.png"
                   alt="CMA Logo"

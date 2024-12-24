@@ -3,7 +3,7 @@ import image from "../../../public/sh.png";
 
 const SubmitMessage = () => {
   return (
-    <div className="bg-white my-12">
+    <div className="bg-white my-20 ">
       <section className="flex flex-col md:flex-col lg:flex-row bg-white justify-center items-center my-2 gap-20 mb-4">
         <div className="flex flex-col md:flex-col lg:flex-row items-stretch lg:mx-28 lg:gap-32 w-full">
           {/* Quote Form */}

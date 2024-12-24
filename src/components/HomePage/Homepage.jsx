@@ -5,12 +5,11 @@ import CallUs from "./CallUs";
 import SubmitMessage from "./SubmitMessage";
 import ServiceBanner from "./ServiceBanner";
 import Barnch from "./Barnch";
-// import OurPartner from "./OurPartner";
 import Review from "./Review";
 import Partner from "@/components/HomePage/partner/Partner";
 import OurService from "./ourServices/OurService";
 // import OurService from "./OurService";
-// import Certified from "./certififd/Certified";
+import Certified from "./certififd/Certified";
 
 const Homepage = () => {
   return (
@@ -20,8 +19,8 @@ const Homepage = () => {
       {/* <OurService /> */}
       <SubmitMessage />
       <Partner />
-      {/* <OurPartner /> */}
-      {/* <Certified /> */}
+
+      <Certified />
       <Barnch />
       <Review />
 
