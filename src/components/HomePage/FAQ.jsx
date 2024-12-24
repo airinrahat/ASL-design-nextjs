@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import faq from "../../../public/faq.png";
+import faq from "../../../public/images/faq.png";
 
 const FAQ = () => {
   return (

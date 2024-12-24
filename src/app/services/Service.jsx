@@ -3,11 +3,11 @@ import { FaServicestack } from "react-icons/fa";
 
 import React from "react";
 import Image from "next/image";
-import imag from "../../../public/service-h.png";
-import group1 from "../../../public/Group.png";
-import group2 from "../../../public/Vector.png";
-import group3 from "../../../public/Group 2.png";
-import group4 from "../../../public/Vector1.png";
+import imag from "../../../public/images/service-h.png";
+import group1 from "../../../public/images/Group.png";
+import group2 from "../../../public/images/Vector.png";
+import group3 from "../../../public/images/Group 2.png";
+import group4 from "../../../public/images/Vector1.png";
 import { FcServices } from "react-icons/fc";
 
 const Service = () => {

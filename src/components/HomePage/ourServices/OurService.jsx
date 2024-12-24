@@ -8,11 +8,11 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "./OurService.css";
 import Image from "next/image";
 
-import group3 from "../../../../public/Group 2.png";
+import group3 from "../../../../public/images/Group2.png";
 import { GrServices } from "react-icons/gr";
-import group4 from "../../../../public/Vector1.png";
-import group1 from "../../../../public/Group.png";
-import group2 from "../../../../public/Vector.png";
+import group4 from "../../../../public/images/Vector1.png";
+import group1 from "../../../../public/images/Group.png";
+import group2 from "../../../../public/images/Vector.png";
 
 const OurService = () => {
   return (

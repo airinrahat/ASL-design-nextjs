@@ -58,23 +58,6 @@ const Certified = () => {
                 height={100}
               />
             </SwiperSlide>
-
-            <SwiperSlide>
-              <Image
-                src="https://i.ibb.co/233rSX6/cma.jpg"
-                alt="Swiper Image"
-                width={200}
-                height={100}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="https://i.ibb.co/233rSX6/cma.jpg"
-                alt="Swiper Image"
-                width={200}
-                height={100}
-              />
-            </SwiperSlide>
           </Swiper>
         </div>
       </div>

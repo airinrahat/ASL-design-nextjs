@@ -8,10 +8,10 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import img1 from "../../../public/Property 1=1.png";
-import img2 from "../../../public/Property 1=2.png";
-import img3 from "../../../public/Property 1=3.png";
-import img4 from "../../../public/Property 1=4.png";
+import img1 from "../../../public/images/Property 1=1.png";
+import img2 from "../../../public/images/Property 1=2.png";
+import img3 from "../../../public/images/Property 1=3.png";
+import img4 from "../../../public/images/Property 1=4.png";
 import { FaBusinessTime } from "react-icons/fa";
 
 const OurAddress = () => {

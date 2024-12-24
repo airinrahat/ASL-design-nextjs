@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 
-import iconOne from "../../../public/footer icon.png";
-import iconTwo from "../../../public/footer icon (1).png";
-import iconThree from "../../../public/footer icon (2).png";
-import apps from "../../../public/Apps.png";
+import iconOne from "../../../public/images/footer icon.png";
+import iconTwo from "../../../public/images/footer icon (1).png";
+import iconThree from "../../../public/images/footer icon (2).png";
+import apps from "../../../public/images/Apps.png";
 import { SlUserFollow } from "react-icons/sl";
 
 const CallUs = () => {

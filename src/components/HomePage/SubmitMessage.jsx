@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "../../../public/sh.png";
+import image from "../../../public/images/sh.png";
 
 const SubmitMessage = () => {
   return (

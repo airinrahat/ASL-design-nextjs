@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { FcGoogle } from "react-icons/fc";
-import user1 from "../../../public/person=1.png";
-import user2 from "../../../public/person=2.png";
-import user3 from "../../../public/person=3.png";
-import user4 from "../../../public/person=4.png";
+import user1 from "../../../public/images/person=1.png";
+import user2 from "../../../public/images/person=2.png";
+import user3 from "../../../public/images/person=3.png";
+import user4 from "../../../public/images/person=4.png";
 
 const Review = () => {
   return (
