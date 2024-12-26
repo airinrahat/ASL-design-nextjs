@@ -10,6 +10,7 @@ import Partner from "@/components/HomePage/partner/Partner";
 import OurService from "./ourServices/OurService";
 // import OurService from "./OurService";
 import Certified from "./certififd/Certified";
+import SubmitFeedback from "./SubmitFeedback";
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
       <Certified />
       <Barnch />
       <Review />
+      <SubmitFeedback />
 
       <FAQ />
       <CallUs />

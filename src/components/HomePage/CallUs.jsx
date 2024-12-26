@@ -35,8 +35,8 @@ const CallUs = () => {
               Get Intouch
             </h3>
 
-            <p className="text-xs text-[#9780BD]">099435372</p>
-            <p className="text-xs text-[#9780BD]">042241372</p>
+            <p className="text-xs text-gray-400">099435372</p>
+            <p className="text-xs text-gray-400">042241372</p>
           </div>
         </div>
 
@@ -56,11 +56,11 @@ const CallUs = () => {
             >
               Opening hours
             </h3>
-            <p className="text-xs text-[#9780BD] ">Monday-Friday</p>
-            <p className="text-xs text-[#9780BD]">8:00 am - 5:00 pm</p>
-            <p className="text-xs text-[#9780BD]">Saturday</p>
-            <p className="text-xs text-[#9780BD]">8:00 am - 1:00 pm</p>
-            <p className="text-xs text-[#9780BD]">Sunday Closed</p>
+            <p className="text-xs text-gray-400 ">Monday-Friday</p>
+            <p className="text-xs text-gray-400">8:00 am - 5:00 pm</p>
+            <p className="text-xs text-gray-400">Saturday</p>
+            <p className="text-xs text-gray-400">8:00 am - 1:00 pm</p>
+            <p className="text-xs text-gray-400">Sunday Closed</p>
           </div>
         </div>
 
@@ -81,8 +81,8 @@ const CallUs = () => {
               {" "}
               Locations
             </h3>
-            <p className="text-xs text-[#9780BD]">Dubai</p>
-            <p className="text-xs text-[#9780BD]">United Arab Emirates</p>
+            <p className="text-xs text-gray-400">Dubai</p>
+            <p className="text-xs text-gray-400">United Arab Emirates</p>
           </div>
         </div>
         {/* Follow us on */}
@@ -100,7 +100,7 @@ const CallUs = () => {
               Follow us on
             </h3>
 
-            <div className="flex space-x-3 text-[#9780BD]">
+            <div className="flex space-x-3 text-gray-400">
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
