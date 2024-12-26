@@ -3,38 +3,43 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div>
-      <div className="my-12">
-        <div className="lg:px-44 px-6 py-10 text-black bg-[#0A0A0A08] ">
-          <h3 className="font-bold text-4xl mt-5 mb-6 text-[#000000B2]">
-            CONTACT US
+      <div className="my-10">
+        <div className="lg:px-40 px-6 py-16 bg-[#F9FAFB] text-gray-800 shadow-xl rounded-lg">
+          <h3 className="font-extrabold text-5xl mb-10 text-center text-[#1C3A5F] uppercase tracking-wide">
+            Contact Us
           </h3>
-          <p className="font-semibold text-lg text-[#000000B2]">
-            We’re glad you’re interested in reaching out to ARIANA SHIPPING LINE
-            LLC. Contacting us is easy, and we’re here to assist you with any
+
+          <p className="text-lg leading-relaxed text-justify mb-6">
+            We’re glad you’re interested in reaching out to{" "}
+            <span className="text-[#2A9D8F] font-bold">
+              Ariana Shipping Line LLC
+            </span>
+            . Contacting us is easy, and we’re here to assist you with any
             inquiries or shipping needs you may have. Here’s the information you
             need to get in touch with us:
           </p>
 
-          <p className="my-4 font-semibold text-lg text-gray-700">
+          <p className="text-lg leading-relaxed text-justify mb-8">
             We have multiple branches to serve you better. Here are the details
             of our locations:
           </p>
 
-          <b className="underline text-xl font-bold my-4 text-gray-700">
-            {" "}
-            Branches in the USA
-          </b>
-          <ul className="my-4 text-gray-700">
-            <li className="">&#8226; Los Angeles, CA</li>
-            <li>&#8226; Georgia, GA</li>
-            <li>&#8226; A Texas, TX</li>
-            <li>&#8226; Baltimore, BAL</li>
-            <li>&#8226; New Jersey, NJ</li>
-          </ul>
+          <div className="space-y-6">
+            <h4 className="text-2xl font-bold text-[#1C3A5F] underline">
+              Branches in the USA
+            </h4>
+            <ul className="list-disc list-inside text-lg space-y-2">
+              <li>Los Angeles, CA</li>
+              <li>Georgia, GA</li>
+              <li>Texas, TX</li>
+              <li>Baltimore, BAL</li>
+              <li>New Jersey, NJ</li>
+            </ul>
+          </div>
 
-          <p className="font-semibold text-base text-[#000000B2]">
+          <p className="mt-8 text-lg leading-relaxed text-gray-700">
             Please note that our branches in the USA operate according to their
-            respective local timings and working days
+            respective local timings and working days.
           </p>
         </div>
       </div>
