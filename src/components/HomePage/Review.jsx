@@ -139,28 +139,24 @@ const Review = () => {
         </div>
       </section>
 
-      <section className="bg-gray-100  lg:mx-40 my-10">
+      {/* <section className="bg-gray-100  lg:mx-40 my-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
-          {/* card one  */}
           <div className="py-1 w-80 text-center font-bold text-xl text-gray-500">
             Name...
           </div>{" "}
-          {/* card two  */}
           <div className="py-1 w-80  text-center font-bold text-xl text-gray-500">
             {" "}
             Services...
           </div>
-          {/* card three  */}
           <div className="py-1 w-80  text-center font-bold text-xl text-gray-500">
             {" "}
             Feedback...
           </div>{" "}
-          {/* card four  */}
           <div className="bg-[#131F37] text-center font-bold text-xl text-white text-opacity-90 py-1">
             Submit Feedback
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
