@@ -166,14 +166,14 @@ const OurAddress = () => {
         <div className="space-y-4">
           <div className="w-full h-80  overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.556393826529!2d90.4130510744011!3d23.810331090124584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77a7a2b5d91%3A0xf18bf32d224aa3cb!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1690882799032!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.8094111539254!2d55.325214815281546!3d25.257568783887157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f684b0be31f7f%3A0x1b7b7f60fd5b2e5b!2sCenturion%20Star%2C%20Port%20Saeed%2C%20Opp.%20Deira%20City%20Center%2C%20Near%20Flora%20Creek%20Hotel%2C%20Deira%2C%20Dubai%2C%20UAE!5e0!3m2!1sen!2sin!4v1679525391975!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const OurService = () => {
       {/* Section Title */}
       <div className="mb-5 text-center flex flex-col items-center justify-center">
         {/* Icon */}
-        <div className="flex items-center justify-center py-5 px-5 mb-3 bg-[#F4F4F4] rounded-full shadow-md">
+        <div className="flex items-center justify-center py-5 px-5 mb-3  ">
           <GrServices className="text-[#2A9D8F] text-[5rem]" />
         </div>
 
