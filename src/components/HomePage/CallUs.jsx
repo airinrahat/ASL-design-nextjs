@@ -7,153 +7,122 @@ import iconTwo from "../../../public/images/footer icon (1).png";
 import iconThree from "../../../public/images/footer icon (2).png";
 import apps from "../../../public/images/Apps.png";
 import { SlUserFollow } from "react-icons/sl";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 
 const CallUs = () => {
   return (
     <div>
       <section
-        className="contact-info flex flex-col  lg:flex-row lg:justify-evenly justify-center items-center text-white py-16 px-6"
+        className="contact-info flex flex-col lg:flex-row lg:justify-evenly justify-center items-center text-white py-16 px-6"
         style={{
           background:
-            "linear-gradient(87.18deg, #131F37 0%, #14466F 35.44%, #15588E 76.87%, #1969AA 99.33%)",
+            "linear-gradient(90deg, #0F2C45 0%, #1C5375 50%, #2880A7 100%)",
         }}
       >
         {/* Call Center Section */}
-        <div className="flex items-center space-x-4 mb-8  lg:mb-0">
-          <div>
-            <Image
-              src={iconOne}
-              alt="Phone icon"
-              width={35}
-              height={35}
-              className="text-[#0F465B]"
-            />
-            <h3
-              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
-"
-            >
-              Get Intouch
-            </h3>
-
-            <p className="text-xs text-gray-400">099435372</p>
-            <p className="text-xs text-gray-400">042241372</p>
-          </div>
+        <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
+          <Image
+            src={iconOne}
+            alt="Phone icon"
+            width={50}
+            height={50}
+            className="mb-3"
+          />
+          <h3 className="text-lg font-semibold text-[#D1E8F2]">Get In Touch</h3>
+          <p className="text-sm text-gray-300 mt-2">099435372</p>
+          <p className="text-sm text-gray-300">042241372</p>
         </div>
 
         {/* Working Hours Section */}
-        <div className="flex items-center space-x-4 mb-8 lg:mt-8 lg:mb-0">
-          <div>
-            <Image
-              src={iconTwo}
-              alt="Working hours icon"
-              width={35}
-              height={35}
-              className="text-[#0F465B]"
-            />
-            <h3
-              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
-"
-            >
-              Opening hours
-            </h3>
-            <p className="text-xs text-gray-400 ">Monday-Friday</p>
-            <p className="text-xs text-gray-400">8:00 am - 5:00 pm</p>
-            <p className="text-xs text-gray-400">Saturday</p>
-            <p className="text-xs text-gray-400">8:00 am - 1:00 pm</p>
-            <p className="text-xs text-gray-400">Sunday Closed</p>
-          </div>
+        <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
+          <Image
+            src={iconTwo}
+            alt="Working hours icon"
+            width={50}
+            height={50}
+            className="mb-3"
+          />
+          <h3 className="text-lg font-semibold text-[#D1E8F2]">
+            Opening Hours
+          </h3>
+          <p className="text-sm text-gray-300 mt-2">
+            Monday-Friday: 8:00 am - 5:00 pm
+          </p>
+          <p className="text-sm text-gray-300">Saturday: 8:00 am - 1:00 pm</p>
+          <p className="text-sm text-gray-300">Sunday: Closed</p>
         </div>
 
         {/* Location Section */}
-        <div className="flex items-center space-x-4 mb-8 lg:mb-0">
-          <div>
-            <Image
-              src={iconThree}
-              alt="Location icon"
-              width={35}
-              height={35}
-              className="text-[#0F465B]"
-            />
-            <h3
-              className="text-base font-bold mt-3 mb-4  text-[18px] leading-[21.78px]
-"
-            >
-              {" "}
-              Locations
-            </h3>
-            <p className="text-xs text-gray-400">Dubai</p>
-            <p className="text-xs text-gray-400">United Arab Emirates</p>
-          </div>
+        <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
+          <Image
+            src={iconThree}
+            alt="Location icon"
+            width={50}
+            height={50}
+            className="mb-3"
+          />
+          <h3 className="text-lg font-semibold text-[#D1E8F2]">Locations</h3>
+          <p className="text-sm text-gray-300 mt-2">Dubai</p>
+          <p className="text-sm text-gray-300">United Arab Emirates</p>
         </div>
-        {/* Follow us on */}
-        <div className="flex items-center space-x-4 mb-8 lg:mb-0">
-          <div>
-            <Image
-              src={iconOne}
-              alt="Phone icon"
-              width={35}
-              height={35}
-              className="text-[#0F465B]"
-            />
 
-            <h3 className="text-base font-bold mt-3 mb-4 text-[18px] leading-[21.78px]">
-              Follow us on
-            </h3>
-
-            <div className="flex space-x-3 text-gray-400">
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="fill-current"
-                >
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-                </svg>
-              </a>
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="fill-current"
-                >
-                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                </svg>
-              </a>
-              <a href="#">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="fill-current"
-                >
-                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                </svg>
-              </a>
-            </div>
+        {/* Follow Us Section */}
+        <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
+          <Image
+            src={iconOne}
+            alt="Follow us icon"
+            width={50}
+            height={50}
+            className="mb-3"
+          />
+          <h3 className="text-lg font-semibold text-[#D1E8F2]">Follow Us</h3>
+          <div className="flex space-x-4 mt-3">
+            {/* Facebook */}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i className="text-2xl">
+                <FaFacebookF />
+              </i>
+            </a>
+            {/* Twitter */}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i className="text-2xl">
+                <FaTwitter />
+              </i>
+            </a>
+            {/* Instagram */}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i className="text-2xl">
+                <FaInstagram />
+              </i>
+            </a>
+            {/* LinkedIn */}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <i className="text-2xl">
+                <FaLinkedinIn />
+              </i>
+            </a>
           </div>
         </div>
 
         {/* Download Apps Section */}
-        <div className="flex items-center space-x-4">
-          <div>
-            <h3 className="text-sm  mb-1 font-[600] text-[20px] leading-[26.63px]">
-              Downloads
-            </h3>
-            <a href="#" className="text-xs">
-              <Image
-                src={apps}
-                alt="GET it on Google Play"
-                width={200}
-                height={200}
-                className="w-42 h-22 "
-              />
-            </a>
-          </div>
+        <div className="flex flex-col items-center text-center">
+          <h3 className="text-lg font-semibold text-[#D1E8F2] mb-3">
+            Downloads
+          </h3>
+          <a href="#" className="block">
+            <Image
+              src={apps}
+              alt="GET it on Google Play"
+              width={150}
+              height={50}
+              className="hover:opacity-90 transition"
+            />
+          </a>
         </div>
       </section>
     </div>
