@@ -5,7 +5,7 @@ const SubmitMessage = () => {
   return (
     <div className="bg-white my-20 ">
       <section className="flex flex-col md:flex-col lg:flex-row bg-white justify-center items-center my-2 gap-20 mb-4">
-        <div className="flex flex-col md:flex-col lg:flex-row items-stretch lg:mx-28 lg:gap-32 w-full">
+        <div className="flex flex-col md:flex-col lg:flex-row items-stretch max-w-screen-xl mx-auto px-4 lg:gap-32 w-full">
           {/* Quote Form */}
           <div className="bg-[#131F37] text-white py-[24px] px-12 w-full lg:w-1/2 rounded">
             <form className="lg:px-8">
@@ -115,12 +115,20 @@ const SubmitMessage = () => {
         </div>
       </section>
 
-      <div
+      {/* <div
         className="relative w-full h-[500px] bg-cover bg-center mt-20"
         style={{
           backgroundImage: "url(https://i.ibb.co.com/y5J02w3/image.png)",
         }}
-      ></div>
+      ></div> */}
+      <div
+        className="relative w-full h-[500px] bg-cover bg-center mt-20  shadow-xl overflow-hidden"
+        style={{
+          backgroundImage: "url(https://i.ibb.co.com/y5J02w3/image.png)",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/20"></div>
+      </div>
     </div>
   );
 };

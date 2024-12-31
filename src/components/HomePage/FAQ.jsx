@@ -8,64 +8,64 @@ const FAQ = () => {
   return (
     <div>
       <div className="bg-gray-100 pt-10 pb-20">
-        <div className=" lg:mx-40 ">
-          <div className=" justify-center items-center grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className=" max-w-screen-xl mx-auto ">
+          <div className=" justify-center items-center px-4 grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
-              <div class="-m-1 flex flex-wrap md:-m-2 ">
-                <div class="flex w-1/2 flex-wrap">
-                  <div class="w-1/2 p-1 md:p-2">
+              <div className="-m-1 flex flex-wrap md:-m-2  ">
+                <div className="flex w-1/2 flex-wrap">
+                  <div className="w-1/2 p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400 "
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400 "
                       src="https://i.ibb.co/PwpjScn/bg3.png"
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
                       src="https://i.ibb.co/TbbZ9Rr/contact.jpg"
                     />
                   </div>
-                  <div class="w-full p-1 md:p-2">
+                  <div className="w-full p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
                       src="https://i.ibb.co/8cbRMc4/ship.jpg"
                     />
                   </div>
                 </div>
-                <div class="flex w-1/2 flex-wrap">
-                  <div class="w-full p-1 md:p-2">
+                <div className="flex w-1/2 flex-wrap">
+                  <div className="w-full p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl  hover:shadow-orange-400 "
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl  hover:shadow-orange-400 "
                       src="https://i.ibb.co/Y3tM7LL/sssip.jpg"
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
                       src="https://i.ibb.co/ZTLF5mR/Group-1.png"
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <Image
                       height={200}
                       width={200}
                       alt="gallery"
-                      class="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
+                      className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
                       src="https://i.ibb.co/7z3s0s5/HD-wallpaper-take-off-plane-sunset-view.jpg"
                     />
                   </div>
@@ -77,13 +77,13 @@ const FAQ = () => {
                 <p className="text-center font-medium text-blue-600 mb-2">
                   Still have questions ?
                 </p>
-                <h1 className="text-center text-2xl font-bold uppercase">
+                <h1 className="text-center text-2xl text-black font-bold uppercase">
                   most commonly asked questions
                 </h1>
               </div>
               <Accordion variant="splitted" className="px-0">
                 <AccordionItem
-                  className="font-bold text-lg text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
+                  className="font-bold text-lg  text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
                   key="1"
                   aria-label="Accordion 1"
                   title="How does the car shipping process work?"
@@ -120,7 +120,7 @@ const FAQ = () => {
                   </p>
                 </AccordionItem>
                 <AccordionItem
-                  className="font-bold text-lg text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
+                  className="font-bold text-lg  text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
                   key="3"
                   aria-label="Accordion 3"
                   title="  What is the difference between open and enclosed car transport?"

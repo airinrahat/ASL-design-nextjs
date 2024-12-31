@@ -7,12 +7,12 @@ import user4 from "../../../public/images/person=4.png";
 
 const Review = () => {
   return (
-    <div>
-      <h3 className="text-gray-600 text-3xl font-bold mt-5 lg:ml-[170px]">
+    <div className="max-w-screen-xl mx-auto">
+      <h3 className="text-gray-600 text-3xl   font-bold mt-5 ">
         Client Feedback / Reviews
       </h3>
-      <section className="bg-gray-100 py-10 lg:mx-40 lg:px-12 my-10 rounded-md">
-        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <section className="bg-gray-100 py-10  my-10 rounded-md">
+        <div className="lg:px-4 md:px-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* card one  */}
           <div className="bg-white border rounded-xl shadow-lg p-6 w-full">
             <div className="flex justify-center mb-4">

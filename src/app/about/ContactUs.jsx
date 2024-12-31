@@ -4,19 +4,20 @@ const ContactUs = () => {
   return (
     <div className="my-12">
       <section
-        className="contact-us bg-image bg-cover bg-center py-16"
+        className="contact-us bg-image bg-cover bg-fixed bg-center py-20 relative"
         style={{
-          backgroundImage: "url(https://i.ibb.co.com/TbbZ9Rr/contact.jpg)",
+          backgroundImage: "url(https://i.ibb.co/TbbZ9Rr/contact.jpg)",
         }}
       >
-        <div className="container mx-auto text-center">
-          <h2 className="text-5xl font-bold text-white mb-5 mt-5">
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="container mx-auto relative z-10 text-center px-4">
+          <h2 className="lg:text-5xl text-3xl font-extrabold text-white mb-6">
             Contact Us
           </h2>
-          <p className="text-lg mb-8 text-white ">
-            Get the best quotation for your shipment
+          <p className="text-xl text-white mb-8">
+            Get the best quotation for your shipment today.
           </p>
-          <button className="bg-teal-500 hover:bg-teal-600 text-white mb-8 font-bold py-2 px-4 rounded-lg">
+          <button className="px-6 py-3 bg-gradient-to-r from-teal-500 to-teal-700 hover:from-teal-600 hover:to-teal-800 text-white font-bold text-lg rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
             Contact Us Now
           </button>
         </div>
