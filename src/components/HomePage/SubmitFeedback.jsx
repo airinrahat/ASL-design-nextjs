@@ -96,7 +96,7 @@ const SubmitFeedback = () => {
     //   </div>
     // </section>
 
-    <section className="bg-gray-100 lg:mx-40 my-10 py-6">
+    <section className="bg-gray-100 max-w-screen-xl mx-auto px-4 rounded-md my-10 py-6">
       {/* Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 mx-3">
         {/* Card One - Name */}

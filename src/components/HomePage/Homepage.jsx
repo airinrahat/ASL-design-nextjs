@@ -11,6 +11,7 @@ import OurService from "./ourServices/OurService";
 // import OurService from "./OurService";
 import Certified from "./certififd/Certified";
 import SubmitFeedback from "./SubmitFeedback";
+import ScrollUp from "./scroll/ScrollUp";
 
 const Homepage = () => {
   return (
@@ -20,7 +21,6 @@ const Homepage = () => {
       {/* <OurService /> */}
       <SubmitMessage />
       <Partner />
-
       <Certified />
       <Barnch />
       <Review />
@@ -28,6 +28,7 @@ const Homepage = () => {
 
       <FAQ />
       <CallUs />
+      <ScrollUp />
     </div>
   );
 };

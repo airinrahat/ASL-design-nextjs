@@ -60,30 +60,30 @@ export default function Navbar() {
           </div>
 
           {/* Contact Info */}
-          <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <div className="flex items-center space-x-1">
-              <FaWhatsapp className="text-green-500  w-6 h-6 sm:w-5 sm:h-5" />
+          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
+            <div className="flex items-center space-x-1  lg:flex">
+              <FaWhatsapp className="text-green-500 w-6 h-6 sm:w-5 sm:h-5" />
               <span className="text-xs">0581035771</span>
             </div>
-            <div className="flex items-center space-x-1">
+            <div className="flex items-center space-x-1  lg:flex">
               <FcPhone className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
               <span className="text-xs text-gray-700">0529751028</span>
             </div>
 
-            <div className="flex items-center space-x-1">
+            <div className="flex items-center space-x-1  lg:flex">
               <TbDeviceLandlinePhone className="w-6 h-6 sm:w-5 sm:h-5 text-blue-600" />
               <span className="text-xs text-gray-700">042241592</span>
             </div>
 
-            <div className="flex items-center space-x-1">
+            <div className="flex md:hidden xl:flex items-center space-x-1">
               <MailIcon className="w-6 h-6 sm:w-5 sm:h-5 text-red-600" />
               <span className="text-xs text-gray-700">
                 info@arianshippingline.com
               </span>
             </div>
 
-            <div className="flex items-center space-x-1">
-              <LocationMarkerIcon className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
+            <div className="flex md:hidden xl:flex items-center space-x-1">
+              <LocationMarkerIcon className="w-6 h-6 text-green-600" />
               <span className="text-xs text-gray-700">
                 Dubai, United Arab Emirates
               </span>
@@ -91,13 +91,13 @@ export default function Navbar() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex items-center space-x-4 text-black text-sm">
+          <div className="flex items-center space-x-4 text-black text-sm px-2">
             <FaLinkedinIn className="cursor-pointer font-normal" />
             <FaFacebookF className="cursor-pointer" />
             <RiInstagramFill className="cursor-pointer" />
             <FaTwitter className="cursor-pointer" />
 
-            <IoLogoTiktok className="cursor-pointer" />
+            <IoLogoTiktok className="cursor-pointer " />
           </div>
 
           <div className="relative">
@@ -113,22 +113,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* <div
-        className="flex justify-center items-center py-2"
-        style={{
-          background:
-            "linear-gradient(90deg, #507491 3.5%, #274A66 22%, #1F345D 49%, #274A66 75%, #4D718E 98.5%)",
-        }}
-      > */}
-      {/* <div
-        className="flex justify-center items-center py-2"
-        style={{
-          background:
-            "linear-gradient(90deg, #5E7E96 3.5%, #3D5C79 22%, #2E4768 49%, #3D5C79 75%, #58738E 98.5%)",
-        }}
-      >
-        <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
-      </div> */}
       <div
         className="flex justify-center items-center py-2"
         style={{
@@ -139,7 +123,7 @@ export default function Navbar() {
         <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
       </div>
 
-      <nav className="bg-gray-300 text-gray-700 lg:pl-44">
+      <nav className="bg-gray-300 text-gray-700 xl:pl-44 pl-16">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <div className="hidden lg:flex space-x-10">
@@ -228,15 +212,12 @@ export default function Navbar() {
             <p href="#" className="py-2 text-white font-bold text-center">
               Request a Quote
             </p>
-            <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white hidden md:hidden lg:block"></div>
-            <button className=" text-xl px-6 text-white">
+            <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white  hidden xl:flex "></div>
+            <button className=" text-xl px-6 text-white flex md:hidden xl:flex">
               <FontAwesomeIcon icon={faSearch} />
             </button>
-            <div className="h-1 w-full lg:h-16 lg:w-[0.5px] bg-gray-600 hidden md:hidden lg:block"></div>
+            <div className="h-1 w-full lg:h-16 lg:w-[0.5px]  bg-gray-300  hidden xl:flex  "></div>
 
-            {/* <a href="#" className="text-white px-2 text-sm hover:text-blue-300">
-              LOGIN
-            </a> */}
             <FontAwesomeIcon
               icon={faUserCircle}
               size="2x"
