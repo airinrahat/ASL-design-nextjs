@@ -15,285 +15,11 @@ import img4 from "../../../public/images/Property 1=4.png";
 import { FaBusinessTime } from "react-icons/fa";
 
 const OurAddress = () => {
-  //   function onChange(value) {
-  //     console.log("Captcha value:", value);
-  //   }
   return (
-    <div>
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-24 mb-16 lg:mx-32 text-gray-600">
-        <div className="space-y-4 lg:pl-0 pl-4">
-          <h2
-            className="lg:text-5xl text-2xl font-bold  
-      bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
-          >
-            Headquarter
-          </h2>
-          <div className="flex items-start space-x-3 mb-2">
-            <FontAwesomeIcon
-              icon={faLocationDot}
-              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
-              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
-            />
-            <div>
-              <div className="text-[16px] text-gray-400 font-bold">
-                Our Location
-              </div>
-              <p className="mb-4 font-semibold text-[12px] mt-1">
-                Office 1207, Block–A,
-                <br /> Centurion Star, Port Saeed,
-                <br /> Opp. Deira City Center,
-                <br /> Near Flora Creek Hotel, Deira, Dubai-U.A.E
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-3">
-            <FontAwesomeIcon
-              icon={faPhone}
-              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
-              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
-            />
-            <div>
-              <div className="text-[16px] text-gray-400 font-bold">
-                Call To Us
-              </div>
-              <p className="mb-4 font-semibold text-[12px] mt-1">
-                WhatsApp, mobile (0529751028) <br />
-                landline (042241592)
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-3">
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
-              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
-            />
-            <div>
-              <div className="text-[16px] text-gray-400 font-bold">
-                Email To Us
-              </div>
-              <p className="mb-4 font-semibold text-[12px] mt-1">
-                info@arianashippingline.com{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-3">
-            <div
-              className="text-[#0B3563] bg-white text-xl p-4 rounded-full shadow-custom"
-              style={{ boxShadow: "0px 0px 10px 2px #00000026" }}
-            >
-              <FaBusinessTime />
-            </div>
-            <div>
-              <div className="text-[16px] text-gray-400 font-bold">
-                Business Hours
-              </div>
-              <p className="mb-4 font-semibold text-[12px] mt-1">
-                Monday to Friday : 9 am to 6 pm
-                <br />
-                Saturday: 9 am to 2 pm
-                <br />
-                Sunday: Closed
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="mx-7">
-          <h2
-            className="lg:text-5xl text-2xl font-bold mb-4"
-            style={{
-              background:
-                "linear-gradient(90deg, #0F4C7C 31.5%, #229276 98.52%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            Leave A Message
-          </h2>
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Enter First Name"
-              className="w-full p-4 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-            />
-            <input
-              type="text"
-              placeholder="Enter  Phone"
-              className="w-full p-2 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-            />
-            <input
-              type="email"
-              placeholder="Enter Email"
-              className="w-full p-2 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-            />
-            <textarea
-              placeholder="Describe Your Needs"
-              className="w-full p-2  border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-              rows="5"
-            ></textarea>
-            <div className="flex flex-col lg:flex-row items-center  space-y-4 lg:space-y-0 lg:space-x-4">
-              <div className="flex items-center space-x-2">
-                <input
-                  type="checkbox"
-                  id="not-robot"
-                  className="h-4 w-4 bg-white"
-                />
-                <label htmlFor="not-robot" className="text-gray-600">
-                  I&apos;m not a robot
-                </label>
-              </div>
-              <div className="flex items-center bg-white border border-gray-300 p-2 rounded-md shadow-sm">
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="text-blue-600 text-lg"
-                />
-                <span className="ml-2 text-gray-500">reCAPTCHA</span>
-              </div>
-              <div className="lg:pl-52">
-                <button className="p-2 border border-teal-400  rounded-md text-[#1C3A5F] transition-colors duration-200">
-                  Submit
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div> */}
-
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-24 mb-16 lg:mx-32 text-gray-600">
-        <div className="space-y-6 lg:pl-0 pl-4">
-          <h2
-            className="lg:text-5xl text-3xl font-extrabold text-transparent bg-clip-text 
-        bg-gradient-to-r from-[#0F4C7C] to-[#229276] 
-        transition-all duration-500 ease-in-out transform hover:scale-105 hover:text-[#229276]"
-          >
-            Headquarter
-          </h2>
-          <div className="flex items-start space-x-4 mb-6">
-            <FontAwesomeIcon
-              icon={faLocationDot}
-              className="text-[#0B3563] bg-white text-2xl p-5 rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300"
-            />
-            <div>
-              <div className="text-lg text-gray-400 font-medium">
-                Our Location
-              </div>
-              <p className="mb-4 text-sm font-semibold mt-2 leading-relaxed text-gray-700">
-                Office 1207, Block–A, <br /> Centurion Star, Port Saeed, <br />{" "}
-                Opp. Deira City Center, <br /> Near Flora Creek Hotel, Deira,
-                Dubai-U.A.E
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4 mb-6">
-            <FontAwesomeIcon
-              icon={faPhone}
-              className="text-[#0B3563] bg-white text-2xl p-5 rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300"
-            />
-            <div>
-              <div className="text-lg text-gray-400 font-medium">
-                Call To Us
-              </div>
-              <p className="mb-4 text-sm font-semibold mt-2 text-gray-700">
-                WhatsApp, mobile (0529751028) <br />
-                Landline (042241592)
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4 mb-6">
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              className="text-[#0B3563] bg-white text-2xl p-5 rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300"
-            />
-            <div>
-              <div className="text-lg text-gray-400 font-medium">
-                Email To Us
-              </div>
-              <p className="mb-4 text-sm font-semibold mt-2 text-gray-700">
-                info@arianashippingline.com
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4 mb-6">
-            <div className="text-[#0B3563] bg-white text-2xl p-5 rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              <FaBusinessTime />
-            </div>
-            <div>
-              <div className="text-lg text-gray-400 font-medium">
-                Business Hours
-              </div>
-              <p className="mb-4 text-sm font-semibold mt-2 text-gray-700">
-                Monday to Friday: 9 am to 6 pm <br />
-                Saturday: 9 am to 2 pm <br />
-                Sunday: Closed
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="mx-7">
-          <h2
-            className="lg:text-5xl text-3xl font-extrabold text-transparent 
-        bg-gradient-to-r from-[#0F4C7C] to-[#229276] 
-        bg-clip-text mb-6 
-        transition-all duration-500 ease-in-out transform hover:scale-105"
-          >
-            Leave A Message
-          </h2>
-          <form className="space-y-6">
-            <input
-              type="text"
-              placeholder="Enter First Name"
-              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
-            />
-            <input
-              type="text"
-              placeholder="Enter Phone"
-              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
-            />
-            <input
-              type="email"
-              placeholder="Enter Email"
-              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
-            />
-            <textarea
-              placeholder="Describe Your Needs"
-              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
-              rows="5"
-            ></textarea>
-            <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6">
-              <div className="flex items-center space-x-2">
-                <input
-                  type="checkbox"
-                  id="not-robot"
-                  className="h-5 w-5 bg-white border-[#1C3A5F] focus:ring-teal-500"
-                />
-                <label
-                  htmlFor="not-robot"
-                  className="text-gray-600 font-medium"
-                >
-                  I&apos;m not a robot
-                </label>
-              </div>
-              <div className="flex items-center bg-white border border-gray-300 p-3 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  className="text-blue-600 text-lg"
-                />
-                <span className="ml-2 text-gray-500">reCAPTCHA</span>
-              </div>
-              <div className="lg:pl-32">
-                <button className="p-4 bg-teal-500 text-white rounded-lg shadow-md hover:bg-teal-600 transition-all duration-300">
-                  Submit
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div> */}
+    <div className="font-roboto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-24 mb-16 lg:mx-32 text-gray-600">
         <div className="space-y-6 lg:pl-0 pl-4">
-          <h2 className="lg:text-5xl text-3xl font-extrabold text-[#1C3A5F]">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#1C3A5F]">
             Headquarter
           </h2>
           <div className="flex items-start space-x-5 mb-6">
@@ -360,7 +86,7 @@ const OurAddress = () => {
 
         <div className="mx-7">
           <h2
-            className="lg:text-5xl text-3xl font-extrabold text-[#1C3A5F]
+            className="text-3xl md:text-4xl font-extrabold text-[#1C3A5F]
          mb-6 
      "
           >
@@ -370,21 +96,21 @@ const OurAddress = () => {
             <input
               type="text"
               placeholder="Enter First Name"
-              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg "
             />
             <input
               type="text"
               placeholder="Enter Phone"
-              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg  "
             />
             <input
               type="email"
               placeholder="Enter Email"
-              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg "
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg "
               rows="5"
             ></textarea>
             <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6">
@@ -392,7 +118,7 @@ const OurAddress = () => {
                 <input
                   type="checkbox"
                   id="not-robot"
-                  className="h-5 w-5 bg-white border-[#1C3A5F] focus:ring-teal-500"
+                  className="h-5 w-5 bg-white border-[#1C3A5F] "
                 />
                 <label
                   htmlFor="not-robot"

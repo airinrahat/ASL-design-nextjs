@@ -7,6 +7,8 @@ import iconTwo from "../../../public/images/footer icon (1).png";
 import iconThree from "../../../public/images/footer icon (2).png";
 import apps from "../../../public/images/Apps.png";
 import { SlUserFollow } from "react-icons/sl";
+import img5 from "../../../public/images/7044712.png";
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -73,9 +75,16 @@ const CallUs = () => {
 
         {/* Follow Us Section */}
         <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
+          {/* <Image
+            src={img5}
+            alt="Follow us icon"
+            width={50}
+            height={50}
+            className="mb-3"
+          /> */}
           <Image
             src={iconOne}
-            alt="Follow us icon"
+            alt="Working hours icon"
             width={50}
             height={50}
             className="mb-3"
@@ -83,25 +92,25 @@ const CallUs = () => {
           <h3 className="text-lg font-semibold text-[#D1E8F2]">Follow Us</h3>
           <div className="flex space-x-4 mt-3">
             {/* Facebook */}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/">
               <i className="text-2xl">
                 <FaFacebookF />
               </i>
             </a>
             {/* Twitter */}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="#">
               <i className="text-2xl">
                 <FaTwitter />
               </i>
             </a>
             {/* Instagram */}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="#">
               <i className="text-2xl">
                 <FaInstagram />
               </i>
             </a>
             {/* LinkedIn */}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="#">
               <i className="text-2xl">
                 <FaLinkedinIn />
               </i>

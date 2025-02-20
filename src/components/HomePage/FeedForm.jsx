@@ -5,7 +5,7 @@ const FeedForm = () => {
     <div>
       <div className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md mb-8">
         <h2 className="text-3xl  text-[#1C3A5F] font-extrabold  text-center mb-4">
-          Feedback Form
+          Customer Feedback
         </h2>
         <form className="space-y-4">
           <input
