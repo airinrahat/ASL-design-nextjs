@@ -11,7 +11,7 @@ import OurService from "./ourServices/OurService";
 import Certified from "./certififd/Certified";
 // import SubmitFeedback from "./SubmitFeedback";
 import ScrollUp from "./scroll/ScrollUp";
-import Banner from "./banner";
+import Banner from "./Banner";
 import FeedForm from "./FeedForm";
 // import Slider from "./slider/Slider";
 
