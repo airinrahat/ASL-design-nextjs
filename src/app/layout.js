@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import localFont from "next/font/local";
@@ -24,10 +25,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body style={{ fontFamily: "'Roboto', sans-serif" }}>
         <Navbar />
         {children}
         <Footer />

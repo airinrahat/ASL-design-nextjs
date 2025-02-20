@@ -13,7 +13,7 @@ import "./Certified.css";
 const Certified = () => {
   return (
     <div className="my-20">
-      <h2 className="text-center text-5xl  text-blue-900 font-bold mb-9">
+      <h2 className=" text-3xl  text-[#1C3A5F]   md:text-4xl font-extrabold text-center    mb-9">
         CERTIFIED BY
       </h2>
       <div className="flex justify-center items-center w-full">

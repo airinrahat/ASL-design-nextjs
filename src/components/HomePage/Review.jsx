@@ -8,7 +8,7 @@ import user4 from "../../../public/images/person=4.png";
 const Review = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <h3 className="text-gray-600 text-3xl   font-bold mt-5 ">
+      <h3 className=" text-3xl  text-[#1C3A5F] my-5  md:text-4xl font-extrabold mb-5 text-center   mt-5 ">
         Client Feedback / Reviews
       </h3>
       <section className="bg-gray-100 py-10  my-10 rounded-md">

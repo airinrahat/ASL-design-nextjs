@@ -9,7 +9,7 @@ import "./OurService.css";
 import Image from "next/image";
 
 import group3 from "../../../../public/images/Group2.png";
-import { GrServices } from "react-icons/gr";
+import { GrServicePlay } from "react-icons/gr";
 import group4 from "../../../../public/images/Vector1.png";
 import group1 from "../../../../public/images/Group.png";
 import group2 from "../../../../public/images/Vector.png";
@@ -21,7 +21,7 @@ const OurService = () => {
       <div className="mb-5 text-center flex flex-col items-center justify-center">
         {/* Icon */}
         <div className="flex items-center justify-center py-5 px-5 mb-3  ">
-          <GrServices className="text-[#2A9D8F] text-[5rem]" />
+          <GrServicePlay className="text-[#2A9D8F] text-[5rem]" />
         </div>
 
         <div className="py-2 bg-gray-50 text-gray-800 w-full">
@@ -31,7 +31,7 @@ const OurService = () => {
           <div className="lg:mx-60 mx-4">
             <p className="text-lg md:text-xl leading-relaxed text-justify font-medium text-gray-700">
               At{" "}
-              <span className="text-[#2A9D8F] font-bold">
+              <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
               </span>
               , we offer a comprehensive suite of services to ensure the safe
@@ -76,7 +76,8 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage: "url('https://i.ibb.co/y5J02w3/image.png')",
+                backgroundImage:
+                  "url('https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg')",
               }}
             >
               {/* Initial Overlay */}
@@ -109,7 +110,7 @@ const OurService = () => {
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
                 backgroundImage:
-                  "url('https://i.ibb.co/cwsHkNN/unsplash-yf-TSNbgg-Fy-E.png')",
+                  "url('https://i.ibb.co/8gydYK9J/c1fa5599-ca33-4c7c-bfde-c9dc52823198.jpg')",
               }}
             >
               {/* Default State */}
@@ -141,7 +142,8 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage: "url('https://i.ibb.co/TbbZ9Rr/contact.jpg')",
+                backgroundImage:
+                  "url('https://i.ibb.co/Kc2dFQXY/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg')",
               }}
             >
               {/* Default State */}
@@ -177,8 +179,7 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage:
-                  "url('https://i.ibb.co.com/gV0jdtx/Group-1.png')",
+                backgroundImage: "url('https://i.ibb.co/nNM15SMr/servic.jpg')",
               }}
             >
               {/* Default State */}
@@ -213,7 +214,8 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage: "url('https://i.ibb.co/N6psp0v/bg2.png')",
+                backgroundImage:
+                  "url('https://i.ibb.co/WvytrxQn/8cb91cbf-023f-4b27-8006-0ce503fe0373.jpg')",
               }}
             >
               {/* Default State */}
@@ -253,7 +255,8 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage: "url('https://i.ibb.co/PwpjScn/bg3.png')",
+                backgroundImage:
+                  "url('https://i.ibb.co/DHX4THHY/f668265a-37e5-4efb-bb46-ec4feece42db.jpg')",
               }}
             >
               {/* Default State */}
@@ -326,7 +329,8 @@ const OurService = () => {
             <div
               className="relative w-full h-64 bg-cover bg-center shadow-lg rounded-lg overflow-hidden transition-all duration-500"
               style={{
-                backgroundImage: "url('https://i.ibb.co/jVKWyYn/bg.png')",
+                backgroundImage:
+                  "url('https://i.ibb.co/SDbCpsQQ/24d0908b-63b4-436c-a298-7dda6abd58ae.jpg')",
               }}
             >
               {/* Default State */}

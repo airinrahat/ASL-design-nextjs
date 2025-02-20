@@ -5,16 +5,13 @@ const ContactUs = () => {
     <div>
       <div className="my-0">
         <div className="lg:px-40 px-6 py-8 bg-gradient-to-br from-[#F9FAFB] to-[#E3F2F9] text-gray-800 shadow-lg rounded-xl">
-          <h3
-            className="lg:text-5xl text-3xl font-bold text-center mb-8 mt-2 
-  bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent"
-          >
+          <h3 className="text-3xl md:text-4xl font-extrabold mb-5 text-center text-[#1C3A5F]">
             Contact Us
           </h3>
 
           <p className="text-lg leading-relaxed text-justify mb-6 text-gray-700">
             We’re glad you’re interested in reaching out to{" "}
-            <span className="text-[#154D79] font-bold">
+            <span className="text-[#296B9F] font-bold">
               Ariana Shipping Line LLC
             </span>
             . Contacting us is easy, and we’re here to assist you with any
@@ -27,8 +24,8 @@ const ContactUs = () => {
             of our locations:
           </p>
 
-          <div className="space-y-6 bg-white p-6 rounded-lg shadow-md">
-            <h4 className="text-2xl font-bold text-[#154D79] underline decoration-dotted">
+          <div className="space-y-6 bg-white p-6 lg:w-1/2 rounded-lg shadow-md">
+            <h4 className="text-2xl font-bold text-[#296B9F] underline decoration-dotted">
               Branches in the USA
             </h4>
             <ul className="list-disc list-inside text-lg space-y-2 text-gray-700">

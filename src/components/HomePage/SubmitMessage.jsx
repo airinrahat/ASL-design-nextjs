@@ -56,37 +56,46 @@ const SubmitMessage = () => {
                 </div>
               </div>
 
-              {/* Third Column: destination , Freight */}
+              {/* Third Column: State , City */}
               <div className="grid grid-cols-2 gap-4 mt-7">
                 <div>
                   <input
                     type="text"
-                    id="destination"
+                    id="state"
                     className="w-full p-2 text-gray-900 bg-white"
-                    placeholder="DESTINATION"
+                    placeholder="State"
                   />
                 </div>
                 <div>
                   <select
-                    id="freight"
+                    id="city"
                     className="w-full p-2 text-gray-900 bg-white"
                   >
-                    <option value="">Freight In</option>
+                    <option value="">City</option>
                     <option value="port1">USA</option>
                     <option value="port2">UK</option>
                     <option value="port3">UAS</option>
                   </select>
                 </div>
               </div>
-
-              {/* Message Section */}
-              <div className="mt-7">
-                <textarea
-                  id="message"
-                  rows="2"
-                  className="w-full p-2 bg-white text-gray-900"
-                  placeholder="Message"
-                ></textarea>
+              {/* four Column: destination , message */}
+              <div className="grid grid-cols-2 gap-4 mt-7">
+                <div>
+                  <input
+                    type="text"
+                    id="destination"
+                    className="w-full p-2 text-gray-900 bg-white"
+                    placeholder="Destination"
+                  />
+                </div>
+                <div>
+                  <textarea
+                    id="message"
+                    rows="1"
+                    className="w-full p-2 bg-white text-gray-900"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
               </div>
 
               {/* Submit Button */}
@@ -104,7 +113,9 @@ const SubmitMessage = () => {
           {/* Image Section */}
           <div className="lg:w-1/2 flex justify-center items-stretch mt-6 md:mt-6 lg:mt-0">
             <Image
-              src={image}
+              src={
+                "https://i.ibb.co/Kc2dFQXY/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg"
+              }
               alt="Form Image"
               className="object-cover rounded"
               layout="responsive"
@@ -124,7 +135,8 @@ const SubmitMessage = () => {
       <div
         className="relative w-full h-[500px] bg-cover bg-center mt-20  shadow-xl overflow-hidden"
         style={{
-          backgroundImage: "url(https://i.ibb.co.com/y5J02w3/image.png)",
+          backgroundImage:
+            "url(https://i.ibb.co/SDbCpsQQ/24d0908b-63b4-436c-a298-7dda6abd58ae.jpg)",
         }}
       >
         <div className="absolute inset-0 bg-black/20"></div>
