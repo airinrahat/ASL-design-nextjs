@@ -16,7 +16,7 @@ const HeroContent = () => {
           color: "#ffffff",
           marginLeft: "3px",
         }}
-        className="text-lg sm:text-base md:text-xl lg:text-2xl xl:text-3xl"
+        className="text-xl sm:text-base  lg:text-lg "
       />
     </h1>
   );

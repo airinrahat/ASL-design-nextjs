@@ -7,7 +7,7 @@ const Servicebg = () => {
         className="relative w-full h-[400px] bg-cover bg-center"
         style={{
           backgroundImage:
-            "url(https://i.ibb.co.com/jJPNfpq/5f20c6d87ad56aaa2eceee290bec12ef.jpg)",
+            "url(https://i.ibb.co/Qj8B2C4Z/9594bb0b-f431-49db-9016-6238b320d300.jpg)",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center lg:justify-start px-6 lg:px-24">

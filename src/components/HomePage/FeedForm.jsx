@@ -6,8 +6,11 @@ const FeedForm = () => {
       <div className="flex flex-col md:flex-col lg:flex-row items-stretch max-w-screen-xl mx-auto px-4 lg:gap-32 w-full">
         <div className="lg:w-1/2 flex justify-center items-stretch mt-6 md:mt-6 lg:mt-0 mb-6">
           <Image
+            // src={
+            //   "https://i.ibb.co/Kc2dFQXY/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg"
+            // }
             src={
-              "https://i.ibb.co/Kc2dFQXY/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg"
+              "https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg"
             }
             alt="Form Image"
             className="object-cover rounded"

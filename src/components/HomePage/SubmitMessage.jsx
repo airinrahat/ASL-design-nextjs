@@ -132,10 +132,10 @@ const SubmitMessage = () => {
         }}
       ></div> */}
       <div
-        className="relative w-full h-[500px] bg-cover bg-center mt-20  shadow-xl overflow-hidden"
+        className="relative w-full h-[450px] bg-cover bg-center mt-20  shadow-xl overflow-hidden"
         style={{
           backgroundImage:
-            "url(https://i.ibb.co/SDbCpsQQ/24d0908b-63b4-436c-a298-7dda6abd58ae.jpg)",
+            "url(https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg)",
         }}
       >
         <div className="absolute inset-0 bg-black/20"></div>

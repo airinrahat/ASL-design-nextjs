@@ -93,14 +93,14 @@ const FAQ = () => {
                       width={200}
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
-                      src="https://i.ibb.co/7z3s0s5/HD-wallpaper-take-off-plane-sunset-view.jpg"
+                      src="https://i.ibb.co/LzqsS9zD/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg"
                     />
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <div className="pb-7">
+              <div className="pb-2">
                 <p className="text-center font-medium text-[#1C3A5F] mb-2">
                   Still have questions ?
                 </p>
