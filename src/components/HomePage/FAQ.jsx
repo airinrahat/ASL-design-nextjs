@@ -1,10 +1,37 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
-import { Accordion, AccordionItem } from "@nextui-org/react";
+import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import Image from "next/image";
-import React from "react";
 // import faq from "../../../public/images/faq.png";
+import chevronDown from "../../../public/images/chevron-down.svg";
+import styles from "./styles.module.css";
 
 const FAQ = () => {
+  const AccordionItem = ({ header, ...rest }) => (
+    <Item
+      {...rest}
+      header={
+        <>
+          {header}
+          <Image
+            className={styles.chevron}
+            src={chevronDown}
+            alt="Chevron Down"
+            height={20}
+            width={20}
+          />
+        </>
+      }
+      className={styles.item}
+      buttonProps={{
+        className: ({ isEnter }) =>
+          `${styles.itemBtn} ${isEnter && styles.itemBtnExpanded}`,
+      }}
+      contentProps={{ className: styles.itemContent }}
+      panelProps={{ className: styles.itemPanel }}
+    />
+  );
+
   return (
     <div className="">
       <div className="bg-gray-100 pt-10 pb-20">
@@ -81,7 +108,68 @@ const FAQ = () => {
                   most commonly asked questions
                 </h1>
               </div>
-              <Accordion variant="splitted" className="px-0">
+              <div className={styles.accordion}>
+                <Accordion transition transitionTimeout={250}>
+                  <AccordionItem header="How does the car shipping process work?">
+                    The car shipping process begins with researching and
+                    selecting a reputable shipping company that aligns with your
+                    specific requirements. Once you’ve chosen a service
+                    provider, you’ll request a quote, confirm the details, and
+                    decide on the type of transport—such as open or enclosed
+                    carriers—that best suits your needs.
+                  </AccordionItem>
+
+                  <AccordionItem header="How much does it cost to ship a car?">
+                    The cost to ship a car can vary widely depending on several
+                    factors, including the distance, the type of transport, the
+                    size and weight of the vehicle, and whether you choose an
+                    open or enclosed carrier. On average, shipping a car within
+                    the same region can cost between $500 and $1,000, while
+                    shipping across the country can range from $1,000 to $2,000
+                    or more. For international shipping, costs can rise
+                    significantly, often exceeding $3,000. Additionally,
+                    expedited shipping, insurance, and other optional services
+                    can increase the overall cost. To get an accurate quote,
+                    it’s best to contact a few shipping companies and provide
+                    specific details about your shipment.
+                  </AccordionItem>
+
+                  <AccordionItem header="What is the difference between open and enclosed car transport?">
+                    Open car transport is the more common and economical option.
+                    Vehicles are shipped on an open-air trailer, usually with no
+                    covering or protection. This method is less expensive
+                    because it can accommodate more vehicles and is quicker.
+                    However, the vehicle is exposed to the elements (like rain,
+                    dust, and debris), which may lead to potential damage during
+                    transport.
+                  </AccordionItem>
+                  <AccordionItem header="Will my car be insured during transport?">
+                    Basic Coverage: Most auto transport companies provide basic
+                    liability insurance, which covers damage to your car during
+                    transit. This coverage is often included in the cost of
+                    shipping, but it may not cover everything (e.g., cosmetic
+                    damage or theft). Coverage Limits: The standard insurance
+                    typically has a deductible, and the coverage amount may
+                    vary. It’s important to ask the transport company about
+                    their insurance policy to know the specifics (e.g., how much
+                    coverage is provided and what is excluded).
+                  </AccordionItem>
+                  <AccordionItem header=" How long does it take to ship a car?">
+                    The time it takes to ship a car depends on several factors,
+                    including the distance between the pickup and delivery
+                    locations, the route, and the type of transport service
+                    chosen. On average, car shipping can take anywhere from 1 to
+                    2 weeks. Short distances (within the same state or nearby):
+                    It may take around 1 to 3 days. Long distances
+                    (cross-country): Shipping typically takes 7 to 10 days,
+                    though it can sometimes take up to 14 days. Expedited
+                    shipping: If you need faster delivery, expedited services
+                    are available, but they usually come at an additional cost.
+                  </AccordionItem>
+                </Accordion>
+              </div>
+
+              {/* <Accordion variant="splitted" className="px-0">
                 <AccordionItem
                   className="font-bold text-lg  text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
                   key="1"
@@ -180,7 +268,7 @@ const FAQ = () => {
                     coverage is provided and what is excluded).
                   </p>
                 </AccordionItem>
-              </Accordion>
+              </Accordion> */}
             </div>
           </div>
         </div>

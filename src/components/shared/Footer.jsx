@@ -1,18 +1,18 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div>
       <footer className="footer bg-[#243136] text-neutral-content items-center py-4 px-16">
         <aside className="grid-flow-col items-center">
-          <p>Copyright © 2024 - All rights reserved</p>
+          <p className="text-sm font-semibold">
+            Copyright © 2024 - All rights reserved
+          </p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="16"
+              height="16"
               viewBox="0 0 24 24"
               className="fill-current"
             >
@@ -22,8 +22,8 @@ const Footer = () => {
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="16"
+              height="16"
               viewBox="0 0 24 24"
               className="fill-current"
             >
@@ -33,8 +33,8 @@ const Footer = () => {
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="16"
+              height="16"
               viewBox="0 0 24 24"
               className="fill-current"
             >

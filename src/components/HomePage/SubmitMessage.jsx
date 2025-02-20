@@ -1,5 +1,4 @@
 import Image from "next/image";
-import image from "../../../public/images/sh.png";
 
 const SubmitMessage = () => {
   return (
@@ -19,15 +18,15 @@ const SubmitMessage = () => {
                   <input
                     type="text"
                     id="name"
-                    className="w-full p-2 text-gray-900 bg-white"
-                    placeholder="Your name"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
+                    placeholder="Your name dd"
                   />
                 </div>
                 <div>
                   <input
                     type="email"
                     id="email"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                     placeholder="Your email"
                   />
                 </div>
@@ -39,14 +38,14 @@ const SubmitMessage = () => {
                   <input
                     type="tel"
                     id="contact"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                     placeholder="Contact"
                   />
                 </div>
                 <div>
                   <select
                     id="loading"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                   >
                     <option value="">Port Of Loading</option>
                     <option value="port1">USA</option>
@@ -62,14 +61,14 @@ const SubmitMessage = () => {
                   <input
                     type="text"
                     id="state"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                     placeholder="State"
                   />
                 </div>
                 <div>
                   <select
                     id="city"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                   >
                     <option value="">City</option>
                     <option value="port1">USA</option>
@@ -84,7 +83,7 @@ const SubmitMessage = () => {
                   <input
                     type="text"
                     id="destination"
-                    className="w-full p-2 text-gray-900 bg-white"
+                    className="w-full p-2 text-gray-900 bg-white rounded"
                     placeholder="Destination"
                   />
                 </div>
@@ -92,7 +91,7 @@ const SubmitMessage = () => {
                   <textarea
                     id="message"
                     rows="1"
-                    className="w-full p-2 bg-white text-gray-900"
+                    className="w-full p-2 bg-white text-gray-900 rounded"
                     placeholder="Message"
                   ></textarea>
                 </div>
@@ -102,7 +101,7 @@ const SubmitMessage = () => {
               <div className="mt-4 mb-8">
                 <button
                   type="submit"
-                  className="w-full bg-blue-400 text-white p-2 rounded hover:bg-gray-900"
+                  className="w-full bg-blue-400 text-white p-2 rounded hover:bg-opacity-70 duration-200"
                 >
                   SUBMIT MESSAGE
                 </button>

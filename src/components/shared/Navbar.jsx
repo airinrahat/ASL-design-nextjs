@@ -4,10 +4,9 @@ import {
   faBars,
   faCaretDown,
   faSearch,
-  faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { FcPhone } from "react-icons/fc";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { LocationMarkerIcon, MailIcon } from "@heroicons/react/solid";
@@ -20,8 +19,8 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoTiktok } from "react-icons/io5";
+import { RiInstagramFill } from "react-icons/ri";
 
 import img from "../../../public/images/asl-log.GIF";
 
@@ -50,8 +49,8 @@ export default function Navbar() {
         <div className="px-8  py-4 flex flex-col lg:flex-row items-center justify-between  text-gray-700 border-b  lg:space-y-0 sticky top-0 ml-14">
           {/* Language Selector */}
           <div className=" flex items-center space-x-2">
-            <span className="font-semibold text-sm">Language</span>
-            <select className="text-gray-600 outline-none text-sm bg-white border border-gray-300 rounded-md px-2 py-1">
+            <span className="text-[13px]">Language</span>
+            <select className="text-[12px] text-gray-600 outline-none bg-white border border-gray-300 rounded-md px-1 py-1">
               <option>English</option>
               <option>Arabic</option>
               <option>Russian</option>
@@ -134,7 +133,7 @@ export default function Navbar() {
         className="flex justify-center items-center py-2"
         style={{
           background:
-            "linear-gradient(90deg, #3A5A6E 3.5%, #2C485E 22%, #1E3648 49%, #2C485E 75%, #3A5A6E 98.5%)",
+            "linear-gradient(90deg,rgb(126, 139, 147) 3.5%,rgb(133, 146, 157) 22%,rgb(139, 151, 161) 49%, #2C485E 75%,rgb(99, 131, 151) 98.5%)",
         }}
       >
         <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
@@ -178,16 +177,16 @@ export default function Navbar() {
                   />
                 </button>
 
-                <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md p-2 z-10">
+                <div className="absolute hidden group-hover:block bg-white shadow-md rounded-md p-2 z-10">
                   <Link
                     href="/download/android"
-                    className="block px-4 py-2 hover:bg-gray-200"
+                    className="block px-4 py-1 hover:bg-gray-200 rounded"
                   >
                     Android
                   </Link>
                   <Link
                     href="/download/ios"
-                    className="block px-4 py-2 hover:bg-gray-200"
+                    className="block px-4 py-1 hover:bg-gray-200 rounded"
                   >
                     IOS
                   </Link>
