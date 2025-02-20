@@ -97,7 +97,7 @@ const ChooseUs = () => {
         {/* Right Column with Image */}
         <div className="lg:col-span-1  row-span-2 mt-8">
           <Image
-            src={ship}
+            src="https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg"
             alt="Description"
             width={1000}
             height={1000}

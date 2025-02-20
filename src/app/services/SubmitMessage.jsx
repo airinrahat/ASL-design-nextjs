@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import image from "../../../public/images/sh.png";
 
 const SubmitMessage = () => {
