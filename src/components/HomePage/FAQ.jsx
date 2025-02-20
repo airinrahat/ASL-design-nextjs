@@ -6,7 +6,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div>
+    <div className="">
       <div className="bg-gray-100 pt-10 pb-20">
         <div className=" max-w-screen-xl mx-auto ">
           <div className=" justify-center items-center px-4 grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -74,7 +74,7 @@ const FAQ = () => {
             </div>
             <div>
               <div className="pb-7">
-                <p className="text-center font-medium text-blue-600 mb-2">
+                <p className="text-center font-medium text-[#1C3A5F] mb-2">
                   Still have questions ?
                 </p>
                 <h1 className="text-center text-2xl text-black font-bold uppercase">
@@ -99,7 +99,9 @@ const FAQ = () => {
                 </AccordionItem>
 
                 <AccordionItem
-                  className="font-bold text-lg text-gray-800 bg-white rounded-lg shadow-md outline-none border border-gray-200 transition-all duration-300 hover:shadow-lg"
+                  className="font-bold text-lg text-gray-800 bg-white 
+                  rounded-lg shadow-md outline-none border border-gray-200
+                   transition-all duration-300 hover:shadow-lg"
                   key="2"
                   aria-label="Accordion 2"
                   title="How much does it cost to ship a car?"

@@ -115,21 +115,21 @@ const OurAddress = () => {
             <input
               type="text"
               placeholder="Enter First Name"
-              className="w-full p-4 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-4 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="text"
               placeholder="Enter  Phone"
-              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-2 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <input
               type="email"
               placeholder="Enter Email"
-              className="w-full p-2 border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-2 border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-2  border bg-white border-[#208A77] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full p-2  border bg-white border-[#1C3A5F] rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
               rows="5"
             ></textarea>
             <div className="flex flex-col lg:flex-row items-center  space-y-4 lg:space-y-0 lg:space-x-4">
@@ -151,7 +151,7 @@ const OurAddress = () => {
                 <span className="ml-2 text-gray-500">reCAPTCHA</span>
               </div>
               <div className="lg:pl-52">
-                <button className="p-2 border border-teal-400  rounded-md text-[#208A77] transition-colors duration-200">
+                <button className="p-2 border border-teal-400  rounded-md text-[#1C3A5F] transition-colors duration-200">
                   Submit
                 </button>
               </div>
@@ -244,21 +244,21 @@ const OurAddress = () => {
             <input
               type="text"
               placeholder="Enter First Name"
-              className="w-full p-4 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
+              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
             />
             <input
               type="text"
               placeholder="Enter Phone"
-              className="w-full p-4 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
+              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
             />
             <input
               type="email"
               placeholder="Enter Email"
-              className="w-full p-4 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
+              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-4 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
+              className="w-full p-4 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300"
               rows="5"
             ></textarea>
             <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6">
@@ -266,7 +266,7 @@ const OurAddress = () => {
                 <input
                   type="checkbox"
                   id="not-robot"
-                  className="h-5 w-5 bg-white border-[#208A77] focus:ring-teal-500"
+                  className="h-5 w-5 bg-white border-[#1C3A5F] focus:ring-teal-500"
                 />
                 <label
                   htmlFor="not-robot"
@@ -293,11 +293,7 @@ const OurAddress = () => {
       </div> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-24 mb-16 lg:mx-32 text-gray-600">
         <div className="space-y-6 lg:pl-0 pl-4">
-          <h2
-            className="lg:text-5xl text-3xl font-extrabold text-transparent bg-clip-text
-        bg-gradient-to-r from-[#0F4C7C] to-[#229276] 
-        transition-all duration-500 ease-in-out transform hover:scale-110 hover:text-[#229276]"
-          >
+          <h2 className="lg:text-5xl text-3xl font-extrabold text-[#1C3A5F]">
             Headquarter
           </h2>
           <div className="flex items-start space-x-5 mb-6">
@@ -364,10 +360,9 @@ const OurAddress = () => {
 
         <div className="mx-7">
           <h2
-            className="lg:text-5xl text-3xl font-extrabold text-transparent 
-        bg-gradient-to-r from-[#0F4C7C] to-[#229276] 
-        bg-clip-text mb-6 
-        transition-all duration-500 ease-in-out transform hover:scale-110"
+            className="lg:text-5xl text-3xl font-extrabold text-[#1C3A5F]
+         mb-6 
+     "
           >
             Leave A Message
           </h2>
@@ -375,21 +370,21 @@ const OurAddress = () => {
             <input
               type="text"
               placeholder="Enter First Name"
-              className="w-full p-5 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
             />
             <input
               type="text"
               placeholder="Enter Phone"
-              className="w-full p-5 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
             />
             <input
               type="email"
               placeholder="Enter Email"
-              className="w-full p-5 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
             />
             <textarea
               placeholder="Describe Your Needs"
-              className="w-full p-5 border border-[#208A77] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full p-5 border border-[#1C3A5F] bg-white rounded-lg focus:outline-none focus:ring-4 focus:ring-teal-500 transition-all duration-300 shadow-md hover:shadow-lg"
               rows="5"
             ></textarea>
             <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6">
@@ -397,7 +392,7 @@ const OurAddress = () => {
                 <input
                   type="checkbox"
                   id="not-robot"
-                  className="h-5 w-5 bg-white border-[#208A77] focus:ring-teal-500"
+                  className="h-5 w-5 bg-white border-[#1C3A5F] focus:ring-teal-500"
                 />
                 <label
                   htmlFor="not-robot"
@@ -406,15 +401,15 @@ const OurAddress = () => {
                   I&apos;m not a robot
                 </label>
               </div>
-              <div className="flex items-center bg-white border border-gray-300 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+              <div className="flex items-center bg-white border border-gray-300 p-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                 <FontAwesomeIcon
                   icon={faCheck}
                   className="text-blue-600 text-lg"
                 />
-                <span className="ml-2 text-gray-500">reCAPTCHA</span>
+                <span className=" text-gray-500">reCAPTCHA</span>
               </div>
               <div className="lg:pl-32">
-                <button className="p-5 bg-teal-500 text-white rounded-lg shadow-xl hover:bg-teal-600 hover:shadow-2xl transition-all duration-300">
+                <button className="py-3 px-5 bg-[#1C3A5F] text-white rounded-lg shadow-xl  hover:shadow-2xl transition-all duration-300">
                   Submit
                 </button>
               </div>
@@ -438,9 +433,9 @@ const OurAddress = () => {
           </div>
         </div>
       </div>
-      <hr className="h-8  bg-[#0A3A60]" />
+      <hr className="h-8  bg-[#1C3A5F]" />
       <section className="text-center py-16 mb-16">
-        <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#0F4C7C] to-[#229276] my-12 text-start lg:px-[123px]">
+        <h2 className="text-3xl font-extrabold text-[#1C3A5F] my-12 text-center lg:px-[123px]">
           Latest News
         </h2>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-14 lg:px-[123px] text-black">
@@ -538,7 +533,7 @@ const OurAddress = () => {
         </div>
       </section>
 
-      <hr className="h-8  bg-[#0A3A60]" />
+      <hr className="h-8  bg-[#1C3A5F]" />
     </div>
   );
 };

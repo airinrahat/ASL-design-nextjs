@@ -17,10 +17,7 @@ const ChooseUs = () => {
         {/* Left Column with Cards */}
         <div className="lg:col-span-3">
           <div>
-            <h2
-              className="lg:text-5xl text-3xl font-extrabold text-center mb-6 mt-2 
-        bg-gradient-to-r from-[#0F4C7C] to-[#229276] bg-clip-text text-transparent tracking-wide"
-            >
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-5 text-center text-[#1C3A5F]">
               Why Choose Us
             </h2>
 

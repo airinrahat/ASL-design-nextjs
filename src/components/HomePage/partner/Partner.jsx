@@ -9,11 +9,11 @@ import Image from "next/image";
 const Partner = () => {
   return (
     <div className="mb-16 max-w-screen-xl mx-auto ">
-      <h3 className="text-gray-600 text-3xl  font-bold my-5 ">
+      <h3 className=" text-3xl  text-[#1C3A5F] my-5  md:text-4xl font-extrabold mb-5 text-center ">
         Our Trusted Partners
       </h3>
       <div className="  partner">
-        <div className="bg-[#F7F7F7] shadow-lg rounded-md px-4 py-8">
+        <div className=" shadow-lg rounded-md px-4 py-8">
           <Swiper
             slidesPerView={4}
             spaceBetween={20}

@@ -128,21 +128,7 @@ const OurService = () => {
           </div>
         </div>
 
-        {/* <div className="border border-gray-400 text-black lg:mx-36 my-4 p-4 flex items-center justify-between">
-          <p className="flex-1">
-            Ariana Shipping LLC offers the best shipping services to our
-            customers allowing them to get the best quotation, book their
-            shipment,
-            <br />
-            <span className="text-start">
-              live tracking custom clearance and delivery at their destination
-              with just one click
-            </span>
-          </p>
-          <button className="bg-gray-800 text-white px-8 py-2 ml-4">
-            MORE INFO
-          </button>
-        </div> */}
+     
         <div className="border border-gray-400 text-black lg:mx-36 my-4 p-4 flex flex-col lg:flex-row items-center justify-between">
           <div className=" text-[16px] mb-4 lg:mb-0 text-start">
             <p>
