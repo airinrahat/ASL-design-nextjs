@@ -228,7 +228,7 @@ const CallUs = () => {
 
         {/* Follow Us Section */}
         <div className="flex flex-col items-center text-center">
-          <SlUserFollowing size={50} className="mb-3 text-[#2CACDD]" />
+          <SlUserFollowing size={50} className="mb-3  text-[#2CACDD]" />
           <h3 className="text-md font-semibold text-[#D1E8F2]">Follow Us</h3>
           <SocialMediaIcons />
         </div>
