@@ -188,12 +188,12 @@ const testimonials = [
 
 const TestimonialSlider = () => {
   return (
-    <div className="">
-      <section className="  max-w-screen-xl mx-auto rounded-md">
+    <div className="mb-14">
+      <section className="  max-w-screen-xl mx-auto ">
         <h3 className=" text-3xl  text-[#1C3A5F] my-5  md:text-4xl font-extrabold mb-5 text-center   mt-5 ">
           Client Feedback / Reviews
         </h3>
-        <div className="lg:px-4 md:px-10 ">
+        <div className="  ">
           <Swiper
             modules={[Pagination, Navigation, Autoplay]}
             spaceBetween={20}
