@@ -146,6 +146,7 @@ import apps from "../../../public/images/Apps.png";
 import iconOne from "../../../public/images/footer icon.png";
 import iconTwo from "../../../public/images/footer icon (1).png";
 import iconThree from "../../../public/images/footer icon (2).png";
+import { SlUserFollowing } from "react-icons/sl";
 
 // Contact Info Section Component
 const ContactInfoSection = ({ icon, title, details }) => {
@@ -190,7 +191,6 @@ const SocialMediaIcons = () => {
 
 // Main Component
 const CallUs = () => {
-  // Data for Contact Info Sections
   const contactInfo = [
     {
       icon: iconOne,
@@ -216,26 +216,19 @@ const CallUs = () => {
   return (
     <div>
       <section
-        className="contact-info flex flex-col lg:flex-row lg:justify-evenly justify-center text-white py-16 px-6"
+        className="contact-info grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-white py-16 px-6"
         style={{
           background:
             "linear-gradient(90deg, rgb(56, 78, 98) 0%, rgb(59, 94, 116) 50%, #2880A7 100%)",
         }}
       >
-        {/* Contact Info Sections */}
         {contactInfo.map((info, index) => (
           <ContactInfoSection key={index} {...info} />
         ))}
 
         {/* Follow Us Section */}
-        <div className="flex flex-col items-center text-center mb-8 lg:mb-0">
-          <Image
-            src={iconOne}
-            alt="Follow us icon"
-            width={50}
-            height={50}
-            className="mb-3"
-          />
+        <div className="flex flex-col items-center text-center">
+          <SlUserFollowing size={50} className="mb-3 text-[#2CACDD]" />
           <h3 className="text-md font-semibold text-[#D1E8F2]">Follow Us</h3>
           <SocialMediaIcons />
         </div>

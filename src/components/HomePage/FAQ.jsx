@@ -64,7 +64,7 @@ const FAQ = () => {
                       width={200}
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover object-center shadow-2xl hover:shadow-orange-400"
-                      src="https://i.ibb.co/8cbRMc4/ship.jpg"
+                      src="https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg"
                     />
                   </div>
                 </div>
