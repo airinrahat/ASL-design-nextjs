@@ -159,9 +159,8 @@ const OurAddress = () => {
           </div>
         </div>
       </div>
-      <hr className="h-8  bg-[#1C3A5F]" />
-      <section className="text-center py-16 mb-16">
-        <h2 className="text-3xl font-extrabold text-[#1C3A5F] my-12 text-center lg:px-[123px]">
+      <section className="text-center py-16 mb-16 bg-gray-100">
+        <h2 className="text-3xl font-extrabold text-[#1C3A5F] mb-6 text-center lg:px-[123px]">
           Latest News
         </h2>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-14 lg:px-[123px] text-black">
@@ -259,7 +258,7 @@ const OurAddress = () => {
         </div>
       </section>
 
-      <hr className="h-8  bg-[#1C3A5F]" />
+      {/* <hr className="h-[2px]  bg-[#1C3A5F]" /> */}
     </div>
   );
 };

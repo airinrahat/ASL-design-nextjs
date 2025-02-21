@@ -13,6 +13,10 @@ import group4 from "../../../../public/images/Vector1.png";
 import group1 from "../../../../public/images/Group.png";
 import group2 from "../../../../public/images/Vector.png";
 import icon from "../../../../public/images/serviecIcon.png";
+import { LuShip } from "react-icons/lu";
+
+import { GiSinkingShip } from "react-icons/gi";
+import { RiShip2Line } from "react-icons/ri";
 
 const OurService = () => {
   return (
@@ -222,12 +226,7 @@ const OurService = () => {
               <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity duration-500 hover:opacity-0">
                 <div className="text-center text-white px-4">
                   <div className="flex justify-center items-center text-4xl mb-3">
-                    <Image
-                      src={group3}
-                      alt="Offloading"
-                      width={50}
-                      height={50}
-                    />
+                    <GiSinkingShip size={50} className="text-white" />{" "}
                   </div>
                   <h3 className="text-2xl font-bold tracking-wide">
                     Offloading
@@ -238,7 +237,7 @@ const OurService = () => {
               {/* Hover State */}
               <div className="absolute inset-0 bg-gradient-to-b from-blue-600 to-blue-800 text-white flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 px-6 text-center">
                 <div className="text-4xl mb-3">
-                  <Image src={group3} alt="Offloading" width={40} height={40} />
+                  <GiSinkingShip size={50} className="text-white" />{" "}
                 </div>
                 <h3 className="text-xl font-bold mb-3">Offloading</h3>
                 <p className="text-xs leading-relaxed">
@@ -263,12 +262,7 @@ const OurService = () => {
               <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center transition-opacity duration-500 hover:opacity-0">
                 <div className="text-center text-white px-4">
                   <div className="flex justify-center items-center text-4xl mb-3">
-                    <Image
-                      src={group4}
-                      alt="Clearance"
-                      width={50}
-                      height={50}
-                    />
+                    <RiShip2Line size={50} className="text-white" />
                   </div>
                   <h3 className="text-2xl font-bold tracking-wide">
                     Clearance
@@ -279,7 +273,7 @@ const OurService = () => {
               {/* Hover State */}
               <div className="absolute inset-0 bg-gradient-to-b from-blue-600 to-blue-800 text-white flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 px-4 text-center">
                 <div className="text-4xl mb-1 mt-1">
-                  <Image src={group4} alt="Clearance" width={40} height={40} />
+                  <RiShip2Line size={50} className="text-white" />{" "}
                 </div>
                 <h3 className="text-xl font-bold mb-1">Clearance</h3>
                 <p className="text-xs leading-relaxed">
@@ -304,7 +298,7 @@ const OurService = () => {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition-opacity duration-500 hover:opacity-0">
                 <div className="text-center text-white px-4">
                   <div className="flex justify-center items-center text-4xl mb-3">
-                    <Image src={group1} alt="Shipping" width={50} height={50} />
+                    <LuShip size={50} className="text-white" />
                   </div>
                   <h3 className="text-2xl font-bold tracking-wide">
                     Half-Cut Vehicle Shipping
@@ -315,7 +309,7 @@ const OurService = () => {
               {/* Hover State */}
               <div className="absolute inset-0 bg-gradient-to-b from-blue-600 to-blue-800 text-white flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500  text-center">
                 <div className="text-4xl mb-3">
-                  <Image src={group1} alt="Shipping" width={40} height={40} />
+                  <LuShip size={50} className="text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">
                   Half-Cut Vehicle Shipping

@@ -128,7 +128,6 @@ const OurService = () => {
           </div>
         </div>
 
-     
         <div className="border border-gray-400 text-black lg:mx-36 my-4 p-4 flex flex-col lg:flex-row items-center justify-between">
           <div className=" text-[16px] mb-4 lg:mb-0 text-start">
             <p>
