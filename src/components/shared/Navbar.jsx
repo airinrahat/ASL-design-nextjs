@@ -90,12 +90,37 @@ export default function Navbar() {
 
           {/* Social Media Icons */}
           <div className="flex items-center space-x-4 text-black text-sm px-2">
-            <FaLinkedinIn className="cursor-pointer font-normal hover:text-blue-600 transition-all duration-300" />
-            <FaFacebookF className="cursor-pointer hover:text-blue-600 transition-all duration-300" />
-            <RiInstagramFill className="cursor-pointer hover:text-pink-600 transition-all duration-300" />
-            <FaTwitter className="cursor-pointer hover:text-blue-400 transition-all duration-300" />
+            <a
+              href="https://www.facebook.com/alsshippinglinellc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF className="cursor-pointer text-blue-600 transition-all duration-300" />
+            </a>
 
-            <IoLogoTiktok className="cursor-pointer hover:text-red-600 transition-all duration-300" />
+            <a
+              href="https://www.instagram.com/aslshippinglinellc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RiInstagramFill className="cursor-pointer text-pink-500 transition-all duration-300" />
+            </a>
+
+            <a
+              href="https://x.com/aslshippingllc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="cursor-pointer text-blue-500 transition-all duration-300" />
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@aslshippinglinellc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLogoTiktok className="cursor-pointer text-black transition-all duration-300" />
+            </a>
           </div>
 
           <div className="relative">

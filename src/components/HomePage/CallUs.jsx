@@ -147,6 +147,7 @@ import iconOne from "../../../public/images/footer icon.png";
 import iconTwo from "../../../public/images/footer icon (1).png";
 import iconThree from "../../../public/images/footer icon (2).png";
 import { SlUserFollowing } from "react-icons/sl";
+import { IoLogoTiktok } from "react-icons/io5";
 
 // Contact Info Section Component
 const ContactInfoSection = ({ icon, title, details }) => {
@@ -173,17 +174,33 @@ const ContactInfoSection = ({ icon, title, details }) => {
 const SocialMediaIcons = () => {
   return (
     <div className="flex space-x-4 mt-3">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.facebook.com/alsshippinglinellc/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaFacebookF className="text-xl hover:text-blue-500 transition" />
       </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://x.com/aslshippingllc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaTwitter className="text-xl hover:text-blue-400 transition" />
       </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.instagram.com/aslshippinglinellc/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaInstagram className="text-xl hover:text-pink-500 transition" />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-        <FaLinkedinIn className="text-xl hover:text-blue-600 transition" />
+      <a
+        href="https://www.tiktok.com/@aslshippinglinellc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IoLogoTiktok className="text-xl hover:text-black transition" />
       </a>
     </div>
   );
