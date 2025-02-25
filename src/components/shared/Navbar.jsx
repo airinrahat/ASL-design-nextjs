@@ -13,17 +13,12 @@ import { LocationMarkerIcon, MailIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoLogoTiktok } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 
 import img from "../../../public/images/asl-log.GIF";
-
+import { Link as ScrollLink } from "react-scroll";
 export default function Navbar() {
   useEffect(() => {
     const toggleButton = document.getElementById("mobile-menu-toggle");
@@ -57,35 +52,51 @@ export default function Navbar() {
             </select>
           </div>
 
-          {/* Contact Info */}
-          <div className="flex flex-col md:flex-row items-center  md:space-y-1 md:space-x-8">
-            <div className="flex items-center space-x-1 lg:flex">
+          {/* contact info */}
+          <div className="flex flex-col md:flex-row items-center md:space-y-1 md:space-x-8">
+            <a
+              href="https://wa.me/0581035771"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-1 lg:flex"
+            >
               <FaWhatsapp className="text-green-500 w-6 h-6 sm:w-5 sm:h-5" />
               <span className="text-xs">0581035771</span>
-            </div>
-            <div className="flex items-center space-x-1 lg:flex">
+            </a>
+            <a
+              href="tel:0529751028"
+              className="flex items-center space-x-1 lg:flex"
+            >
               <FcPhone className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
               <span className="text-xs text-gray-700">0529751028</span>
-            </div>
-
-            <div className="flex items-center space-x-1 lg:flex">
+            </a>
+            <a
+              href="tel:042241592"
+              className="flex items-center space-x-1 lg:flex"
+            >
               <TbDeviceLandlinePhone className="w-6 h-6 sm:w-5 sm:h-5 text-blue-600" />
               <span className="text-xs text-gray-700">042241592</span>
-            </div>
-
-            <div className="flex md:hidden xl:flex items-center space-x-1">
+            </a>
+            <a
+              href="mailto:info@arianshippingline.com"
+              className="flex md:hidden xl:flex items-center space-x-1"
+            >
               <MailIcon className="w-6 h-6 sm:w-5 sm:h-5 text-red-600" />
               <span className="text-xs text-gray-700">
                 info@arianshippingline.com
               </span>
-            </div>
-
-            <div className="flex md:hidden xl:flex items-center space-x-1">
+            </a>
+            <a
+              href="https://maps.google.com/?q=Dubai, United Arab Emirates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex md:hidden xl:flex items-center space-x-1"
+            >
               <LocationMarkerIcon className="w-6 h-6 text-green-600" />
               <span className="text-xs text-gray-700">
                 Dubai, United Arab Emirates
               </span>
-            </div>
+            </a>
           </div>
 
           {/* Social Media Icons */}
@@ -136,24 +147,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* <div
-        className="flex justify-center items-center py-2"
-        style={{
-          background:
-            "linear-gradient(90deg, #51788E 3.5%, #3E6078 22%, #2F4E66 49%, #3E6078 75%, #4E6C83 98.5%)",
-        }}
-      >
-        <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
-      </div> */}
-      {/* <div
-        className="flex justify-center items-center py-2"
-        style={{
-          background:
-            "linear-gradient(90deg, #6C8FA0 3.5%, #5A7A8E 22%, #4A677D 49%, #5A7A8E 75%, #6C8FA0 98.5%)",
-        }}
-      >
-        <Image src={img} alt="logo img" className="w-80 h-32 bg-transparent" />
-      </div> */}
       <div
         className="flex justify-center items-center py-2"
         style={{
@@ -236,12 +229,21 @@ export default function Navbar() {
                 "linear-gradient(123.27deg, #296B9F 16.22%, #296B9F 25.48%, #154D79 41.8%, #013965 55.96%, #04335A 68.42%, #043359 69.18%)",
             }}
           >
-            <p
+            {/* <p
               href="#"
               className="py-2 text-white sm:mr-3 font-bold text-center"
             >
               Request a Quote
-            </p>
+            </p> */}
+            <ScrollLink
+              to="quote-section"
+              smooth={true}
+              duration={800}
+              className="py-2 text-white sm:mr-3 font-bold text-center cursor-pointer"
+            >
+              Request a Quote
+            </ScrollLink>
+
             <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white  hidden xl:flex "></div>
 
             <button className="text-xl px-6  text-white hidden lg:flex">

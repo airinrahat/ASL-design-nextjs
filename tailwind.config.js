@@ -14,6 +14,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      scrollBehavior: {
+        smooth: "smooth",
+      },
     },
   },
   plugins: [require("daisyui")],

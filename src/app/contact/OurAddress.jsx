@@ -148,14 +148,14 @@ const OurAddress = () => {
         <div className="space-y-4">
           <div className="w-full h-80 overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.8094111539254!2d55.325214815281546!3d25.257568783887157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f684b0be31f7f%3A0x1b7b7f60fd5b2e5b!2sCenturion%20Star%2C%20Port%20Saeed%2C%20Opp.%20Deira%20City%20Center%2C%20Near%20Flora%20Creek%20Hotel%2C%20Deira%2C%20Dubai%2C%20UAE!5e0!3m2!1sen!2sin!4v1679525391975!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.4853787610223!2d55.3286325!3d25.254252599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d4ecfb7e8cf%3A0x5b5eb3d9363cd1c9!2sAMAYA%20Shipping%20Line%20L.L.C%20(ASL)!5e0!3m2!1sen!2sbd!4v1740474157680!5m2!1sen!2sbd"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            />
+            ></iframe>
           </div>
         </div>
       </div>
