@@ -33,7 +33,7 @@ const OurService = () => {
             Our Services
           </h2>
           <div className="lg:mx-60 mx-4">
-            <p className="text-lg md:text-xl leading-relaxed text-justify font-medium text-gray-700">
+            <p className="text-lg md:text-xl leading-relaxed md:leading-8 text-justify font-medium text-gray-700">
               At{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
