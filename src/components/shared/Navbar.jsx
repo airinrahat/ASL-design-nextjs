@@ -87,10 +87,10 @@ export default function Navbar() {
               </span>
             </a>
             <a
-              href="https://maps.google.com/?q=Dubai, United Arab Emirates"
+              href="https://maps.google.com/?q=AMAYA+Shipping+Line+L.L.C+(ASL),+Dubai,+United+Arab+Emirates"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex md:hidden xl:flex items-center space-x-1"
+              className="flex items-center space-x-1 cursor-pointer"
             >
               <LocationMarkerIcon className="w-6 h-6 text-green-600" />
               <span className="text-xs text-gray-700">
@@ -100,7 +100,7 @@ export default function Navbar() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex items-center space-x-4 text-black text-sm px-2">
+          <div className="flex items-center space-x-5 text-black text-sm px-2">
             <a
               href="https://www.facebook.com/alsshippinglinellc/"
               target="_blank"
@@ -229,12 +229,6 @@ export default function Navbar() {
                 "linear-gradient(123.27deg, #296B9F 16.22%, #296B9F 25.48%, #154D79 41.8%, #013965 55.96%, #04335A 68.42%, #043359 69.18%)",
             }}
           >
-            {/* <p
-              href="#"
-              className="py-2 text-white sm:mr-3 font-bold text-center"
-            >
-              Request a Quote
-            </p> */}
             <ScrollLink
               to="quote-section"
               smooth={true}

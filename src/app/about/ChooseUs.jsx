@@ -8,7 +8,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import ship from "../../../public/images/sss.jpg";
+import ship from "../../../public/images/about2.jpg";
 
 const ChooseUs = () => {
   return (
@@ -97,7 +97,7 @@ const ChooseUs = () => {
         {/* Right Column with Image */}
         <div className="lg:col-span-1  row-span-2 mt-8">
           <Image
-            src="https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg"
+            src={ship}
             alt="Description"
             width={1000}
             height={1000}

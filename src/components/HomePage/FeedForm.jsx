@@ -21,7 +21,7 @@ const FeedForm = () => {
         </div>
 
         <div className="w-full lg:w-1/2 mx-auto bg-white p-6 rounded-lg shadow-md mb-8">
-          <h2 className="text-2xl text-[#1C3A5F] font-semibold  text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-center text-[#1C3A5F]">
             Submit Your Feedback
           </h2>
           <form className="space-y-4">
