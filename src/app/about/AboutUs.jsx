@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import about1 from "../../../public/images/about1.jpg";
 
 const AboutUs = () => {
   return (
@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-4 text-gray-700">
-            <p className="text-sm leading-5">
+            <p className="text-base ">
               Welcome to{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -25,7 +25,7 @@ const AboutUs = () => {
               since our establishment in 2008.
             </p>
 
-            <p className="text-sm leading-5">
+            <p className="text-base ">
               At{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -46,7 +46,7 @@ const AboutUs = () => {
               requirements and ensure a hassle-free customs clearance process.
             </p>
 
-            <p className="text-sm leading-5">
+            <p className="text-base ">
               With a strong focus on customer satisfaction,{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -65,11 +65,11 @@ const AboutUs = () => {
 
             {/* Image */}
             <Image
-              src="https://i.ibb.co/Kc2dFQXY/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg"
+              src={about1}
               alt="Shipping Illustration"
               className="w-full rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-500"
-              width={2000} // Increased width
-              height={1600} // Increased height
+              width={1500} // Increased width
+              height={1500} // Increased height
               layout="responsive"
             />
 

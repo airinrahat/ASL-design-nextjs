@@ -104,13 +104,20 @@ const FAQ = () => {
                 <p className="text-center font-medium text-[#1C3A5F] mb-2">
                   Still have questions ?
                 </p>
-                <h1 className="text-center text-2xl text-black font-bold uppercase">
+                <h1 className="text-center text-3xl md:text-3xl font-extrabold mb-2  text-[#1C3A5F] uppercase">
+                  {/* <h2 className="text-3xl md:text-4xl font-extrabold mb-5 text-center text-[#1C3A5F]"> */}
                   most commonly asked questions
                 </h1>
               </div>
               <div className={styles.accordion}>
                 <Accordion transition transitionTimeout={250}>
-                  <AccordionItem header="How does the car shipping process work?">
+                  <AccordionItem
+                    header={
+                      <span className=" font-semibold ">
+                        How does the car shipping process work?
+                      </span>
+                    }
+                  >
                     The car shipping process begins with researching and
                     selecting a reputable shipping company that aligns with your
                     specific requirements. Once you’ve chosen a service
@@ -119,7 +126,13 @@ const FAQ = () => {
                     carriers—that best suits your needs.
                   </AccordionItem>
 
-                  <AccordionItem header="How much does it cost to ship a car?">
+                  <AccordionItem
+                    header={
+                      <span className=" font-semibold ">
+                        How much does it cost to ship a car?
+                      </span>
+                    }
+                  >
                     The cost to ship a car can vary widely depending on several
                     factors, including the distance, the type of transport, the
                     size and weight of the vehicle, and whether you choose an
@@ -134,7 +147,14 @@ const FAQ = () => {
                     specific details about your shipment.
                   </AccordionItem>
 
-                  <AccordionItem header="What is the difference between open and enclosed car transport?">
+                  <AccordionItem
+                    header={
+                      <span className=" font-semibold ">
+                        What is the difference between open and enclosed car
+                        transport?
+                      </span>
+                    }
+                  >
                     Open car transport is the more common and economical option.
                     Vehicles are shipped on an open-air trailer, usually with no
                     covering or protection. This method is less expensive
@@ -143,7 +163,13 @@ const FAQ = () => {
                     dust, and debris), which may lead to potential damage during
                     transport.
                   </AccordionItem>
-                  <AccordionItem header="Will my car be insured during transport?">
+                  <AccordionItem
+                    header={
+                      <span className=" font-semibold ">
+                        Will my car be insured during transport?
+                      </span>
+                    }
+                  >
                     Basic Coverage: Most auto transport companies provide basic
                     liability insurance, which covers damage to your car during
                     transit. This coverage is often included in the cost of
@@ -154,7 +180,13 @@ const FAQ = () => {
                     their insurance policy to know the specifics (e.g., how much
                     coverage is provided and what is excluded).
                   </AccordionItem>
-                  <AccordionItem header=" How long does it take to ship a car?">
+                  <AccordionItem
+                    header={
+                      <span className=" font-semibold ">
+                        How long does it take to ship a car?
+                      </span>
+                    }
+                  >
                     The time it takes to ship a car depends on several factors,
                     including the distance between the pickup and delivery
                     locations, the route, and the type of transport service

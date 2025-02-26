@@ -56,7 +56,7 @@ export default function Banner() {
                     ]}
                     typeSpeed={140}
                     loop
-                    className="text-base sm:text-xl md:text-2xl lg:text-4xl"
+                    className="text-base sm:text-xl uppercase md:text-2xl lg:text-5xl"
                   />
                 </div>
               </h1>

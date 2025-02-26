@@ -3,13 +3,15 @@ import ContactBanner from "./ContactBanner";
 import OurAddress from "./OurAddress";
 import FAQ from "@/components/HomePage/FAQ";
 import CallUs from "@/components/HomePage/CallUs";
-import ContactUs from "./ContactUs";
+// import ContactUs from "./ContactUs";
+import ContactPage from "./ContactPage";
 
 const page = () => {
   return (
     <div className="bg-white ">
       <ContactBanner />
-      <ContactUs />
+      <ContactPage />
+      {/* <ContactUs /> */}
       <OurAddress />
       <FAQ />
       <CallUs />

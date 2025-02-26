@@ -1,4 +1,5 @@
 import React from "react";
+import serviceBanner from "../../../public/images/Slider1.gif";
 
 const BannerServices = () => {
   return (
@@ -6,7 +7,8 @@ const BannerServices = () => {
       className="relative w-full h-[500px] bg-cover bg-center"
       style={{
         backgroundImage:
-          "url(https://i.ibb.co/WvytrxQn/8cb91cbf-023f-4b27-8006-0ce503fe0373.jpg)",
+          // "url(https://i.ibb.co/WvytrxQn/8cb91cbf-023f-4b27-8006-0ce503fe0373.jpg)",
+          `url(${serviceBanner.src})`,
       }}
     >
       {/* <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50">

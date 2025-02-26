@@ -1,4 +1,4 @@
-import React from "react";
+import about1 from "../../../public/images/about3.jpg";
 
 const ContactUs = () => {
   return (
@@ -6,7 +6,7 @@ const ContactUs = () => {
       <section
         className="contact-us bg-image bg-cover bg-fixed bg-center py-20 relative"
         style={{
-          backgroundImage: "url(https://i.ibb.co/TbbZ9Rr/contact.jpg)",
+          backgroundImage: `url(${about1.src})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>

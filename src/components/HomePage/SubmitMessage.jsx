@@ -137,9 +137,9 @@ const SubmitMessage = () => {
               <div className="mt-8 mb-8">
                 <button
                   type="submit"
-                  className="w-full bg-blue-400 text-white p-2 rounded hover:bg-opacity-70 duration-200"
+                  className="w-full uppercase bg-blue-400 text-white p-2 rounded hover:bg-opacity-70 duration-200"
                 >
-                  SUBMIT
+                  Get Quote
                 </button>
               </div>
             </form>
