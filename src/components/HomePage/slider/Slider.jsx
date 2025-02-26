@@ -9,22 +9,22 @@ import { ReactTyped } from "react-typed";
 
 const slides = [
   {
-    image: "https://i.ibb.co/DHX4THHY/f668265a-37e5-4efb-bb46-ec4feece42db.jpg",
+    image: "https://i.ibb.co/35p5pjgG/slider-1-without-logo.png",
   },
   {
-    image: "https://i.ibb.co/SDbCpsQQ/24d0908b-63b4-436c-a298-7dda6abd58ae.jpg",
+    image: "https://i.ibb.co/LzBjF3TW/Untitled-design-5.jpg",
   },
   {
-    image: "https://i.ibb.co/LzqsS9zD/ca89b58a-c8e9-4d9b-987b-7ad522604792.jpg",
+    image: "https://i.ibb.co/gZ6P0PrQ/Untitled-design-6.jpg",
   },
   {
-    image: "https://i.ibb.co/WvytrxQn/8cb91cbf-023f-4b27-8006-0ce503fe0373.jpg",
+    image: "https://i.ibb.co/ymLCw7kP/Untitled-design-7.jpg",
   },
   {
-    image: "https://i.ibb.co/8gydYK9J/c1fa5599-ca33-4c7c-bfde-c9dc52823198.jpg",
+    image: "https://i.ibb.co/Rp9j0cCp/Untitled-design-8.jpg",
   },
   {
-    image: "https://i.ibb.co/Qj8B2C4Z/9594bb0b-f431-49db-9016-6238b320d300.jpg",
+    image: "https://i.ibb.co/HTdJzmpH/Untitled-design-9.jpg",
   },
   {
     image: "https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg",
