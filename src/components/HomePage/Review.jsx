@@ -161,14 +161,14 @@ import user5 from "../../../public/images/zafar.png";
 const testimonials = [
   {
     name: "Engr. Ahmad",
-    username: "@Priya Sharma . 23 days ago",
+    username: "@engrahmad . 23 days ago",
     review:
       "Best shipping services provider for used cars from USA to UAE. competitive prices and no compromise on quality. i recommend ASL to every used car dealer and car lover.",
     image: user1,
   },
   {
     name: "Asif khan",
-    username: "@vkumar kumar . 7 months ago",
+    username: "@asifkhan . 9 months ago",
     review:
       "One of the best shipping company in market they provide best services and deliver vehicles safely to UAE. Highly recommend for used car dealers ",
     image: user2,
@@ -182,7 +182,7 @@ const testimonials = [
   },
   {
     name: "Altaf Hussain Awal Zada",
-    username: "@ab khan . 24 days ago",
+    username: "@altafhussain . 20 days ago",
     review:
       "I shipped my cars with AMAYA SHIPPING LINE LLC. They provided excellent service, ensuring my vehicles were shipped safely and arrived on time. I highly recommend their reliable used car shipping services!",
     image: user4,
@@ -219,39 +219,6 @@ const TestimonialSlider = () => {
             className="pb-10"
           >
             {testimonials.map((testimonial, index) => (
-              // <SwiperSlide key={index} className="p-4">
-              //   <div className=" border rounded-xl shadow-lg p-6 w-full">
-              //     <div className="flex justify-center mb-4">
-              //       <FcGoogle className="text-4xl" />
-              //     </div>
-
-              //     <div className="flex justify-center mb-4">
-              //       {[...Array(5)].map((_, index) => (
-              //         <span key={index} className="text-yellow-500 text-xl">
-              //           ★
-              //         </span>
-              //       ))}
-              //     </div>
-
-              //     <p className="text-center text-gray-700 text-sm mb-14">
-              //       {testimonial.review}
-              //     </p>
-
-              //     <div className="flex flex-col items-center">
-              //       <Image
-              //         src={testimonial.image}
-              //         alt={testimonial.name}
-              //         className="w-14 h-14 rounded-full mb-2 border"
-              //       />
-              //       <p className="font-semibold text-gray-800">
-              //         {testimonial.name}
-              //       </p>
-              //       <p className="text-sm text-gray-500">
-              //         {testimonial.username}
-              //       </p>
-              //     </div>
-              //   </div>
-              // </SwiperSlide>
               <SwiperSlide key={index} className="p-4">
                 <div className="border rounded-xl shadow-lg px-6 py-4 w-full h-[400px] flex flex-col">
                   <div className="flex justify-center mb-2">

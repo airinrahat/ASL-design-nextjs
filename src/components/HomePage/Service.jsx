@@ -4,6 +4,8 @@ import { FaArrowRight, FaShip, FaTruck } from "react-icons/fa";
 import { FaPeopleCarryBox, FaTrainSubway } from "react-icons/fa6";
 import icon from "../../../public/images/serviecIcon.png";
 import OurService from "./Banner/OurService";
+import serviceBanner from "../../../public/images/Slider2.gif";
+
 import React, { useState } from "react";
 
 const Service = () => {
@@ -25,6 +27,7 @@ const Service = () => {
       name: "Fast Shipping",
       logo: "https://i.ibb.co/tk3CQb6/Group.png",
       image: "https://i.ibb.co/ccZ4hrZ0/Fast-shipping-1.jpg",
+
       icon: <FaTruck className="text-6xl" />,
       description:
         "Road freight service is a mode of transporting various goods by road using trucks that can handle different loads and distances.",
