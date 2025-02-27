@@ -1,10 +1,11 @@
-import about1 from "../../../public/images/about3.jpg";
+// import about1 from "../../../public/images/about3.jpg";
+import about1 from "../../../public/images/slider4.gif";
 
 const ContactUs = () => {
   return (
     <div className="my-12">
       <section
-        className="contact-us bg-image bg-cover bg-fixed bg-center py-20 relative"
+        className="contact-us bg-image bg-cover bg-fixed bg-center py-28 relative"
         style={{
           backgroundImage: `url(${about1.src})`,
         }}

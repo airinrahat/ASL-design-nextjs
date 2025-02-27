@@ -1,5 +1,5 @@
 import React from "react";
-import serviceBanner from "../../../public/images/Slider1.gif";
+import serviceBanner from "../../../public/images/Slider2.gif";
 
 const BannerServices = () => {
   return (

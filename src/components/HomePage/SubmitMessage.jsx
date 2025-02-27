@@ -1,6 +1,8 @@
 import Image from "next/image";
 // import PhoneInput from "react-phone-input-2";
 // import "react-phone-input-2/lib/style.css";
+import serviceBanner from "../../../public/images/Slider2.gif";
+// import serviceBanner from "../../../public/images/slider3.gif";
 
 const SubmitMessage = () => {
   const portLoadingData = [
@@ -162,10 +164,9 @@ const SubmitMessage = () => {
       </section>
 
       <div
-        className="relative w-full h-[450px] bg-cover bg-center mt-10 mb-20  shadow-xl overflow-hidden"
+        className="relative w-full h-[450px] bg-cover bg-center mt-10 mb-20 shadow-xl overflow-hidden hidden md:block"
         style={{
-          backgroundImage:
-            "url(https://i.ibb.co/HLwmDvfq/92ea30eb-19fc-43f7-b4c2-3721c8cf6694.jpg)",
+          backgroundImage: `url(${serviceBanner.src})`,
         }}
       >
         <div className="absolute inset-0 bg-black/20"></div>
