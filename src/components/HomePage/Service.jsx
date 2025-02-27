@@ -1,10 +1,24 @@
+"use client";
 import Image from "next/image";
 import { FaArrowRight, FaShip, FaTruck } from "react-icons/fa";
 import { FaPeopleCarryBox, FaTrainSubway } from "react-icons/fa6";
 import icon from "../../../public/images/serviecIcon.png";
 import OurService from "./Banner/OurService";
+import React, { useState } from "react";
 
 const Service = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedService, setSelectedService] = useState(null);
+
+  const openModal = (service) => {
+    setSelectedService(service);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedService(null);
+  };
   const services = [
     {
       id: 1,
@@ -60,51 +74,8 @@ const Service = () => {
             </p>
           </div>
         </div>
-        {/* <div className=" m-auto flex justify-center items-center py-10">
-          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 lg:gap-7 p-2 xl:p-0">
-            {services.map((service) => (
-              <div
-                key={service.id}
-                className="w-[370px] lg:w-[300px] xl:w-[370px] h-[440px] bg-cover bg-center relative shadow-2xl"
-                style={{ backgroundImage: `url('${service.image}')` }}
-              >
-                <div className="p-6">
-                  <div>
-                    <div className="bg-gray-200 h-[150px] translate-y-64">
-                      <div className="flex justify-center items-center text-center p-4">
-                        <div className="absolute p-6 bg-[#1C3A5F] rounded-full">
-                          <div className="w-16 rounded-full text-black">
-                            {typeof service.logo === "string" ? (
-                              <Image
-                                height={200}
-                                width={200}
-                                alt="img"
-                                className="h-full w-full text-black"
-                                src={service.logo}
-                              />
-                            ) : (
-                              service.logo
-                            )}
-                          </div>
-                        </div>
-                        <div className="text-xl font-bold pt-[190px] absolute">
-                          {service.name} <br />
-                          <button
-                            className="text-sm px-4 py-[6px]  font-bold text-white bg-[#274A66] rounded-full shadow-lg hover:bg-[#1F345D] transition-all duration-300
-                                      "
-                          >
-                            Learn More
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
-        <div className="m-auto flex justify-center items-center py-10">
+
+        {/* <div className="m-auto flex justify-center items-center py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7 p-2 xl:p-0">
             {services.map((service) => (
               <div
@@ -116,7 +87,6 @@ const Service = () => {
                 <div className="p-6">
                   <div className="bg-gray-100 h-[150px] translate-y-64 rounded-lg shadow-md">
                     <div className="flex justify-center items-center text-center p-4">
-                      {/* লোগো */}
                       <div className="absolute p-4 bg-[#1C3A5F] rounded-full -top-8">
                         <div className="w-12 h-12 rounded-full flex justify-center items-center">
                           {typeof service.logo === "string" ? (
@@ -147,6 +117,82 @@ const Service = () => {
               </div>
             ))}
           </div>
+        </div> */}
+
+        <div className="m-auto flex justify-center items-center py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7 p-2 xl:p-0">
+            {services.map((service) => (
+              <div
+                key={service.id}
+                className="w-[370px] lg:w-[300px] xl:w-[370px] h-[440px] bg-cover bg-center relative shadow-2xl rounded-xl overflow-hidden transform hover:scale-105 transition-transform duration-300"
+                style={{ backgroundImage: `url('${service.image}')` }}
+              >
+                <div className="absolute inset-0 bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300"></div>
+                <div className="p-6">
+                  <div className="bg-gray-100 h-[150px] translate-y-64 rounded-lg shadow-md">
+                    <div className="flex justify-center items-center text-center p-4">
+                      <div className="absolute p-4 bg-[#1C3A5F] rounded-full -top-8">
+                        <div className="w-12 h-12 rounded-full flex justify-center items-center">
+                          {typeof service.logo === "string" ? (
+                            <Image
+                              height={80}
+                              width={80}
+                              alt="img"
+                              className="h-10 w-10 object-contain"
+                              src={service.logo}
+                            />
+                          ) : (
+                            <div className="h-10 w-10 flex justify-center items-center">
+                              {service.logo}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      <div className="text-xl font-bold pt-[190px] absolute">
+                        <h3 className="text-[#1C3A5F]">{service.name}</h3>
+                        <button
+                          onClick={() => openModal(service)}
+                          className="text-sm px-4 py-2 mb-4 font-bold text-white bg-[#274A66] rounded-full shadow-lg hover:bg-[#1F345D] transition-all duration-300 mt-2"
+                        >
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {isModalOpen && selectedService && (
+            <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+              <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+                <Image
+                  src={selectedService.image}
+                  alt={selectedService.name}
+                  width={400}
+                  height={300}
+                  className="w-full h-48 object-cover rounded-t-lg"
+                />
+
+                <h2 className="text-2xl font-bold text-[#1C3A5F] mt-4">
+                  {selectedService.name}
+                </h2>
+
+                <p className="text-gray-700 mt-2">
+                  {selectedService.description}
+                </p>
+
+                <button
+                  onClick={closeModal}
+                  className="mt-4 px-4 py-2 bg-[#274A66] text-white rounded-full hover:bg-[#1F345D] transition-all duration-300"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
         </div>
         <OurService />
       </div>
