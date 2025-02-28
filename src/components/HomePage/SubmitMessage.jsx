@@ -1,10 +1,28 @@
+"use client";
 import Image from "next/image";
 // import PhoneInput from "react-phone-input-2";
 // import "react-phone-input-2/lib/style.css";
 import serviceBanner from "../../../public/images/Slider2.gif";
+// import PhoneInput from "react-phone-input-2";
+// import "react-phone-input-2/lib/style.css";
+
 // import serviceBanner from "../../../public/images/slider3.gif";
+import { useFormik } from "formik";
+import React, { useState } from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const SubmitMessage = () => {
+  const [dialCode, setDialCode] = useState("");
+
+  const formik = useFormik({
+    initialValues: {
+      primary_phone: "",
+    },
+    onSubmit: (values) => {
+      alert(`Submitted Phone Number: ${dialCode}${values.primary_phone}`);
+    },
+  });
   const portLoadingData = [
     { id: "", title: "Select port of loading" },
     { id: 1, title: "NEW JERSEY, NWJ" },
@@ -50,7 +68,7 @@ const SubmitMessage = () => {
                 </div>
               </div>
 
-              {/* Second Column: contact, loading */}
+              {/* Second Column: contact, loading
               <div className="grid grid-cols-2 gap-4 mt-7">
                 <div>
                   <input
@@ -73,33 +91,28 @@ const SubmitMessage = () => {
                     ))}
                   </select>
                 </div>
-              </div>
+              </div> */}
+
+              {/* Second Column: contact, loading */}
               {/* <div className="grid grid-cols-2 gap-4 mt-7">
-                <div>
-                
+                <div onSubmit={formik.handleSubmit}>
                   <PhoneInput
-                    country={"ae"} 
-                    onlyCountries={["ae", "us", "gb"]} 
-                    placeholder="+971" 
-                    disableSearchIcon={true} 
-                    enableSearch={true} 
-                    countryCodeEditable={false} 
-                    value={dialCode + formik.values.primary_phone} 
+                    country={"ae"}
+                    enableSearch={true}
+                    className="w-full p-2 text-gray-900 bg-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Enter phone number"
+                    value={`${dialCode}${formik.values.primary_phone}`}
                     onChange={(phone, e) => {
-                      setDialCode(`+${e.dialCode}`); 
-                      formik.setValues({
-                        ...formik.values,
-                        primary_phone: phone.slice(
-                          e.dialCode.length,
-                          phone.length
-                        ),
-                      });
+                      setDialCode(`+${e.dialCode}`);
+                      formik.setFieldValue(
+                        "primary_phone",
+                        phone.slice(e.dialCode.length)
+                      );
                     }}
                   />
                 </div>
 
-                <div>
-                 
+                <div className="">
                   <select
                     id="loading"
                     className="w-full p-2 text-gray-900 bg-white border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -112,6 +125,42 @@ const SubmitMessage = () => {
                   </select>
                 </div>
               </div> */}
+              <div className="grid grid-cols-2 gap-4 mt-7">
+                <div onSubmit={formik.handleSubmit}>
+                  <div className="w-full">
+                    <PhoneInput
+                      country={"ae"}
+                      enableSearch={true}
+                      inputClass="!w-full !p-2 !text-gray-900 !bg-white !rounded !focus:outline-none !focus:ring-2 !focus:ring-blue-500 !border !border-gray-300"
+                      buttonClass="!bg-gray-100 !border !border-gray-300 !rounded-l"
+                      dropdownClass="!bg-white !text-black !border !border-gray-300 !rounded !shadow-lg" //
+                      containerClass="!w-full"
+                      placeholder="Enter phone number"
+                      value={`${dialCode}${formik.values.primary_phone}`}
+                      onChange={(phone, e) => {
+                        setDialCode(`+${e.dialCode}`);
+                        formik.setFieldValue(
+                          "primary_phone",
+                          phone.slice(e.dialCode.length)
+                        );
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="">
+                  <select
+                    id="loading"
+                    className="w-full p-2 text-gray-900 bg-white border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    {portLoadingData.map((port) => (
+                      <option key={port.id} value={port.id}>
+                        {port.title}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
 
               {/* Third Column: destination , message */}
               <div className="grid grid-cols-2 gap-4 mt-7">

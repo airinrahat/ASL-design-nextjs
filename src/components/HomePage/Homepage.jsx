@@ -18,6 +18,7 @@ const Homepage = () => {
       <Service />
 
       <SubmitMessage />
+
       <Partner />
       <Certified />
       <Barnch />

@@ -15,6 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^1.0.6",
     "@szhsin/react-accordion": "github:szhsin/react-accordion",
+    "formik": "^2.4.6",
     "framer-motion": "^11.11.17",
     "i18next": "^23.16.5",
     "next": "^15.1.7",
