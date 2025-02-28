@@ -46,7 +46,7 @@ export default function Banner() {
             className="relative w-full h-[600px] bg-cover bg-center"
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start px-4 lg:pl-52 bg-black bg-opacity-40 text-center lg:text-left">
+            {/* <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start px-4 lg:pl-52 bg-black bg-opacity-40 text-center lg:text-left">
               <h1 className="text-white text-lg sm:text-xl md:text-3xl lg:text-5xl font-bold leading-tight sm:leading-[50px] md:leading-[65px]">
                 <div>
                   <ReactTyped
@@ -60,7 +60,7 @@ export default function Banner() {
                   />
                 </div>
               </h1>
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
       ))}

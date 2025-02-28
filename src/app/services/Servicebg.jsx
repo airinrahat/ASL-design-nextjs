@@ -1,4 +1,6 @@
 import React from "react";
+import serviceBg from "../../../public/images/Slider1.gif";
+import serviceBanner from "../../../public/images/Slider2.gif";
 
 const Servicebg = () => {
   return (
@@ -6,8 +8,7 @@ const Servicebg = () => {
       <div
         className="relative w-full h-[400px] bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url(https://i.ibb.co/Qj8B2C4Z/9594bb0b-f431-49db-9016-6238b320d300.jpg)",
+          backgroundImage: `url(${serviceBg.src})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center lg:justify-start px-6 lg:px-24">
