@@ -80,16 +80,16 @@ const Service = () => {
                     utilizing advanced techniques to prevent any movement during
                     transit, thereby minimizing the risk of damage.`,
     },
-    {
-      id: 7,
-      name: "Offloading",
-      logo: <FaTruckMoving className="text-4xl text-white" />,
-      image: "https://i.ibb.co/N21QdGgj/Untitled-design-17.jpg",
-      description: `Upon arrival at the destination port, your vehicle is
-                    meticulously offloaded from the shipping container, ensuring
-                    it remains in perfect condition for a seamless handover
-                    experience.`,
-    },
+    // {
+    //   id: 7,
+    //   name: "Offloading",
+    //   logo: <FaTruckMoving className="text-4xl text-white" />,
+    //   image: "https://i.ibb.co/N21QdGgj/Untitled-design-17.jpg",
+    //   description: `Upon arrival at the destination port, your vehicle is
+    //                 meticulously offloaded from the shipping container, ensuring
+    //                 it remains in perfect condition for a seamless handover
+    //                 experience.`,
+    // },
   ];
 
   return (

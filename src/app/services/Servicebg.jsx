@@ -1,6 +1,5 @@
 import React from "react";
 import serviceBg from "../../../public/images/Slider1.gif";
-import serviceBanner from "../../../public/images/Slider2.gif";
 
 const Servicebg = () => {
   return (
