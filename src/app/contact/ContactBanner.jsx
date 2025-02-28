@@ -10,11 +10,11 @@ const ContactBanner = () => {
           backgroundImage: `url(${contactBanner.src})`,
         }}
       >
-        <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50">
+        {/* <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50">
           <h1 className="text-white md:text-5xl font-extrabold text-5xl uppercase">
             Contact us
           </h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );
