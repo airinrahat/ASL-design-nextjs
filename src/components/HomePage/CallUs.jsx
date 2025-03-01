@@ -31,8 +31,8 @@
 // //             className="mb-3"
 // //           />
 // //           <h3 className="text-md font-semibold text-[#D1E8F2]">Get In Touch</h3>
-// //           <p className="text-sm text-gray-300 mt-2">099435372</p>
-// //           <p className="text-sm text-gray-300">042241372</p>
+// //           <p className="text-sm text-white mt-2">099435372</p>
+// //           <p className="text-sm text-white">042241372</p>
 // //         </div>
 
 // //         {/* Working Hours Section */}
@@ -47,11 +47,11 @@
 // //           <h3 className="text-md font-semibold text-[#D1E8F2]">
 // //             Opening Hours
 // //           </h3>
-// //           <p className="text-sm text-gray-300 mt-2">
+// //           <p className="text-sm text-white mt-2">
 // //             Monday-Friday: 8:00 am - 5:00 pm
 // //           </p>
-// //           <p className="text-sm text-gray-300">Saturday: 8:00 am - 1:00 pm</p>
-// //           <p className="text-sm text-gray-300">Sunday: Closed</p>
+// //           <p className="text-sm text-white">Saturday: 8:00 am - 1:00 pm</p>
+// //           <p className="text-sm text-white">Sunday: Closed</p>
 // //         </div>
 
 // //         {/* Location Section */}
@@ -64,8 +64,8 @@
 // //             className="mb-3"
 // //           />
 // //           <h3 className="text-md font-semibold text-[#D1E8F2]">Locations</h3>
-// //           <p className="text-sm text-gray-300 mt-2">Dubai</p>
-// //           <p className="text-sm text-gray-300">United Arab Emirates</p>
+// //           <p className="text-sm text-white mt-2">Dubai</p>
+// //           <p className="text-sm text-white">United Arab Emirates</p>
 // //         </div>
 
 // //         {/* Follow Us Section */}
@@ -162,7 +162,7 @@
 //       />
 //       <h3 className="text-md font-semibold text-[#D1E8F2]">{title}</h3>
 //       {details.map((detail, index) => (
-//         <p key={index} className="text-sm text-gray-300 mt-2">
+//         <p key={index} className="text-sm text-white mt-2">
 //           {detail}
 //         </p>
 //       ))}
@@ -284,20 +284,14 @@
 
 // export default CallUs;
 
-import React from "react";
 import Image from "next/image";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { IoLogoTiktok } from "react-icons/io5";
+import { SlUserFollowing } from "react-icons/sl";
 import apps from "../../../public/images/Apps.png";
-import iconOne from "../../../public/images/footer icon.png";
 import iconTwo from "../../../public/images/footer icon (1).png";
 import iconThree from "../../../public/images/footer icon (2).png";
-import { SlUserFollowing } from "react-icons/sl";
-import { IoLogoTiktok } from "react-icons/io5";
+import iconOne from "../../../public/images/footer icon.png";
 
 // Contact Info Section Component
 const ContactInfoSection = ({ icon, title, details }) => {
@@ -316,7 +310,7 @@ const ContactInfoSection = ({ icon, title, details }) => {
       </div>
       <h3 className="text-xl font-bold text-[#D1E8F2]">{title}</h3>
       {details.map((detail, index) => (
-        <p key={index} className="text-sm text-gray-300 mt-2">
+        <p key={index} className="text-sm text-white mt-2">
           {detail}
         </p>
       ))}
@@ -370,7 +364,7 @@ const CallUs = () => {
     {
       icon: iconOne,
       title: "Get In Touch",
-      details: ["099435372", "042241372"],
+      details: ["0529751028", "042241592"],
     },
     {
       icon: iconTwo,

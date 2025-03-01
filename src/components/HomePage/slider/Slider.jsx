@@ -1,11 +1,11 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { ReactTyped } from "react-typed";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { ReactTyped } from "react-typed";
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const slides = [
   {
@@ -17,9 +17,7 @@ const slides = [
   {
     image: "https://i.ibb.co/gZ6P0PrQ/Untitled-design-6.jpg",
   },
-  {
-    image: "https://i.ibb.co/ymLCw7kP/Untitled-design-7.jpg",
-  },
+
   {
     image: "https://i.ibb.co/Rp9j0cCp/Untitled-design-8.jpg",
   },
@@ -43,10 +41,10 @@ export default function Banner() {
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
           <div
-            className="relative w-full h-[600px] bg-cover bg-center"
+            className="relative w-full h-[640px] bg-cover bg-center"
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            {/* <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start px-4 lg:pl-52 bg-black bg-opacity-40 text-center lg:text-left">
+            <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start px-4 lg:pl-52 bg-black bg-opacity-40 text-center lg:text-left">
               <h1 className="text-white text-lg sm:text-xl md:text-3xl lg:text-5xl font-bold leading-tight sm:leading-[50px] md:leading-[65px]">
                 <div>
                   <ReactTyped
@@ -60,7 +58,7 @@ export default function Banner() {
                   />
                 </div>
               </h1>
-            </div> */}
+            </div>
           </div>
         </SwiperSlide>
       ))}

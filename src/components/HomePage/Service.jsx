@@ -1,18 +1,8 @@
 "use client";
 import Image from "next/image";
-import {
-  FaArrowRight,
-  FaMapMarkerAlt,
-  FaShip,
-  FaTruck,
-  FaTruckLoading,
-  FaTruckMoving,
-} from "react-icons/fa";
-import { FaPeopleCarryBox, FaTrainSubway } from "react-icons/fa6";
+import { useState } from "react";
+import { FaShip, FaTruckLoading } from "react-icons/fa";
 import icon from "../../../public/images/serviecIcon.png";
-import serviceBanner from "../../../public/images/Slider2.gif";
-import { FaRoute } from "react-icons/fa";
-import React, { useState } from "react";
 
 const Service = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -119,7 +109,7 @@ const Service = () => {
         </div>
 
         <div className="m-auto flex justify-center items-center py-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-7 p-2 xl:p-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 p-2 xl:p-0">
             {services.map((service) => (
               <div
                 key={service.id}
@@ -128,9 +118,9 @@ const Service = () => {
               >
                 <div className="absolute inset-0 bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300"></div>
                 <div className="p-6">
-                  <div className="bg-gray-100 h-[150px] translate-y-64 rounded-lg shadow-md">
+                  <div className="bg-gray-100 h-[140px] translate-y-64 rounded-lg shadow-md">
                     <div className="flex justify-center items-center text-center p-4">
-                      <div className="absolute p-4 bg-[#1C3A5F] rounded-full -top-8">
+                      <div className="absolute p-2 bg-[#1C3A5F] rounded-full -top-8">
                         <div className="w-12 h-12 rounded-full flex justify-center items-center">
                           {typeof service.logo === "string" ? (
                             <Image
@@ -148,7 +138,7 @@ const Service = () => {
                         </div>
                       </div>
 
-                      <div className="text-xl font-bold pt-[190px] absolute">
+                      <div className="text-xl font-bold pt-[140px] absolute">
                         <h3 className="text-[#1C3A5F]">{service.name}</h3>
                         <button
                           onClick={() => openModal(service)}
@@ -166,7 +156,13 @@ const Service = () => {
 
           {isModalOpen && selectedService && (
             <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-              <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+              <div className="bg-white p-6 relative rounded-lg shadow-lg max-w-md w-full">
+                <button
+                  onClick={closeModal}
+                  className="absolute top-2 right-2 px-4 py-2 bg-[#274A66] text-white rounded-full hover:bg-[#1F345D] transition-all duration-300"
+                >
+                  X
+                </button>
                 <Image
                   src={selectedService.image}
                   alt={selectedService.name}
@@ -182,13 +178,6 @@ const Service = () => {
                 <p className="text-gray-700 mt-2">
                   {selectedService.description}
                 </p>
-
-                <button
-                  onClick={closeModal}
-                  className="mt-4 px-4 py-2 bg-[#274A66] text-white rounded-full hover:bg-[#1F345D] transition-all duration-300"
-                >
-                  Close
-                </button>
               </div>
             </div>
           )}

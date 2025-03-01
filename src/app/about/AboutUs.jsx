@@ -11,10 +11,10 @@ const AboutUs = () => {
         </h3>
 
         {/* Grid Layout for Content and Image */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Text Content */}
           <div className="space-y-4 text-gray-700">
-            <p className="text-base ">
+            <p className="text-base/9 ">
               Welcome to{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -25,7 +25,7 @@ const AboutUs = () => {
               since our establishment in 2008.
             </p>
 
-            <p className="text-base ">
+            <p className="text-base/8 ">
               At{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -46,7 +46,7 @@ const AboutUs = () => {
               requirements and ensure a hassle-free customs clearance process.
             </p>
 
-            <p className="text-base ">
+            <p className="text-base/9 ">
               With a strong focus on customer satisfaction,{" "}
               <span className="text-[#296B9F] font-bold">
                 Ariana Shipping Line LLC
@@ -69,7 +69,7 @@ const AboutUs = () => {
               alt="Shipping Illustration"
               className="w-full rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-500"
               width={1500} // Increased width
-              height={1500} // Increased height
+              height={1000} // Increased height
               layout="responsive"
             />
 

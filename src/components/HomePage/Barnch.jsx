@@ -21,7 +21,7 @@ const Barnch = () => {
               />
               <div>
                 <div className="text-start font-bold text-5xl leading-[75px]">
-                  50
+                  6
                 </div>
                 <p className="text-start mt-2 font-semibold text-[26px] leading-[39px]">
                   BRANCHES

@@ -17,8 +17,8 @@ import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoLogoTiktok } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 
-import img from "../../../public/images/asl-log.GIF";
 import { Link as ScrollLink } from "react-scroll";
+import img from "../../../public/images/asl-log.GIF";
 export default function Navbar() {
   useEffect(() => {
     const toggleButton = document.getElementById("mobile-menu-toggle");
@@ -55,7 +55,7 @@ export default function Navbar() {
           {/* contact info */}
           <div className="flex flex-col md:flex-row items-center md:space-y-1 md:space-x-8">
             <a
-              href="https://wa.me/0581035771"
+              href="https://wa.me/+971581035771"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 lg:flex"
@@ -64,14 +64,14 @@ export default function Navbar() {
               <span className="text-xs">0581035771</span>
             </a>
             <a
-              href="tel:0529751028"
+              href="tel:+971529751028"
               className="flex items-center space-x-1 lg:flex"
             >
               <FcPhone className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
               <span className="text-xs text-gray-700">0529751028</span>
             </a>
             <a
-              href="tel:042241592"
+              href="tel:+97142241592"
               className="flex items-center space-x-1 lg:flex"
             >
               <TbDeviceLandlinePhone className="w-6 h-6 sm:w-5 sm:h-5 text-blue-600" />

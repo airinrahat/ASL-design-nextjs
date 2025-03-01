@@ -8,7 +8,7 @@ import serviceBanner from "../../../public/images/Slider2.gif";
 
 // import serviceBanner from "../../../public/images/slider3.gif";
 import { useFormik } from "formik";
-import React, { useState } from "react";
+import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
@@ -24,7 +24,7 @@ const SubmitMessage = () => {
     },
   });
   const portLoadingData = [
-    { id: "", title: "Select port of loading" },
+    { id: "", title: "Port of Loading" },
     { id: 1, title: "NEW JERSEY, NWJ" },
     { id: 2, title: "HOUSTON, TX" },
     { id: 3, title: "LOS ANGELES, CA" },
