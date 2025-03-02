@@ -52,11 +52,13 @@ const ContactPage = () => {
                 </a>
               </div>
             </div>
-            <div className="absolute bottom-2 flex justify-center items-center w-full">
-              <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+            <div className="absolute bottom-4 flex justify-center items-center w-full">
+              <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
                 Get Touch
-                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
+                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
                   <FaRegCircle size={20} />
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
                 </div>
               </button>
             </div>
@@ -66,23 +68,24 @@ const ContactPage = () => {
             <div className="relative w-auto bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
               <div className="flex items-center">
                 <div className="p-2 rounded-full">
-                  <FaMapMarkerAlt className="text-gray-600 w-8 h-8" />
+                  <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
                 </div>
-                <h2 className="text-xs text-gray-600 ml-2">
-                  <span className="text-base font-medium">Los Angeles, CA</span>{" "}
+                <h2 className="text-xs text-gray-600  ml-2 mb-9">
+                  <span className="text-base text-[#0B3563] font-medium">
+                    Los Angeles, CA
+                  </span>{" "}
                   <br />
                   Lorem ipsum dolor sit amet
                 </h2>
               </div>
 
-              <p className="text-base font-bold text-[#475569] text-center">
-                USA, USA
-              </p>
-              <div className="absolute bottom-2 flex justify-center items-center w-full">
-                <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+              <div className="absolute bottom-3 flex justify-center items-center w-full ">
+                <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
                   Get Touch
-                  <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
+                  <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
                     <FaRegCircle size={20} />
+                    <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                    <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
                   </div>
                 </button>
               </div>
@@ -90,23 +93,24 @@ const ContactPage = () => {
             <div className="relative w-auto bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
               <div className="flex items-center">
                 <div className="p-2 rounded-full">
-                  <FaMapMarkerAlt className="text-gray-600 w-8 h-8" />
+                  <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
                 </div>
-                <h2 className="text-xs text-gray-600 ml-2">
-                  <span className="text-base font-medium">Georgia, GA</span>{" "}
+                <h2 className="text-xs text-gray-600  ml-2 mb-9">
+                  <span className="text-base text-[#0B3563] font-medium">
+                    Los Angeles, CA
+                  </span>{" "}
                   <br />
                   Lorem ipsum dolor sit amet
                 </h2>
               </div>
 
-              <p className="text-base font-bold text-[#475569] text-center">
-                USA, USA
-              </p>
-              <div className="absolute bottom-2 flex justify-center items-center w-full">
-                <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+              <div className="absolute bottom-3 flex justify-center items-center w-full ">
+                <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
                   Get Touch
-                  <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
+                  <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
                     <FaRegCircle size={20} />
+                    <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                    <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
                   </div>
                 </button>
               </div>
@@ -114,38 +118,16 @@ const ContactPage = () => {
           </div>
         </div>
 
-        {/* নিচের ৩টি সমান কার্ড */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-9">
           <div className="relative h-[150px] w-full bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
             <div className="flex items-center">
               <div className="p-2 rounded-full">
-                <FaMapMarkerAlt className="text-gray-600 w-8 h-8" />
+                <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
               </div>
-              <h2 className="text-xs text-gray-600 ml-2">
-                <span className="text-base font-medium">Texas, TX</span> <br />
-                Lorem ipsum dolor sit amet consectetur,
-              </h2>
-            </div>
-
-            <p className="text-base font-bold text-[#475569] text-center">
-              USA, USA
-            </p>
-            <div className="absolute bottom-2 flex justify-center items-center w-full">
-              <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
-                Get Touch
-                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
-                  <FaRegCircle size={20} />
-                </div>
-              </button>
-            </div>
-          </div>
-          <div className="relative h-[150px] w-full bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
-            <div className="flex items-center">
-              <div className="p-2 rounded-full">
-                <FaMapMarkerAlt className="text-gray-600 w-8 h-8" />
-              </div>
-              <h2 className="text-xs text-gray-600 ml-2">
-                <span className="text-base font-medium">Baltimore, BAL</span>{" "}
+              <h2 className="text-xs text-gray-600 ml-2 ">
+                <span className="text-base text-[#0B3563] font-medium">
+                  Texas, TX
+                </span>{" "}
                 <br />
                 Lorem ipsum dolor sit amet consectetur,
               </h2>
@@ -154,11 +136,13 @@ const ContactPage = () => {
             <p className="text-base font-bold text-[#475569] text-center">
               USA, USA
             </p>
-            <div className="absolute bottom-2 flex justify-center items-center w-full">
-              <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+            <div className="absolute bottom-4 flex justify-center items-center w-full mt-5">
+              <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
                 Get Touch
-                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
+                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
                   <FaRegCircle size={20} />
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
                 </div>
               </button>
             </div>
@@ -166,10 +150,12 @@ const ContactPage = () => {
           <div className="relative h-[150px] w-full bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
             <div className="flex items-center">
               <div className="p-2 rounded-full">
-                <FaMapMarkerAlt className="text-gray-600 w-8 h-8" />
+                <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
               </div>
               <h2 className="text-xs text-gray-600 ml-2">
-                <span className="text-base font-medium">New Jersey, NJ</span>{" "}
+                <span className="text-base text-[#0B3563] font-medium">
+                  Baltimore, BAL
+                </span>{" "}
                 <br />
                 Lorem ipsum dolor sit amet consectetur,
               </h2>
@@ -178,11 +164,41 @@ const ContactPage = () => {
             <p className="text-base font-bold text-[#475569] text-center">
               USA, USA
             </p>
-            <div className="absolute bottom-2 flex justify-center items-center w-full">
-              <button className="bg-gray-300 text-gray-700 py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+            <div className="absolute bottom-4 flex justify-center items-center w-full">
+              <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
                 Get Touch
-                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center">
+                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
                   <FaRegCircle size={20} />
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div className="relative h-[150px] w-full bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
+            <div className="flex items-center">
+              <div className="p-2 rounded-full">
+                <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
+              </div>
+              <h2 className="text-xs text-gray-600 ml-2">
+                <span className="text-base text-[#0B3563] font-medium">
+                  New Jersey, NJ
+                </span>{" "}
+                <br />
+                Lorem ipsum dolor sit amet consectetur,
+              </h2>
+            </div>
+
+            <p className="text-base font-bold text-[#475569] text-center">
+              USA, USA
+            </p>
+            <div className="absolute bottom-4 flex justify-center items-center w-full">
+              <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
+                Get Touch
+                <div className="w-6 h-6 bg-gray-200 text-gray-700 border border-[#1E3A8A] rounded-full flex justify-center items-center relative">
+                  <FaRegCircle size={20} />
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full animate-ping"></div>
+                  <div className="absolute w-2 h-2 bg-[#0B3563] rounded-full"></div>
                 </div>
               </button>
             </div>
