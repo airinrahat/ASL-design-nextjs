@@ -238,11 +238,52 @@ export default function Navbar() {
               Request a Quote
             </ScrollLink>
 
-            <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white  hidden xl:flex "></div>
+            <div className="h-1 w-full lg:h-16 lg:w-[3px] bg-white hidden xl:flex"></div>
 
-            <button className="text-xl px-6  text-white hidden lg:flex">
+            <button
+              className="text-xl px-6 text-white hidden lg:flex"
+              onClick={() => document.getElementById("my_modal_5").showModal()}
+            >
               <FontAwesomeIcon icon={faSearch} />
             </button>
+
+            <dialog
+              id="my_modal_5"
+              className="modal modal-bottom sm:modal-middle"
+            >
+              <div className="modal-box bg-white relative max-w-md shadow-2xl">
+                <div className="absolute top-4 right-4">
+                  <form method="dialog">
+                    <button className="btn btn-sm btn-circle bg-[#274A66] border-none font-bold text-white hover:bg-[#1C3A5F] transition-all duration-300">
+                      ✕
+                    </button>
+                  </form>
+                </div>
+
+                <div className="flex items-center mt-8">
+                  <input
+                    type="text"
+                    placeholder="Search By Bin"
+                    className="w-full h-12 p-3 border bg-white border-gray-300 rounded-l-lg outline-none  transition-all duration-300"
+                  />
+                  <button className="bg-[#274A66] text-white h-12 px-6 rounded-r-lg hover:bg-[#1C3A5F] transition-all duration-300 flex items-center justify-center">
+                    <span className="mr-2">Search</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
         {/* mobile menu */}

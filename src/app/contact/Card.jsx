@@ -5,14 +5,12 @@ const Card = () => {
   return (
     <div>
       <div className="flex items-center justify-center mx-28 my-10">
-        {/* বড় কার্ড */}
         <div className="relative w-full h-auto bg-gray-200 rounded-2xl shadow-lg flex flex-col p-6">
           <div className="flex items-center justify-center my-4">
             <FaGlobeAmericas className="text-gray-600 w-10 h-10" />
             <h2 className="text-2xl font-bold text-gray-600 ml-3">IN TOUCH</h2>
           </div>
 
-          {/* ৬টা ছোট কার্ড */}
           <div className="grid grid-cols-3 gap-4">
             {[...Array(6)].map((_, index) => (
               <div
