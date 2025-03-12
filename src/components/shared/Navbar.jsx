@@ -12,14 +12,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { LocationMarkerIcon, MailIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoLogoTiktok } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 
 import { Link as ScrollLink } from "react-scroll";
 import img from "../../../public/images/asl-log.GIF";
+
 export default function Navbar() {
+  const [vin, setVin] = useState();
+
   useEffect(() => {
     const toggleButton = document.getElementById("mobile-menu-toggle");
     const mobileMenu = document.getElementById("mobile-menu");
@@ -37,6 +40,14 @@ export default function Navbar() {
       };
     }
   }, []);
+
+  const searchHandaler = () => {
+    if (vin?.length > 0) {
+      const url = `https://manage.aslshippingline.com/vehicle/frontsearch?vin=${vin}`;
+
+      window.open(url, "_blank");
+    }
+  };
 
   return (
     <>
@@ -263,10 +274,15 @@ export default function Navbar() {
                 <div className="flex items-center mt-8">
                   <input
                     type="text"
-                    placeholder="Search By Bin"
+                    placeholder="Search By VIN"
+                    value={vin}
+                    onChange={(e) => setVin(e.target.value)}
                     className="w-full h-12 p-3 border bg-white border-gray-300 rounded-l-lg outline-none  transition-all duration-300"
                   />
-                  <button className="bg-[#274A66] text-white h-12 px-6 rounded-r-lg hover:bg-[#1C3A5F] transition-all duration-300 flex items-center justify-center">
+                  <button
+                    onClick={searchHandaler}
+                    className="bg-[#274A66] text-white h-12 px-6 rounded-r-lg hover:bg-[#1C3A5F] transition-all duration-300 flex items-center justify-center"
+                  >
                     <span className="mr-2">Search</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
