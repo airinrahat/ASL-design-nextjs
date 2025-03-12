@@ -311,7 +311,7 @@ const ContactInfoSection = ({ icon, title, details }) => {
       <h3 className="text-xl font-bold text-[#D1E8F2]">{title}</h3>
       {details.map((detail, index) => (
         <p key={index} className="text-sm text-white mt-2">
-          {detail}
+          <a href={`tel:${detail}`}>{detail}</a>
         </p>
       ))}
     </div>
@@ -364,7 +364,7 @@ const CallUs = () => {
     {
       icon: iconOne,
       title: "Get In Touch",
-      details: ["0529751028", "042241592"],
+      details: ["+971529751028", "+97142241592"],
     },
     {
       icon: iconTwo,

@@ -6,7 +6,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const ContactPage = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-10 bg-gray-300 py-2 rounded-lg">
+    <div className="max-w-screen-xl mx-auto my-10 bg-green-100 py-2 rounded-lg">
       <h3 className="text-3xl md:text-4xl font-extrabold my-5 text-center text-[#1C3A5F]">
         Contact Us
       </h3>
@@ -65,7 +65,7 @@ const ContactPage = () => {
           </div>
 
           <div className="flex flex-col w-full lg:w-1/3 gap-4">
-            <div className="relative w-auto bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
+            {/* <div className="relative w-auto bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
               <div className="flex items-center">
                 <div className="p-2 rounded-full">
                   <FaMapMarkerAlt className="text-[#0B3563] w-8 h-8" />
@@ -89,7 +89,7 @@ const ContactPage = () => {
                   </div>
                 </button>
               </div>
-            </div>
+            </div> */}
             <div className="relative w-auto bg-gray-200 p-4 rounded-2xl shadow-lg border border-[#D1E9FF]">
               <div className="flex items-center">
                 <div className="p-2 rounded-full">
@@ -100,7 +100,6 @@ const ContactPage = () => {
                     Los Angeles, CA
                   </span>{" "}
                   <br />
-                  Lorem ipsum dolor sit amet
                 </h2>
               </div>
 
@@ -129,12 +128,11 @@ const ContactPage = () => {
                   Texas, TX
                 </span>{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur,
               </h2>
             </div>
 
             <p className="text-base font-bold text-[#475569] text-center">
-              USA, USA
+              {/* USA, USA */}
             </p>
             <div className="absolute bottom-4 flex justify-center items-center w-full mt-5">
               <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
@@ -157,12 +155,11 @@ const ContactPage = () => {
                   Baltimore, BAL
                 </span>{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur,
               </h2>
             </div>
 
             <p className="text-base font-bold text-[#475569] text-center">
-              USA, USA
+              {/* USA, USA */}
             </p>
             <div className="absolute bottom-4 flex justify-center items-center w-full">
               <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">
@@ -185,12 +182,11 @@ const ContactPage = () => {
                   New Jersey, NJ
                 </span>{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur,
               </h2>
             </div>
 
             <p className="text-base font-bold text-[#475569] text-center">
-              USA, USA
+              {/* USA, USA */}
             </p>
             <div className="absolute bottom-4 flex justify-center items-center w-full">
               <button className="bg-gray-300 text-[#0B3563] font-bold py-1 px-4 rounded-full shadow-md hover:bg-gray-400 transition flex gap-2 items-center">

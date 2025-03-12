@@ -50,7 +50,7 @@ export default function Banner() {
                   <ReactTyped
                     backSpeed={50}
                     strings={[
-                      "We Delivers high-quality, fast, and reliable shipping services",
+                      "Reliable, Fast & High-Quality Shipping – Delivering Excellence Across the Globe",
                     ]}
                     typeSpeed={140}
                     loop

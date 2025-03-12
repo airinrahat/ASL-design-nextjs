@@ -1,6 +1,12 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
+import PhoneInput from "react-phone-input-2";
 
 const FeedForm = () => {
+  const [dialCode, setDialCode] = useState("");
+  const [primaryPhone, setPrimaryPhone] = useState("");
+
   return (
     <div className="mb-8">
       <div className="flex flex-col md:flex-col lg:flex-row items-stretch max-w-screen-xl mx-auto px-4 lg:gap-32 w-full">
@@ -39,12 +45,32 @@ const FeedForm = () => {
               required
               className="w-full p-2 border rounded bg-white"
             />
-            <input
+            {/* <input
               type="text"
               name="contact"
               placeholder="Contact"
               required
               className="w-full p-2 border rounded bg-white"
+            /> */}
+
+            <PhoneInput
+              country={"ae"}
+              enableSearch={true}
+              inputClass="!w-full !p-2 !text-gray-900 !bg-white !rounded !focus:outline-none !focus:ring-2 !focus:ring-blue-500 !border !border-gray-300"
+              buttonClass="!bg-gray-100 !border !border-gray-300 !rounded-l"
+              dropdownClass="!bg-white !text-black !border !border-gray-300 !rounded !shadow-lg" //
+              containerClass="!w-full"
+              placeholder="Enter phone number"
+              value={`${dialCode}${primaryPhone}`}
+              onChange={(phone, e) => {
+                setDialCode(`+${e.dialCode}`);
+                // formik.setFieldValue(
+                //   "primary_phone",
+                //   phone.slice(e.dialCode.length)
+                // );
+
+                setPrimaryPhone(phone.slice(e.dialCode.length));
+              }}
             />
 
             <select

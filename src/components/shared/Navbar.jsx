@@ -72,21 +72,21 @@ export default function Navbar() {
               className="flex items-center space-x-1 lg:flex"
             >
               <FaWhatsapp className="text-green-500 w-6 h-6 sm:w-5 sm:h-5" />
-              <span className="text-xs">0581035771</span>
+              <span className="text-xs">+9710581035771</span>
             </a>
             <a
               href="tel:+971529751028"
               className="flex items-center space-x-1 lg:flex"
             >
               <FcPhone className="w-6 h-6 sm:w-5 sm:h-5 text-green-600" />
-              <span className="text-xs text-gray-700">0529751028</span>
+              <span className="text-xs text-gray-700">+971529751028</span>
             </a>
             <a
               href="tel:+97142241592"
               className="flex items-center space-x-1 lg:flex"
             >
               <TbDeviceLandlinePhone className="w-6 h-6 sm:w-5 sm:h-5 text-blue-600" />
-              <span className="text-xs text-gray-700">042241592</span>
+              <span className="text-xs text-gray-700">+97142241592</span>
             </a>
             <a
               href="mailto:info@arianshippingline.com"
@@ -147,7 +147,8 @@ export default function Navbar() {
 
           <div className="relative">
             <a
-              href="#"
+              href="https://manage.aslshippingline.com/login"
+              target="_blank"
               className="text-sm px-4 py-[6px] font-bold text-white bg-[#274A66] rounded-full shadow-lg hover:bg-[#1F345D] transition-all duration-300"
             >
               Login
@@ -208,13 +209,15 @@ export default function Navbar() {
 
                 <div className="absolute hidden group-hover:block bg-white shadow-md rounded-md p-2 z-10">
                   <Link
-                    href="/download/android"
+                    href="https://play.google.com/store/apps/details?id=com.aslshippinglines&hl=en"
+                    target="_blank"
                     className="block px-4 py-1 hover:bg-gray-200 rounded"
                   >
                     Android
                   </Link>
                   <Link
-                    href="/download/ios"
+                    href="https://apps.apple.com/ae/app/asl-shippinglines/id1582352641"
+                    target="_blank"
                     className="block px-4 py-1 hover:bg-gray-200 rounded"
                   >
                     IOS

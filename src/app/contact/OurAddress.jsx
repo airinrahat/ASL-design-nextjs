@@ -64,8 +64,8 @@ const OurAddress = () => {
                   Call To Us
                 </div>
                 <p className=" text-xs font-semibold mt-1 text-gray-700">
-                  WhatsApp, mobile (0529751028) <br />
-                  Landline (042241592)
+                  <a href="tel:+971529751028"> +971529751028 </a> <br />
+                  <a href="tel:+97142241592">+97142241592</a>
                 </p>
               </div>
             </div>
@@ -79,7 +79,9 @@ const OurAddress = () => {
                   Email To Us
                 </div>
                 <p className=" text-xs font-semibold mt-1 text-gray-700">
-                  info@arianashippingline.com
+                  <a href="mailto:info@arianashippingline.com">
+                    info@arianashippingline.com
+                  </a>
                 </p>
               </div>
             </div>

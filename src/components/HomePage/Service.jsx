@@ -7,6 +7,7 @@ import icon from "../../../public/images/serviecIcon.png";
 const Service = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedService, setSelectedService] = useState(null);
+  const [vin, setVin] = useState();
 
   const openModal = (service) => {
     setSelectedService(service);
@@ -82,8 +83,45 @@ const Service = () => {
     // },
   ];
 
+  const searchHandaler = () => {
+    if (vin?.length > 0) {
+      const url = `https://manage.aslshippingline.com/vehicle/frontsearch?vin=${vin}`;
+
+      window.open(url, "_blank");
+    }
+  };
+
   return (
     <div>
+      <div className="lg:hidden flex justify-center mt-10">
+        <div className="flex w-[370px]">
+          <input
+            type="text"
+            placeholder="Search By VIN"
+            value={vin}
+            onChange={(e) => setVin(e.target.value)}
+            className="w-full h-12 p-3 border bg-white border-gray-300 rounded-l-lg outline-none  transition-all duration-300"
+          />
+          <button
+            onClick={searchHandaler}
+            className="bg-[#274A66] text-white h-12 px-6 rounded-r-lg hover:bg-[#1C3A5F] transition-all duration-300 flex items-center justify-center"
+          >
+            <span className="mr-2">Search</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
       <div className="bg-gray-50 my-16">
         {/* Icon */}
         <div className="flex items-center justify-center py-5 px-5   ">

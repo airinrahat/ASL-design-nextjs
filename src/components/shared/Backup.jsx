@@ -1,19 +1,16 @@
-import img from "../../../public/images/map.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   FaBusinessTime,
   FaGlobeAmericas,
   FaMapMarkerAlt,
   FaRegCircle,
 } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faCheck,
   faEnvelope,
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
 
 const Backup = () => {
   return (
@@ -77,8 +74,8 @@ const Backup = () => {
                         Call To Us
                       </div>
                       <p className="text-sm text-gray-700 mt-2">
-                        WhatsApp, mobile (0529751028) <br />
-                        Landline (042241592)
+                        +971529751028 <br />
+                        +97142241592
                       </p>
                     </div>
                   </div>

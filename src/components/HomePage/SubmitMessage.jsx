@@ -30,8 +30,6 @@ const SubmitMessage = () => {
     { id: 3, title: "LOS ANGELES, CA" },
     { id: 4, title: "NEWARK, NJ" },
     { id: 5, title: "SAVANNAH, GA" },
-    { id: 6, title: "HOUSTON, TEXAS" },
-    { id: 7, title: "HONOLULU, HI" },
     { id: 8, title: "BALTIMORE, MD" },
   ];
   return (
@@ -170,7 +168,7 @@ const SubmitMessage = () => {
                     className="w-full p-2 text-gray-900 bg-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">Destination</option>
-                    <option value="port1">Dubai</option>
+                    <option value="port1">Jebel Ali</option>
                   </select>
                 </div>
 
